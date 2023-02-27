@@ -5,12 +5,13 @@
 
 @layer base {
     body {
-        --mainBg: var(--color-mainBg);
-        --secondaryColor: var(--color-secondaryColor);
-        --tertiaryColor: var(--color-tertiaryColor);
-        --accentColor: var(--color-accentColor);
+        font-family: 'Eczar', serif;
+        --mainBg: var(#d4d1cf);
+        --secondaryColor: var(#3a6c62);
+        --tertiaryColor: var(#100b0e);
+        --accentColor: var(#015055);
 
-        @apply bg-[var(--mainBg)] text-[var(--mainBg)] tracking-wide;
+        @apply bg-[#d4d1cf] text-[var(--mainBg)] tracking-wide;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -31,6 +32,6 @@
 
     button {
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r 
-        from-[var(--accentColor)] to-[var(--secondaryColor)]
+        from-[#015055] to-[#3a6c62]
     }
 }
