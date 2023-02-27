@@ -19,49 +19,49 @@ const Navbar = () => {
             <Image 
             src="/../public/assets/navLogo.png" 
             alt="/" 
-            width='105' 
+            width='100' 
             height='40'/>
             <div>
-              <ul className='hidden md:flex'>
-                <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:border-b'>
-                    Home
-                  </li>
-                </Link>
-                <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:border-b'>
-                    About
-                  </li>
-                </Link>
-                <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:border-b'>
-                    Skills
-                  </li>
-                </Link>
-                <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:border-b'>
-                    Projects
-                  </li>
-                </Link>
-                <Link href='/'>
-                  <li className='ml-10 text-sm uppercase hover:border-b'>
-                    Contact
-                  </li>
-                </Link>
-              </ul>
+            <ul className='hidden md:flex nav-items'>
+              <Link href='/'>
+                <li className='ml-10 text-sm uppercase'>
+                  Home
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 text-sm uppercase'>
+                  About
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 text-sm uppercase'>
+                  Skills
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 text-sm uppercase'>
+                  Projects
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 text-sm uppercase'>
+                  Contact
+                </li>
+              </Link>
+            </ul>
               <div onClick={handleNav} className='md:hidden cursor-pointer'>
                 <AiOutlineMenu size={25}/>
               </div>
             </div>
         </div>
 
-        
+
         {/* popup nav */}
         {/* Nav open/close logic */}
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''    }>
           <div className={
-            nav ?  'fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
-            : 'fixed left-[-100%] top 0  p-10 ease-in duration-500'}>
+            nav ?  'fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e7e7e7] p-10 ease-in duration-500' 
+            : 'fixed left-[-120%] top 0  p-10 ease-in duration-500'}>
               <div>
                 <div className='flex w-full items-center justify-between'>
                   <Image src='/../public/assets/navLogo.png' alt='/' width='87' height='35'/>
@@ -70,11 +70,11 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className='border-b border-gray-300 my-4'>
-                  <p className='w-[85%] md:w-[90%] py-4'>Let's Build Something Cool Together</p>
+                  <p className='w-[85%] md:w-[90%] py-4 text-[#015055]'>Let's create something that will change the world.</p>
                 </div>
               </div>
               <div className='py-4 flex flex-col'>
-                <ul className='uppercase'>
+                <ul className='uppercase  nav-items'>
                 <Link href='/'>
                   <li className='py-4 text-sm'>
                     Home
