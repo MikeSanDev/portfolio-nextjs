@@ -48,3 +48,8 @@
     color: #015055;
 
 }
+
+.about-img {
+    filter: drop-shadow(4px 4px 8px #999999);
+    filter: saturate(150%);
+}
