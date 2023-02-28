@@ -34,16 +34,17 @@
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r 
         from-[#015055] to-[#3a6c62]
     }
-    .nav-items li:hover {
-        color: #015055;
-        transform: scale(1.1);
-        transition: all 0.3s ease-in-out;
-      }
-    .nav-items2 li:hover {
-        color: #015055;
-   
-      }
+
 
 }
 
+/* Nav buttons hover */
+.nav-items li:hover {
+    color: #015055;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.nav-items2:hover {
+    color: #015055;
 
+}

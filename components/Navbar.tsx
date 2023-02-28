@@ -70,54 +70,54 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className='border-b border-gray-300 my-4'>
-                  <p className='w-[85%] md:w-[90%] py-4 text-[#015055]'>Let's create something that will change the world.</p>
+                  <p className='w-[85%] md:w-[90%] py-4 text-[#100b0e]'>Let's create something that will change the world.</p>
                 </div>
               </div>
               <div className='py-4 flex flex-col'>
-                <ul className='uppercase  nav-items'>
+                <ul className='uppercase'>
                 <Link href='/'>
-                  <li className='py-4 text-sm'>
+                  <li className='py-4 text-sm nav-items2'>
                     Home
                   </li>
                 </Link>
                 <Link href='/'>
-                  <li className='py-4 text-sm'>
+                  <li className='py-4 text-sm nav-items2'>
                     About
                   </li>
                 </Link>
                 <Link href='/'>
-                  <li className='py-4 text-sm'>
+                  <li className='py-4 text-sm nav-items2'>
                     Skills
                   </li>
                 </Link>
                 <Link href='/'>
-                  <li className='py-4 text-sm'>
+                  <li className='py-4 text-sm nav-items2'>
                     Projects
                   </li>
                 </Link>
                 <Link href='/'>
-                  <li className='py-4 text-sm'>
+                  <li className='py-4 text-sm nav-items2'>
                     Contact
                   </li>
                 </Link>
                 </ul>
                 <div className='pt-40'>
-                  <p className='uppercase tracking-widest text-[#3a6c62]'>Let's Connect</p>
+                  <p className='uppercase tracking-widest text-[#015055]'>Let's Connect</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer 
-                    hover:scale-105 ease-in duration-300'>
+                    hover:scale-110 ease-in duration-300 text-[#3a6c62]'>
                       <FaLinkedinIn />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer 
-                    hover:scale-105 ease-in duration-300'>
+                    hover:scale-110 ease-in duration-300 text-[#3a6c62]'>
                       <FaGithub />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer 
-                    hover:scale-105 ease-in duration-300'>
+                    hover:scale-110 ease-in duration-300 text-[#3a6c62]'>
                       <AiOutlineMail />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer 
-                    hover:scale-105 ease-in duration-300'>
+                    hover:scale-110 ease-in duration-300 text-[#3a6c62]'>
                       <BsFillPersonLinesFill />
                     </div>
                   </div>
