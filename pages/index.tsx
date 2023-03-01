@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import Skills from '../components/Skills'
@@ -16,7 +15,6 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css?family=Eczar&display=swap" rel="stylesheet"></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Navbar />
     <Main />
     <About />
     <Skills />
