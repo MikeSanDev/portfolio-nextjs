@@ -18,21 +18,17 @@ const Main = () => {
                 While my primary expertise is in front-end development, I am constantly expanding my knowledge of back-end technologies to deliver seamless and efficient user experiences. 
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer 
-                    hover:scale-110 ease-in duration-300 text-[#015055]'>
-                    <FaLinkedinIn />
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
+                        <FaLinkedinIn />
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer 
-                    hover:scale-110 ease-in duration-300 text-[#015055]'>
-                    <FaGithub />
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
+                        <FaGithub />
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer 
-                    hover:scale-110 ease-in duration-300 text-[#015055]'>
-                    <AiOutlineMail />
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
+                        <AiOutlineMail />
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer 
-                    hover:scale-110 ease-in duration-300 text-[#015055]'>
-                    <BsFillPersonLinesFill />
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
+                        <BsFillPersonLinesFill />
                     </div>
                 </div>
             </div>
