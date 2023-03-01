@@ -4,10 +4,30 @@ import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {useRouter} from 'next/router'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#d4d1cf');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter();
+
+  // changes nav button color on individual project pages
+  useEffect(() => { 
+    if (
+      router.asPath === '/kinetic' ||
+      router.asPath === '/chamber' ||
+      router.asPath === '/whiteElephant' ||
+      router.asPath === '/spotify' 
+    ) {
+      setNavBg('transparent');
+      setLinkColor('#ecf0f3');
+    } else {
+      setNavBg('#d4d1cf');
+      setLinkColor('#1f2937');
+    }
+  },[router])
 
   const handleNav = () => {
     setNav(!nav)
@@ -25,7 +45,13 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div 
+    style={{backgroundColor: `${navBg}`}}
+    className={
+      shadow 
+      ? 'fixed w-full h-20 shadow-xl z-[100]' 
+      : 'fixed w-full h-20 z-[100]'
+      }>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'> 
             <Link href='/'>
             <Image 
@@ -35,13 +61,13 @@ const Navbar = () => {
             height='40'/>
             </Link>
             <div>
-            <ul className='hidden md:flex nav-items'>
-              <Link href='#home'>
+            <ul style={{color: `${linkColor}`}} className='hidden md:flex nav-items'>
+              <Link href='/#home'>
                 <li className='ml-10 text-sm uppercase'>
                   Home
                 </li>
               </Link>
-              <Link href='#about'>
+              <Link href='/#about'>
                 <li className='ml-10 text-sm uppercase'>
                   About
                 </li>
@@ -88,28 +114,28 @@ const Navbar = () => {
               </div>
               <div className='py-4 flex flex-col'>
                 <ul className='uppercase'>
-                <Link href='/'>
-                  <li className='py-4 text-sm nav-items2'>
+                <Link href='/#home'>
+                  <li onClick={() => setNav(false)} className='py-4 text-sm nav-items2'>
                     Home
                   </li>
                 </Link>
-                <Link href='/'>
-                  <li className='py-4 text-sm nav-items2'>
+                <Link href='/#about'>
+                  <li onClick={() => setNav(false)}  className='py-4 text-sm nav-items2'>
                     About
                   </li>
                 </Link>
-                <Link href='/'>
-                  <li className='py-4 text-sm nav-items2'>
-                    Skills
+                <Link href='/#skills'>
+                  <li onClick={() => setNav(false)} className='py-4 text-sm nav-items2'>
+                    Skills 
                   </li>
                 </Link>
-                <Link href='/'>
-                  <li className='py-4 text-sm nav-items2'>
+                <Link href='/#projects'>
+                  <li onClick={() => setNav(false)} className='py-4 text-sm nav-items2'>
                     Projects
                   </li>
                 </Link>
-                <Link href='/'>
-                  <li className='py-4 text-sm nav-items2'>
+                <Link href='/#contact'>
+                  <li onClick={() => setNav(false)} className='py-4 text-sm nav-items2'>
                     Contact
                   </li>
                 </Link>
