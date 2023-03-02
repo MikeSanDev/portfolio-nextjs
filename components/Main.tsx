@@ -18,17 +18,35 @@ const Main = () => {
                 While my primary expertise is in front-end development, I am constantly expanding my knowledge of back-end technologies to deliver seamless and efficient user experiences. 
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <FaLinkedinIn />
+                <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="https://www.linkedin.com/in/michael-sanchez-825882182/" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <FaLinkedinIn size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <FaGithub />
+                <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="https://github.com/MikeSanDev" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <FaGithub size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <AiOutlineMail />
+
+                    <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="mailto:mike.san.dev16@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <AiOutlineMail size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <BsFillPersonLinesFill />
+
+                    <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="/assets/michael_sanchez_resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <BsFillPersonLinesFill size={22} />
+                            </div>
+                        </a> 
                     </div>
                 </div>
             </div>

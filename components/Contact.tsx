@@ -16,32 +16,50 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl ' src="/assets/me-green.png" alt="/" />
+                            <img className='rounded-xl ' src="/assets/me-gray.png" alt="/" />
                         <div>
                             <h2 className='py-3'>Michael Sanchez</h2>
-                            <p className='text-[#015055]'>Full-Stack Developer</p>
+                            <h3 className='text-[#015055]'>Full-Stack Developer</h3>
                             <p className='py-3'>I am available for freelance or a full-time position. Contact me and connect!</p>
                         </div>
                     </div>
                     <div>
                         <p className='pt-8 text-center'>Connect With Me</p>
                     <div className='flex items-center justify-evenly py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <FaLinkedinIn />
+                    <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="https://www.linkedin.com/in/michael-sanchez-825882182/" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <FaLinkedinIn size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <FaGithub />
+                <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="https://github.com/MikeSanDev" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <FaGithub size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <AiOutlineMail />
+
+                    <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="mailto:mike.san.dev16@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <AiOutlineMail size={22} />
+                            </div>
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]'>
-                        <BsFillPersonLinesFill />
+
+                    <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a className="footer-link" href="/assets/michael_sanchez_resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]'>
+                                <BsFillPersonLinesFill size={22} />
+                            </div>
+                        </a> 
                     </div>
-                        </div>
-                    </div>
-                        </div>
                 </div>
+            </div>
+        </div>
+    </div>
                 {/* right */}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
