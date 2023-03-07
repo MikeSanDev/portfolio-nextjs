@@ -62,7 +62,6 @@ html {
         display: inline-block;
       
 }
-
 .project-header-title{
     margin-left: 65px;
 }
@@ -70,3 +69,8 @@ html {
     overflow-x: hidden;
   }
 
+.proj-btn:hover {
+    color: white;
+    transform: scale(1.12);
+    transition: all 0.3s ease-in-out;
+}
