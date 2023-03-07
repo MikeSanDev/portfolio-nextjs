@@ -52,7 +52,7 @@ const Navbar = () => {
       ? 'fixed w-full h-20 shadow-xl z-[100]' 
       : 'fixed w-full h-20 z-[100]'
       }>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'> 
+        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-14'> 
             <Link href='/'>
             <Image 
             src="/../public/assets/navLogo.png" 
@@ -61,7 +61,7 @@ const Navbar = () => {
             height='40'/>
             </Link>
             <div>
-            <ul style={{color: `${linkColor}`}} className='hidden md:flex nav-items'>
+            <ul style={{color: `${linkColor}`}} className='hidden md:flex nav-items pr-6 '>
               <Link href='/#home'>
                 <li className='ml-10 text-sm uppercase'>
                   Home
@@ -112,7 +112,7 @@ const Navbar = () => {
                   <p className='w-[85%] md:w-[90%] py-4 text-[#100b0e]'>Let's create something that will change the world.</p>
                 </div>
               </div>
-              <div className='py-4 flex flex-col'>
+              <div className='py-3 flex flex-col'>
                 <ul className='uppercase'>
                 <Link href='/#home'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm nav-items2'>
@@ -140,7 +140,7 @@ const Navbar = () => {
                   </li>
                 </Link>
                 </ul>
-                <div className='pt-40'>
+                <div className='pt-10'>
                   <p className='uppercase tracking-widest text-[#015055]'>Let's Connect</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                   <div className='cursor-pointer hover:scale-110 ease-in duration-300'>

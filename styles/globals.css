@@ -51,8 +51,22 @@ html {
     color: #015055;
 
 }
-
+/* About Styles */
 .about-img {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(150%);
 }
+
+/* Project Styles */
+.back-project-link{
+        display: inline-block;
+      
+}
+
+.project-header-title{
+    margin-left: 65px;
+}
+.no-scroll-x {
+    overflow-x: hidden;
+  }
+
