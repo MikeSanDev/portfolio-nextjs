@@ -1,10 +1,10 @@
 import Image from "next/legacy/image";
 import React from "react";
-import chamberImg from "../public/assets/projects/chamber.png";
+import spotifyImg from "../public/assets/projects/spotify.png";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
 
-const chamber = () => {
+const spotify = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
@@ -13,42 +13,36 @@ const chamber = () => {
           className="absolute z-1 "
           layout="fill"
           objectFit="cover"
-          src={chamberImg}
+          src={spotifyImg}
           alt="/"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-          <h2 className="mb-2 py-2 pl-6">Chamber.IO</h2>
-          <p className="mb-2 pb-3 pl-6"> React JS | Stripe | Netlify </p>
+          <h2 className="mb-2 py-2 pl-6">Spotify Clone</h2>
+          <p className="mb-2 pb-3 pl-6">React JS | Spotify API | Context API</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="text-[#3a6c62] mb-2">Overview</h2>
           <p>
-            I developed a website for a local dance training organization that
-            allowed users to purchase tickets with ease. I utilized the Stripe
-            payment portal, simplifying ticket tracking for the client and
-            resulting in an improved user experience. Furthermore, to ensure a
-            smooth user experience, I incorporated React Bootstrap components to
-            display detailed information for each training session and developed
-            an in-cart function to enable users to add and remove items from
-            their cart effortlessly. As the lead of weekly design meetings with
-            the founder and cross-functional team, I collaborated with 10 local
-            dancers in Chicago to create a video that was featured on the
-            landing page for a notable dance company, resulting in a 50%
-            increase in website traffic and ticket sales since launch.
+            I developed a real-time Spotify clone project that included user
+            authentication, responsive design, and API usage. The project was
+            designed using Material UI and built with the Spotify API to display
+            user account and playlist information. To prevent prop drilling
+            between components, I utilized the Context API. The project serves
+            as a functional and interactive clone of Spotify, enabling users to
+            enjoy the platform's music streaming features while also providing a
+            seamless user experience.
           </p>
-          <a
+          {/* <a
             href="https://chamber-io.netlify.com/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8 text-white proj-btn">
-              Demo
-            </button>
-          </a>
+            >
+            <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
+          </a> */}
           <a
-            href="https://github.com/MikeSanDev/Chamber"
+            href="https://github.com/MikeSanDev/Spotify-Clone"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -70,25 +64,25 @@ const chamber = () => {
                 <RiCodeSSlashFill className="pr-1" /> React JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Stripe API
+                <RiCodeSSlashFill className="pr-1" /> Spotify API
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Axios
+                <RiCodeSSlashFill className="pr-1" /> Context API
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Netlify
+                <RiCodeSSlashFill className="pr-1" /> Node JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> HTML
+                <RiCodeSSlashFill className="pr-1" /> Express JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> CSS
+                <RiCodeSSlashFill className="pr-1" /> HTML/CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Javascript
+                <RiCodeSSlashFill className="pr-1" /> Material UI
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Framer Motion
+                <RiCodeSSlashFill className="pr-1" /> Mongo DB
               </p>
             </div>
           </div>
@@ -98,4 +92,4 @@ const chamber = () => {
   );
 };
 
-export default chamber;
+export default spotify;
