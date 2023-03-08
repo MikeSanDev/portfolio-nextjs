@@ -9,12 +9,12 @@ html {
 @layer base {
     body {
         font-family: 'Eczar', serif;
-        --mainBg: var(#d4d1cf);
-        --secondaryColor: var(#3a6c62);
-        --tertiaryColor: var(#100b0e);
-        --accentColor: var(#015055);
+        --mainBg: var(#ffffff);
+        --secondaryColor: var(#ffe590);
+        --tertiaryColor: var(#515352);
+        --accentColor: var(#cebb59);
 
-        @apply bg-[#d4d1cf] text-[var(--mainBg)] tracking-wide;
+        @apply bg-[#d5bcb7] text-[#000000] tracking-wide;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -43,12 +43,12 @@ html {
 
 /* Nav buttons hover */
 .nav-items li:hover {
-    color: #015055;
+    color: #ffe590;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
 .nav-items2:hover {
-    color: #015055;
+    color: #cebb59;
 
 }
 /* About Styles */
@@ -56,6 +56,7 @@ html {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(150%);
 }
+
 
 /* Project Styles */
 .back-project-link{
@@ -71,6 +72,6 @@ html {
 
 .proj-btn:hover {
     color: white;
-    transform: scale(1.12);
+    transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
