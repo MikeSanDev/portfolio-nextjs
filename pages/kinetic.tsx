@@ -23,8 +23,8 @@ const kinetic = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-[#3a6c62] mb-2">Overview</h2>
-          <p>
+          <h2 className="text-[#5e6d96] mb-3">Overview</h2>
+          <h3 className="text-gray-600">
             I designed and developed a conceptual website for a shoe company
             that specializes in chargeable sneakers. As the project lead, I
             incorporated engaging animations and seamless page transitions using
@@ -37,13 +37,13 @@ const kinetic = () => {
             assets, and created mockups and wireframes. Overall, the project was
             a success, demonstrating my ability to create engaging websites that
             meet client needs and user expectations.
-          </p>
+          </h3>
           <a
             href="https://kineticfootwear.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8 text-white proj-btn">
+            <button className="px-8 py-2 mt-5 mr-8 text-white proj-btn">
               Demo
             </button>
           </a>
@@ -52,45 +52,49 @@ const kinetic = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 text-white proj-btn">Code</button>
+            <button className="px-8 py-2 mt-5 text-white bg-[#5e6d96] proj-btn">
+              Code
+            </button>
           </a>
           <div>
             <Link href="/#projects">
-              <p className="underline cursor-pointer text-[#3a6c62] py-10 back-project-link">
+              <p className="underline cursor-pointer text-[#5e6d96] py-10 back-project-link">
                 Back To Projects
               </p>
             </Link>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className=" bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies Used</p>
+            <p className="text-center font-bold pb-2 text-[#5e6d96] ">
+              Technologies Used
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> React JS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Framer Motion
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Axios
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Netlify
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> HTML
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> CSS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Javascript
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Git
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Github
               </p>
             </div>
