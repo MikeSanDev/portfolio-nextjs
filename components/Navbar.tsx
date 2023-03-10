@@ -119,7 +119,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 text-[#100b0e]">
+              <p className="w-[85%] md:w-[90%] py-4 text-[#5e6d96]">
                 Let's create something that will change the world.
               </p>
             </div>
@@ -168,7 +168,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#cebb59]">
+              <p className="uppercase tracking-widest text-[#5e6d96]">
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
@@ -179,7 +179,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <FaLinkedinIn size={22} />
                     </div>
                   </a>
@@ -191,7 +191,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <FaGithub size={22} />
                     </div>
                   </a>
@@ -204,7 +204,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <AiOutlineMail size={22} />
                     </div>
                   </a>
@@ -217,7 +217,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <BsFillPersonLinesFill size={22} />
                     </div>
                   </a>

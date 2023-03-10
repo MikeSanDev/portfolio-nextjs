@@ -19,7 +19,7 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="bg-gray-200 col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -29,7 +29,7 @@ const Contact = () => {
                 />
                 <div>
                   <h2 className="py-3">Michael Sanchez</h2>
-                  <h3 className="text-[#015055]">Full-Stack Developer</h3>
+                  <h3 className="text-[#5e6d96]">Full-Stack Developer</h3>
                   <p className="py-3">
                     I am available for freelance or a full-time position.
                     Contact me and connect!
@@ -46,7 +46,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <FaLinkedinIn size={22} />
                       </div>
                     </a>
@@ -58,7 +58,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <FaGithub size={22} />
                       </div>
                     </a>
@@ -71,7 +71,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <AiOutlineMail size={22} />
                       </div>
                     </a>
@@ -84,7 +84,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#015055]">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <BsFillPersonLinesFill size={22} />
                       </div>
                     </a>
@@ -94,7 +94,7 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="bg-gray-200 col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -145,7 +145,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#015055]">
+            <div className="rounded-full shadow-lg bg-gray-200 shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 text-[#5e6d96]">
               <HiOutlineChevronDoubleUp size={30} className="m-auto" />
             </div>
           </Link>

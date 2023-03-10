@@ -11,8 +11,8 @@ html {
         font-family: 'Eczar', serif;
         --mainBg: var(#ffffff);
         --secondaryColor: var(#ffe590);
-        --tertiaryColor: var(#515352);
-        --accentColor: var(#cebb59);
+        --tertiaryColor: var(#5e6d96);
+        --accentColor: var(#d5bcb7);
 
         @apply bg-[#d5bcb7] text-[#000000] tracking-wide;
     }
@@ -35,7 +35,7 @@ html {
 
     button {
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r 
-        from-[#015055] to-[#3a6c62]
+        from-[#d5bcb7] to-[#5e6d96]
     }
 
 
@@ -48,7 +48,7 @@ html {
     transition: all 0.3s ease-in-out;
 }
 .nav-items2:hover {
-    color: #cebb59;
+    color: #5e6d96;
 
 }
 /* About Styles */

@@ -8,9 +8,9 @@ const Skills = () => {
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
           Skills
         </p>
-        <h2 className="py-4">Tools I've Recently Used</h2>
+        <h2 className="py-4 text-slate-50">Tools I've Recently Used</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -20,13 +20,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>HTML</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -36,13 +36,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>CSS</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -52,13 +52,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Javascript</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -68,13 +68,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Node JS</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -84,13 +84,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>React JS</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -100,13 +100,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Next JS</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -116,13 +116,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Mongo DB</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -132,13 +132,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Github</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -148,13 +148,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Python</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -164,13 +164,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Java</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -180,13 +180,13 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
               </div>
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -196,7 +196,7 @@ const Skills = () => {
                   alt="/"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="text-gray-200 flex flex-col items-center justify-center">
                 <h3>Bootstrap</h3>
               </div>
             </div>
