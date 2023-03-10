@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import kineticImg from "../public/assets/projects/kinetic.png";
+import kineticImg from "../public/assets/projects/kinetic_gif.gif";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -8,7 +8,7 @@ const kinetic = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1 "
           layout="fill"

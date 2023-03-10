@@ -1,8 +1,8 @@
 import React from "react";
-import kinetic from "../public/assets/projects/kinetic_gif.gif";
-import chamber from "../public/assets/projects/chamber_io.gif";
-import whiteElephant from "../public/assets/projects/white.gif";
-import spotify from "../public/assets/projects/dash_spotify.gif";
+import kinetic from "../public/assets/projects/kinetic.png";
+import chamber from "../public/assets/projects/chamber.png";
+import whiteElephant from "../public/assets/projects/whiteele.png";
+import spotify from "../public/assets/projects/spotify.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {

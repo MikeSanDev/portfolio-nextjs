@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import chamberImg from "../public/assets/projects/chamber.png";
+import chamberImg from "../public/assets/projects/chamber_io.gif";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -8,7 +8,7 @@ const chamber = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1 "
           layout="fill"
@@ -23,8 +23,8 @@ const chamber = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-[#3a6c62] mb-2">Overview</h2>
-          <p>
+          <h2 className="text-[#5e6d96] mb-2">Overview</h2>
+          <h3 className="text-gray-600">
             I developed a website for a local dance training organization that
             allowed users to purchase tickets with ease. I utilized the Stripe
             payment portal, simplifying ticket tracking for the client and
@@ -37,7 +37,7 @@ const chamber = () => {
             dancers in Chicago to create a video that was featured on the
             landing page for a notable dance company, resulting in a 50%
             increase in website traffic and ticket sales since launch.
-          </p>
+          </h3>
           <a
             href="https://chamber-io.netlify.com/"
             target="_blank"
@@ -56,38 +56,40 @@ const chamber = () => {
           </a>
           <div>
             <Link href="/#projects">
-              <p className="underline cursor-pointer text-[#3a6c62] py-10 back-project-link">
+              <p className="underline cursor-pointer text-[#5e6d96] py-10 back-project-link">
                 Back To Projects
               </p>
             </Link>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies Used</p>
+            <p className="text-center font-bold pb-2 text-[#5e6d96] ">
+              Technologies Used
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> React JS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Stripe API
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Axios
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Netlify
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> HTML
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> CSS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Javascript
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#5e6d96]  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Framer Motion
               </p>
             </div>
