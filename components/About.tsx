@@ -8,18 +8,18 @@ const About = () => {
           <p className="text-xl tracking-widest text-[#ffe590] uppercase">
             About
           </p>
-          <h2 className="py-4 text-[#eee]">Who I Am </h2>
-          <p className="py-2 text-zinc-50">
+          <h2 className="py-4 text-slate-50">Who I Am </h2>
+          <p className="py-2 text-gray-600">
             // I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry.
           </p>
-          <p className="py-2 text-zinc-50">
+          <p className="py-2 text-gray-600">
             I pursued a career in software development to tap into my creativity
             and continuously grow my skills. To further my knowledge, I
             completed a coding bootcamp at Coding Dojo and have since worked on
             a number of full-stack projects.
           </p>
-          <p className="py-2 text-zinc-50">
+          <p className="py-2 text-gray-600">
             In my free time, I enjoy staying active through various physical
             activities such as lifting weights, running, and dancing. I am a Hip
             Hop freestyle dancer and regularly train with my crew, competing in
@@ -27,7 +27,7 @@ const About = () => {
           </p>
           <a
             href="/#projects"
-            className="py-2 text-gray-600 underline cursor-pointer"
+            className="py-2 text-[#5e6d96] underline cursor-pointer"
           >
             Check out some of my latest projects.
           </a>

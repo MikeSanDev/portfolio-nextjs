@@ -32,7 +32,7 @@ const Main = () => {
                 rel="noopener noreferrer"
               >
                 <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]"
+                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
                   <FaLinkedinIn size={22} />
@@ -47,7 +47,7 @@ const Main = () => {
                 rel="noopener noreferrer"
               >
                 <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]"
+                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
                   <FaGithub size={22} />
@@ -63,7 +63,7 @@ const Main = () => {
                 rel="noopener noreferrer"
               >
                 <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]"
+                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
                   <AiOutlineMail size={22} />
@@ -79,7 +79,7 @@ const Main = () => {
                 rel="noopener noreferrer"
               >
                 <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#cebb59]"
+                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
                   <BsFillPersonLinesFill size={22} />
