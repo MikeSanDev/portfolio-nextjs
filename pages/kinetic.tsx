@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const kinetic = () => {
   return (
-    <div className="w-full no-scroll-x">
+    <div className="w-full no-scroll-x ">
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
         <Image
@@ -23,8 +23,8 @@ const kinetic = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-[#5e6d96] mb-3">Overview</h2>
-          <h3 className="text-gray-600">
+          <h2 className=" text-[#5e6d96] mb-3">Overview</h2>
+          <h3 className=" text-lg text-gray-600">
             I designed and developed a conceptual website for a shoe company
             that specializes in chargeable sneakers. As the project lead, I
             incorporated engaging animations and seamless page transitions using
@@ -43,7 +43,7 @@ const kinetic = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-5 mr-8 text-white proj-btn">
+            <button className="px-8 py-2 mt-5 mr-8 text-white bg-[#5e6d96] proj-btn">
               Demo
             </button>
           </a>

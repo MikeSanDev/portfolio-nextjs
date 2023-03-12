@@ -43,7 +43,7 @@ const chamber = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8 text-white proj-btn">
+            <button className="px-8 py-2 mt-4 mr-8 text-white bg-[#5e6d96] proj-btn">
               Demo
             </button>
           </a>
@@ -52,7 +52,9 @@ const chamber = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 text-white proj-btn">Code</button>
+            <button className="px-8 py-2 mt-4 text-white bg-[#5e6d96] proj-btn">
+              Code
+            </button>
           </a>
           <div>
             <Link href="/#projects">

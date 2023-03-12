@@ -34,10 +34,8 @@ html {
     }
 
     button {
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r 
-        from-[#d5bcb7] to-[#5e6d96]
+        @apply shadow-xl shadow-gray-400 rounded-xl uppercase 
     }
-
 
 }
 
@@ -47,21 +45,28 @@ html {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
+
 .nav-items2:hover {
     color: #5e6d96;
 
+
 }
+.nav-items2 li:hover {
+    color: #5e6d96;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
 /* About Styles */
 .about-img {
     filter: drop-shadow(4px 4px 8px #999999);
-    filter: saturate(150%);
+    filter: saturate(150%); 
 }
 
 
 /* Project Styles */
 .back-project-link{
         display: inline-block;
-      
 }
 .project-header-title{
     margin-left: 65px;
@@ -73,5 +78,5 @@ html {
 .proj-btn:hover {
     color: white;
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
