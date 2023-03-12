@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -136,12 +137,13 @@ const Contact = () => {
                     rows={10}
                   />
                 </div>
-                <button
-                  className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
-                    from-[#d5bcb7] to-[#5e6d96]"
-                >
-                  Send Message
-                </button>
+                <input
+                  type="submit"
+                  value="Send"
+                  className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r
+                  from-[#d5bcb7] to-[#5e6d96]"
+                />
+                Send Message
               </form>
             </div>
           </div>
