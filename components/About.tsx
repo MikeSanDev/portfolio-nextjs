@@ -37,6 +37,7 @@ const About = () => {
             className="rounded-xl about-img"
             src="/assets/about.png"
             alt="Breakdance Picture"
+            title="Me"
           />
         </div>
       </div>

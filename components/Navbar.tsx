@@ -180,7 +180,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaLinkedinIn size={22} />
+                      <FaLinkedinIn size={22} title="LinkedIn" />
                     </div>
                   </a>
                 </div>
@@ -192,7 +192,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaGithub size={22} />
+                      <FaGithub size={22} title="Github" />
                     </div>
                   </a>
                 </div>
@@ -205,7 +205,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <AiOutlineMail size={22} />
+                      <AiOutlineMail size={22} title="Email" />
                     </div>
                   </a>
                 </div>
@@ -218,7 +218,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <BsFillPersonLinesFill size={22} />
+                      <BsFillPersonLinesFill size={22} title="Resume" />
                     </div>
                   </a>
                 </div>
