@@ -120,7 +120,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-[#5e6d96]">
-                Let's create something that will change the world.
+                Let&rsquo;s create something that will change the world.
               </p>
             </div>
           </div>
