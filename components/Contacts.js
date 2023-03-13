@@ -1,11 +1,43 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_g3dxtcl",
+        "template_rvmojc6",
+        form.current,
+        "Lv0NZ9GUt44rmRG0r"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+          e.target.reset();
+          Swal.fire({
+            icon: "success",
+            title: "Success!",
+            text: "Your message has been sent.",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div
       id="contact"
@@ -37,7 +69,9 @@ const Contact = () => {
                 </div>
               </div>
               <div>
-                <p className="pt-8 text-[#5e6d96] text-center">Connect With Me</p>
+                <p className="pt-8 text-[#5e6d96] text-center">
+                  Connect With Me
+                </p>
                 <div className="flex items-center justify-evenly py-4">
                   <div className="cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
@@ -108,14 +142,15 @@ const Contact = () => {
           {/* right */}
           <div className="bg-gray-200 col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-1 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
-                      name="name"
+                      name="user_name"
+                      required
                     />
                   </div>
                 </div>
@@ -124,6 +159,8 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="user_email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -131,6 +168,8 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -138,14 +177,12 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows={10}
+                    name="message"
+                    required
                   />
                 </div>
-                <button
-                  className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
-        from-[#d5bcb7] to-[#5e6d96]"
-                >
-                  Send Message
-                </button>
+                <input type="submit" placeholder="Send Message" value="Send Message" className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
+        from-[#d5bcb7] to-[#5e6d96] shadow-xl shadow-gray-400 rounded-xl uppercase cursor-pointer"/>
               </form>
             </div>
           </div>
