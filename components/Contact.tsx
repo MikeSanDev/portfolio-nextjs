@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
               </div>
               <div>
-                <p className="pt-8 text-center">Connect With Me</p>
+                <p className="pt-8 text-[#5e6d96] text-center">Connect With Me</p>
                 <div className="flex items-center justify-evenly py-4">
                   <div className="cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
@@ -48,6 +48,9 @@ const Contact = () => {
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <FaLinkedinIn size={22} title="LinkedIn" />
+                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                          Linkedin
+                        </span>
                       </div>
                     </a>
                   </div>
@@ -60,6 +63,9 @@ const Contact = () => {
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <FaGithub size={22} title="Github" />
+                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                          Github
+                        </span>
                       </div>
                     </a>
                   </div>
@@ -73,6 +79,9 @@ const Contact = () => {
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <AiOutlineMail size={22} title="Email" />
+                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                          Email
+                        </span>
                       </div>
                     </a>
                   </div>
@@ -86,6 +95,9 @@ const Contact = () => {
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                         <BsFillPersonLinesFill size={22} title="Resume" />
+                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                          Resume
+                        </span>
                       </div>
                     </a>
                   </div>

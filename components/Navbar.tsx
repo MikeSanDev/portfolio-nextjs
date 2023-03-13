@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-14">
         <Link href="/">
           <Image
-            src="/../public/assets/navLogo.png"
+            src="/../public/assets/yellow_logo.png"
             alt="/"
             width="100"
             height="40"
@@ -181,6 +181,9 @@ const Navbar = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <FaLinkedinIn size={22} title="LinkedIn" />
+                      <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                        Linkedin
+                      </span>
                     </div>
                   </a>
                 </div>
@@ -193,6 +196,9 @@ const Navbar = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <FaGithub size={22} title="Github" />
+                      <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                        Github
+                      </span>
                     </div>
                   </a>
                 </div>
@@ -206,6 +212,9 @@ const Navbar = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <AiOutlineMail size={22} title="Email" />
+                      <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                        Email
+                      </span>
                     </div>
                   </a>
                 </div>
@@ -219,6 +228,9 @@ const Navbar = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
                       <BsFillPersonLinesFill size={22} title="Resume" />
+                      <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
+                        Resume
+                      </span>
                     </div>
                   </a>
                 </div>
