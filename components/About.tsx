@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -34,11 +35,13 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
+          <Image
             className="rounded-xl about-img"
             src="/assets/about.png"
             alt="Breakdance Picture"
             title="Me"
+            width="250"
+            height="300"
           />
         </div>
       </div>

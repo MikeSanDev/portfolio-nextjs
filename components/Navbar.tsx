@@ -169,7 +169,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-10">
               <p className="uppercase tracking-widest text-[#5e6d96]">
-                Let's Connect
+                Let&rsquo;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="cursor-pointer hover:scale-110 ease-in duration-300">
