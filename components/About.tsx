@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -10,7 +11,7 @@ const About = () => {
           </p>
           <h2 className="py-4 text-slate-50">Who I Am </h2>
           <p className="py-2 text-gray-600">
-            // I am a full stack developer with a passion for creating fully
+            I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry.
           </p>
           <p className="py-2 text-gray-600">
@@ -25,12 +26,12 @@ const About = () => {
             Hop freestyle dancer and regularly train with my crew, competing in
             dance battles across Chicago.
           </p>
-          <a
+          <Link
             href="/#projects"
             className="py-2 text-[#5e6d96] underline cursor-pointer"
           >
             Check out some of my latest projects.
-          </a>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img

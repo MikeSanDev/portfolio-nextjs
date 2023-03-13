@@ -8,7 +8,7 @@ const Skills = () => {
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
           Skills
         </p>
-        <h2 className="py-4 text-slate-50">Tools I've Recently Used</h2>
+        <h2 className="py-4 text-slate-50">Tools I&rsquo;ve Recently Used</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
