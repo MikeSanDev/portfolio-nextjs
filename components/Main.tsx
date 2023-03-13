@@ -16,7 +16,7 @@ const Main = () => {
             Hi, I'm <span className="text-[#ffe590]">Michael</span>
           </h1>
           <h1 className="py-2 text-[#ffffff]">A Full-Stack Developer</h1>
-          <p className="py-4 max-w-[70%] text-[#ffffff] m-auto">
+          <p className="py-4 max-w-[70%] text-lg text-[#ffffff] m-auto">
             I am a skilled full-stack developer with a passion for building
             visually stunning and user-friendly websites. While my primary
             expertise is in front-end development, I am constantly expanding my
@@ -35,7 +35,10 @@ const Main = () => {
                   className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
-                  <FaLinkedinIn size={22} title="LinkedIn" />
+                  <FaLinkedinIn size={22} />
+                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    Linkedin
+                  </span>
                 </div>
               </a>
             </div>
@@ -50,7 +53,10 @@ const Main = () => {
                   className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
-                  <FaGithub size={22} title="Github" />
+                  <FaGithub size={22} />
+                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    Github
+                  </span>
                 </div>
               </a>
             </div>
@@ -66,7 +72,10 @@ const Main = () => {
                   className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
-                  <AiOutlineMail size={22} title="Email" />
+                  <AiOutlineMail size={22} />
+                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    Email
+                  </span>
                 </div>
               </a>
             </div>
@@ -82,7 +91,10 @@ const Main = () => {
                   className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]"
                   style={{ backgroundColor: "#ffffff" }}
                 >
-                  <BsFillPersonLinesFill size={22} title="Resume" />
+                  <BsFillPersonLinesFill size={22} />
+                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    Resume
+                  </span>
                 </div>
               </a>
             </div>
