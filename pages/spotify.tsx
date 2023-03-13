@@ -31,8 +31,8 @@ const spotify = () => {
             user account and playlist information. To prevent prop drilling
             between components, I utilized the Context API. The project serves
             as a functional and interactive clone of Spotify, enabling users to
-            enjoy the platform's music streaming features while also providing a
-            seamless user experience.
+            enjoy the platform&rsquo;s music streaming features while also
+            providing a seamless user experience.
           </h3>
           {/* <a
             href=""

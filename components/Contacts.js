@@ -7,6 +7,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
+import Image from "next/image";
 
 const Contact = () => {
   const form = useRef();
@@ -54,10 +55,12 @@ const Contact = () => {
           <div className="bg-gray-200 col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="rounded-xl "
                   src="/assets/me-gray.png"
                   alt="/"
+                  width="500"
+                  height="400"
                 />
                 <div>
                   <h2 className="py-3">Michael Sanchez</h2>
