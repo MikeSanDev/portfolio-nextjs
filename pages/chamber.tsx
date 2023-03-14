@@ -1,6 +1,5 @@
 import Image from "next/legacy/image";
 import React from "react";
-import chamberImg from "../public/assets/projects/chamber_io.gif";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +12,7 @@ const chamber = () => {
           className="absolute z-1 "
           layout="fill"
           objectFit="cover"
-          src={chamberImg}
+          src="/assets/projects/chamber_io.gif"
           alt="/"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
