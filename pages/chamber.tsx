@@ -1,4 +1,3 @@
-import Image from "next/legacy/image";
 import React from "react";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
@@ -8,10 +7,8 @@ const chamber = () => {
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
-        <Image
-          className="absolute z-1 "
-          layout="fill"
-          objectFit="cover"
+        <img
+          className="absolute inset-0 w-full h-full object-cover z-1 "
           src="/assets/projects/chamber_io.gif"
           alt="/"
         />
@@ -23,7 +20,7 @@ const chamber = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="text-[#5e6d96] mb-2">Overview</h2>
-          <h3 className="text-gray-600">
+          <h3 className="text-gray-600 ">
             I developed a website for a local dance training organization that
             allowed users to purchase tickets with ease. I utilized the Stripe
             payment portal, simplifying ticket tracking for the client and

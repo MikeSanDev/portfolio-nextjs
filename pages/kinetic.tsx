@@ -9,11 +9,9 @@ const kinetic = () => {
       <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
         <img
-          className="absolute  inset-0 w-full h-full object-cover"
-          // layout="fill"
-          // objectFit="cover"
+          className="absolute z-1 inset-0 w-full h-full object-cover"
           src="/assets/projects/kinetic_gif.gif"
-          alt="/"
+          alt="Kinetic Footwear Gif"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="mb-2 py-2 pl-6">Kinetic Footwear</h2>
@@ -23,7 +21,7 @@ const kinetic = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className=" text-[#5e6d96] mb-3">Overview</h2>
-          <h3 className=" text-lg text-gray-600">
+          <h3 className=" text-gray-600">
             I designed and developed a conceptual website for a shoe company
             that specializes in chargeable sneakers. As the project lead, I
             incorporated engaging animations and seamless page transitions using
