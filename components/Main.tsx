@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
@@ -11,7 +12,19 @@ const Main = () => {
       style={{ backgroundImage: "url('/assets/light-dark-flip.jpg')" }}
     >
       <div className="max-w-{1240px} w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
+        <motion.div
+          transition={{
+            duration: 1.5,
+          }}
+          initial={{
+            y: 20,
+            opacity: 0,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+          }}
+        >
           <h1 className="py-4 text-[#ffffff]">
             Hi, I&rsquo;m <span className="text-[#ffe590]">Michael</span>
           </h1>
@@ -99,7 +112,7 @@ const Main = () => {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

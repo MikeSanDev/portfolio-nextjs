@@ -83,7 +83,10 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase">Contact</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden cursor-pointer">
+          <div
+            onClick={handleNav}
+            className="md:hidden cursor-pointer text-white"
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
