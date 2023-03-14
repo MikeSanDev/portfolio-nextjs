@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -53,7 +54,20 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-14">
+      <motion.div
+        transition={{
+          duration: 1.5,
+        }}
+        initial={{
+          y: 20,
+          opacity: 0,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+        }}
+        className="flex justify-between items-center w-full h-full px-2 2xl:px-14"
+      >
         <Link href="/">
           <Image
             src="/assets/yellow_logo.png"
@@ -90,7 +104,7 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* popup nav */}
       {/* Nav open/close logic */}
