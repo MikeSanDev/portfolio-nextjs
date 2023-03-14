@@ -1,6 +1,5 @@
 import Image from "next/legacy/image";
 import React from "react";
-import wEleImg from "../public/assets/projects/white.gif";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +12,7 @@ const whiteElephant = () => {
           className="absolute z-1 "
           layout="fill"
           objectFit="cover"
-          src={wEleImg}
+          src="/assets/projects/white.gif"
           alt="/"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
