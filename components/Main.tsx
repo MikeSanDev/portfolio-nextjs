@@ -14,7 +14,7 @@ const Main = () => {
       <div className="max-w-{1240px} w-full h-full mx-auto p-2 flex justify-center items-center">
         <motion.div
           transition={{
-            duration: 1.5,
+            duration: 2.5,
           }}
           initial={{
             y: 20,
@@ -25,18 +25,45 @@ const Main = () => {
             opacity: 1,
           }}
         >
-          <h1 className="py-4 text-[#ffffff]">
+          <h1 className="py-1 text-[#ffffff]">
             Hi, I&rsquo;m <span className="text-[#ffe590]">Michael</span>
           </h1>
-          <h1 className="py-2 text-[#ffffff]">A Full-Stack Developer</h1>
-          <p className="py-4 max-w-[70%] text-lg text-[#ffffff] m-auto">
-            I am a skilled full-stack developer with a passion for building
-            visually stunning and user-friendly websites. While my primary
-            expertise is in front-end development, I am constantly expanding my
-            knowledge of back-end technologies to deliver seamless and efficient
-            user experiences.
-          </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <h1 className="py-1 text-[#ffffff]">A Full-Stack Developer</h1>
+          <motion.div
+            transition={{
+              duration: 2.5,
+            }}
+            initial={{
+              y: 30,
+              opacity: 0,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+            }}
+          >
+            <p className="py-1  max-w-[70%] text-lg text-[#ffffff] m-auto">
+              I am a skilled full-stack developer with a passion for building
+              visually stunning and user-friendly websites. While my primary
+              expertise is in front-end development, I am constantly expanding
+              my knowledge of back-end technologies to deliver seamless and
+              efficient user experiences.
+            </p>
+          </motion.div>
+          <motion.div
+            transition={{
+              duration: 5,
+            }}
+            initial={{
+              y: 50,
+              opacity: 0,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+            }}
+            className="flex items-center justify-between max-w-[330px] m-auto py-4"
+          >
             <div className="cursor-pointer hover:scale-110 ease-in duration-300">
               <a
                 className="footer-link"
@@ -111,7 +138,7 @@ const Main = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </motion.div>
         </motion.div>
       </div>
     </div>
