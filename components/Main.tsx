@@ -14,7 +14,7 @@ const Main = () => {
       <div className="max-w-{1240px} w-full h-full mx-auto p-2 flex justify-center items-center">
         <motion.div
           transition={{
-            duration: 2.5,
+            duration: 2,
           }}
           initial={{
             y: 20,
@@ -52,7 +52,7 @@ const Main = () => {
           </motion.div>
           <motion.div
             transition={{
-              duration: 5,
+              duration: 4,
             }}
             initial={{
               y: 50,
