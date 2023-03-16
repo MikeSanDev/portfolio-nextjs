@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clear-cache": "rm -rf .next/cache/*"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
