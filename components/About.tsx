@@ -1,8 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView();
+
+  const imageVariants = {
+    hidden: { opacity: 0, y: -50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16 ">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
@@ -34,7 +50,13 @@ const About = () => {
             Check out some of my latest projects.
           </Link>
         </div>
-        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <motion.div
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={imageVariants}
+          className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"
+        >
           <Image
             className="rounded-xl about-img"
             src="/assets/about.png"
@@ -43,7 +65,7 @@ const About = () => {
             width="250"
             height="300"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
