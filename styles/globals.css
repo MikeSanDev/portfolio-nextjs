@@ -48,7 +48,7 @@ body {
 
 }
 
-/* Nav buttons hover */
+/***************** Nav buttons hover *******************/
 .nav-items li:hover {
     color: #ffe590;
     transform: scale(1.1);
@@ -67,14 +67,14 @@ body {
     transition: all 0.3s ease-in-out;
 
   }
-/* About Styles */
+/***************** About Styles *******************/
 .about-img {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(150%); 
 }
 
 
-/* Project Styles */
+/***************** Project Styles *******************/
 .back-project-link{
         display: inline-block;
 }
