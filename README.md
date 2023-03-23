@@ -15,15 +15,18 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 </br>
 ### About Page </br>
-![about](https://user-images.githubusercontent.com/96930354/227096382-6e19114a-22bc-4d70-9da9-8f78e68d4983.gif)
+![about](https://user-images.githubusercontent.com/96930354/227097453-501c992e-b8f3-46d8-a0fb-25c49fc00da5.gif)
 
 </br>
+
 ### Skills </br>
-![skills](https://user-images.githubusercontent.com/96930354/227096559-7bc09bd0-39be-4df8-9231-960c9b44ba70.gif)
+![skills](https://user-images.githubusercontent.com/96930354/227097491-c9b8b9fc-cae3-43d6-9cc5-2ca09d1408c5.gif)
+
 
 </br>
 ### projects </br>
-![projects](https://user-images.githubusercontent.com/96930354/227096609-349321f1-4910-4890-9dc9-bd0a3459a4d4.gif)
+![projects](https://user-images.githubusercontent.com/96930354/227097509-34dc3b0f-927e-4f2c-8d77-9ec54cb42edc.gif)
+
 
 
 ### contact form </br>
