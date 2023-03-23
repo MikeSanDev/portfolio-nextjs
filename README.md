@@ -26,9 +26,6 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 </br>
 ### projects </br>
-</br>
-
-### Contacts <br/>
 ![projects2](https://user-images.githubusercontent.com/96930354/227099422-52158d45-e52e-403e-80fd-726d16957c1f.gif)
 
 <br/>
