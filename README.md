@@ -10,6 +10,25 @@ My personal website with my contacts, skills and projects. I built this fully re
 * Tailwind CSS
 
 
+### Home Page  </br>
+![titile_screen](https://user-images.githubusercontent.com/96930354/227096252-b1511f06-7971-422e-87ee-04ca68a36001.gif)
+
+</br>
+### About Page </br>
+![about](https://user-images.githubusercontent.com/96930354/227096382-6e19114a-22bc-4d70-9da9-8f78e68d4983.gif)
+
+</br>
+### Skills </br>
+![skills](https://user-images.githubusercontent.com/96930354/227096559-7bc09bd0-39be-4df8-9231-960c9b44ba70.gif)
+
+</br>
+### projects </br>
+![projects](https://user-images.githubusercontent.com/96930354/227096609-349321f1-4910-4890-9dc9-bd0a3459a4d4.gif)
+
+
+### contact form </br>
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
