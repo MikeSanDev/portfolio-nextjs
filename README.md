@@ -15,7 +15,7 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 </br>
 ### About Page </br>
-![about](https://user-images.githubusercontent.com/96930354/227097762-49255412-0303-49d2-b36d-c1e421f008ab.gif)
+![about1](https://user-images.githubusercontent.com/96930354/227097950-22d0208e-dd71-4765-a69f-1f3eede526c7.gif)
 
 </br>
 
@@ -25,11 +25,11 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 </br>
 ### projects </br>
-![projects](https://user-images.githubusercontent.com/96930354/227097509-34dc3b0f-927e-4f2c-8d77-9ec54cb42edc.gif)
+![projects1](https://user-images.githubusercontent.com/96930354/227097990-e71a3efa-1f55-4a21-9840-e2c9a848a6bc.gif)
 
 
 
-### contact form </br>
+
 
 
 
