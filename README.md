@@ -25,10 +25,15 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 
 </br>
-### projects </br>
+### Projects </br>
 ![projects2](https://user-images.githubusercontent.com/96930354/227099422-52158d45-e52e-403e-80fd-726d16957c1f.gif)
 
-<br/>
+</br>
+
+### Contact </br>
+![contact (1)](https://user-images.githubusercontent.com/96930354/227100147-11d0d6b3-11ce-41ae-836e-7ba935537265.gif)
+
+</br>
 
 
 
