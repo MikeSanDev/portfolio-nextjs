@@ -1,7 +1,7 @@
 import React from "react";
 import kinetic from "../public/assets/projects/kinetic.png";
 import chamber from "../public/assets/projects/chamber_proj.png";
-import whiteElephant from "../public/assets/projects/whiteele.png";
+import whiteElephant from "../public/assets/projects/elephant.png";
 import spotify from "../public/assets/projects/spotify.png";
 import ProjectItem from "./ProjectItem";
 
