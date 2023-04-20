@@ -123,7 +123,7 @@ const Main = () => {
             <div className="cursor-pointer hover:scale-110 ease-in duration-300">
               <a
                 className="footer-link"
-                href="/assets/michael_sanchez_resume.pdf"
+                href="/assets/michael_sanchez_resume_.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
