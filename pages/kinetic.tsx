@@ -68,7 +68,7 @@ const kinetic = () => {
             </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-[#5e6d96] py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> React JS
+                <RiCodeSSlashFill className="pr-1" /> React
               </p>
               <p className="text-[#5e6d96] py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Framer Motion
