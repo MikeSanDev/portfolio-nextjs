@@ -36,8 +36,8 @@ const Skills = () => {
                 key={skill.name}
                 initial={{ opacity: 0, x: -42 }}
                 animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 100 }}
-                transition={{ duration: 1.5, delay: index * 0.6 }}
+                // exit={{ opacity: 0, x: 100 }}
+                // transition={{ duration: 1.5, delay: index * 0.6 }}
                 className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
               >
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
