@@ -67,7 +67,7 @@ const Contact = () => {
                   <h3 className="text-[#5e6d96]">Full-Stack Developer</h3>
                   <p className="py-3">
                     I am available for freelance or a full-time position.
-                    Contact me and connect!
+                    Contact me to connect!
                   </p>
                 </div>
               </div>
@@ -184,8 +184,13 @@ const Contact = () => {
                     required
                   />
                 </div>
-                <input type="submit" placeholder="Send Message" value="Send Message" className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
-        from-[#d5bcb7] to-[#5e6d96] shadow-xl shadow-gray-400 rounded-xl uppercase cursor-pointer"/>
+                <input
+                  type="submit"
+                  placeholder="Send Message"
+                  value="Send Message"
+                  className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
+        from-[#d5bcb7] to-[#5e6d96] shadow-xl shadow-gray-400 rounded-xl uppercase cursor-pointer"
+                />
               </form>
             </div>
           </div>
