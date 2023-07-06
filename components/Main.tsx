@@ -31,7 +31,7 @@ const Main = () => {
           <h1 className="py-1 text-[#ffffff]">A Full-Stack Developer</h1>
           <motion.div
             transition={{
-              duration: 2.5,
+              duration: 2,
             }}
             initial={{
               y: 30,
@@ -52,7 +52,7 @@ const Main = () => {
           </motion.div>
           <motion.div
             transition={{
-              duration: 4,
+              duration: 3,
             }}
             initial={{
               y: 50,
