@@ -14,6 +14,7 @@ My personal website with my contacts, skills and projects. I built this fully re
 ![titile_screen](https://user-images.githubusercontent.com/96930354/227096252-b1511f06-7971-422e-87ee-04ca68a36001.gif)
 
 </br>
+
 ### About Page </br>
 
 ![about2](https://user-images.githubusercontent.com/96930354/227099282-843d1e04-e16a-4f0f-a26d-de85a1bec3e0.gif)
