@@ -1,3 +1,47 @@
+# Portolio Website
+
+My personal website with my contacts, skills and projects. I built this fully responsive website with Next.js and Tailwind CSS.
+
+### Built With:
+* Next.js
+* HTML/CSS
+* Javascript
+* Framer Motion
+* Tailwind CSS
+
+
+### Home Page  </br>
+![titile_screen](https://user-images.githubusercontent.com/96930354/227096252-b1511f06-7971-422e-87ee-04ca68a36001.gif)
+
+</br>
+
+### About Page </br>
+
+![about2](https://user-images.githubusercontent.com/96930354/227099282-843d1e04-e16a-4f0f-a26d-de85a1bec3e0.gif)
+
+</br>
+
+### Skills </br>
+![skills](https://user-images.githubusercontent.com/96930354/227097491-c9b8b9fc-cae3-43d6-9cc5-2ca09d1408c5.gif)
+
+
+</br>
+
+### Projects </br>
+![projects2](https://user-images.githubusercontent.com/96930354/227099422-52158d45-e52e-403e-80fd-726d16957c1f.gif)
+
+</br>
+
+### Contact </br>
+![contact (1)](https://user-images.githubusercontent.com/96930354/227100147-11d0d6b3-11ce-41ae-836e-7ba935537265.gif)
+
+</br>
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
