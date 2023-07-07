@@ -30,18 +30,18 @@ const Skills = () => {
         </p>
         <h2 className="py-4 text-slate-50">Tools I&rsquo;ve Recently Used</h2>
         <AnimatePresence>
-          <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {skills.map((skill, index) => (
               <motion.div
                 key={skill.name}
                 initial={{ opacity: 0, x: -42 }}
                 animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 100 }}
-                transition={{ duration: 1.5, delay: index * 0.6 }}
-                className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
+                className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-110 ease-in duration-300"
+                // exit={{ opacity: 0, x: 100 }}
+                // transition={{ duration: 1.5, delay: index * 0.6 }}
               >
-                <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                  <div className="m-auto">
+                <div className="grid grid-cols-2 gap-4 justify-center items-center first-line ">
+                  <div className="m-auto hover:scale-110 ease-in duration-300">
                     <Image
                       src={skill.imageSrc}
                       width="64"
