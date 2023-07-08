@@ -5,10 +5,10 @@ import Link from "next/link";
 const chamber = () => {
   return (
     <div className="w-full no-scroll-x">
-      <div className="w-screen h-[30vh] lg:h-[40vh]  relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
+      <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/40 z-10" />
         <img
-          className="absolute inset-0 w-full h-full object-cover z-1 "
+          className="absolute inset-0 w-full h-full object-cover z-1"
           src="/assets/projects/chamber_io.gif"
           alt="/"
         />
