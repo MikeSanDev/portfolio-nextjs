@@ -25,6 +25,7 @@ const Main = () => {
             opacity: 1,
           }}
         >
+            <h6 className="text-[#9B4919]">😊WEBSITE IS UNDER RENOVATION😊 </h6>
           <h1 className="py-1 text-[#000000]">
             Hi, I&rsquo;m <span className="text-[#9B4819]">Michael</span>
           </h1>
