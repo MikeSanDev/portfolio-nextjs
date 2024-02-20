@@ -43,7 +43,7 @@ const Contact = () => {
     <div
       id="contact"
       className="w-full m-auto bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/light-dark.jpg')" }}
+      style={{ backgroundImage: "url('/assets/paperbg.svg')" }}
     >
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
