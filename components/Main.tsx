@@ -9,7 +9,7 @@ const Main = () => {
     <div
       id="home"
       className="w-full h-screen text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/light-dark-flip.jpg')" }}
+      style={{ backgroundImage: "url('/assets/paperbg.svg')" }}
     >
       <div className="max-w-{1240px} w-full h-full mx-auto p-2 flex justify-center items-center">
         <motion.div
@@ -25,10 +25,10 @@ const Main = () => {
             opacity: 1,
           }}
         >
-          <h1 className="py-1 text-[#ffffff]">
-            Hi, I&rsquo;m <span className="text-[#ffe590]">Michael</span>
+          <h1 className="py-1 text-[#000000]">
+            Hi, I&rsquo;m <span className="text-[#9B4819]">Michael</span>
           </h1>
-          <h1 className="py-1 text-[#ffffff]">A Full-Stack Developer</h1>
+          <h1 className="py-1 text-[#000000]">A Full-Stack Developer</h1>
           <motion.div
             transition={{
               duration: 2,
@@ -42,7 +42,7 @@ const Main = () => {
               opacity: 1,
             }}
           >
-            <p className="py-1  max-w-[70%] text-lg text-[#ffffff] m-auto">
+            <p className="py-1  max-w-[70%] text-lg text-[#000000] m-auto">
               I am a skilled full-stack developer with a passion for building
               visually stunning and user-friendly websites. While my primary
               expertise is in front-end development, I am constantly expanding
