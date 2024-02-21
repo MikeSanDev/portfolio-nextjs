@@ -22,10 +22,10 @@ body::-webkit-scrollbar {
 @layer base {
     body {
         font-family: 'Eczar', serif;
-        --mainBg: var(#ffffff);
-        --secondaryColor: var(#9B4819);
-        --tertiaryColor: var(#5e6d96);
-        --accentColor: var(#d5bcb7);
+        --mainBg: #ffffff;
+        --mainColor: #9B4819;
+        --secondaryColor: #5e6d96;
+        --accentColor: #d5bcb7;
 
         @apply bg-[url('/assets/paperbg.svg')] text-[#000000] tracking-wide;
     }

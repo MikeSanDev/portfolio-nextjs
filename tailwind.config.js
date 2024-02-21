@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Define your custom colors here
+        mainColor: 'var(--mainColor)',
+        secondaryColor: 'var(--secondaryColor)',
+        accentColor: 'var(--accentColor)',
+      },
       },
   },
   plugins: [],
