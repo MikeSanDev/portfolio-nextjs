@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
         --secondaryColor: #5e6d96;
         --accentColor: #d5bcb7;
 
-        @apply bg-[url('/assets/paperbg.svg')] text-[#000000] tracking-wide;
+        @apply text-[#000000] tracking-wide;
     }
 
     h1,
