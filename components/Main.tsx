@@ -9,7 +9,7 @@ const Main = () => {
     <div
       id="home"
       className="w-full h-screen text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/paperbg.svg')" }}
+      style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
     >
       <div className="max-w-{1240px} w-full h-full mx-auto p-2 flex justify-center items-center">
         <motion.div
@@ -25,7 +25,6 @@ const Main = () => {
             opacity: 1,
           }}
         >
-            <h6 className="text-[#9B4919]">😊WEBSITE IS UNDER RENOVATION😊 </h6>
           <h1 className="py-1 text-[#000000]">
             Hi, I&rsquo;m <span className="text-secondaryColor">Michael</span>
           </h1>
