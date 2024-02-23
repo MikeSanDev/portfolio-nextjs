@@ -22,10 +22,11 @@ body::-webkit-scrollbar {
 @layer base {
     body {
         font-family: 'Eczar', serif;
-        --mainBg: #ffffff;
-        --mainColor: #9B4819;
-        --secondaryColor: #5e6d96;
-        --accentColor: #d5bcb7;
+        --mainBg: #2E2F34;
+        --secondBg: #34353A;
+        --mainColor: #D3AD63;
+        --secondaryColor: #CFCDBD;
+        --accentColor: #65689e;
 
         @apply text-[#000000] tracking-wide;
     }
@@ -78,10 +79,18 @@ body::-webkit-scrollbar {
 
 }
 
+.main_img {
+    filter: drop-shadow(4px 4px 8px #999999);
+    filter: saturate(120%);
+    max-width: none;
+
+}
+
 /***************** About Styles *******************/
 .about-img {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(150%);
+
 }
 
 
