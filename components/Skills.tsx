@@ -25,7 +25,7 @@ const Skills = () => {
   return (
     <div id="skills" 
     className="w-full lg:h-screen p-2 skills-bg bg-cover bg-center"
-    style={{ backgroundImage: "url('/assets/bg1.svg')" }}
+    style={{ backgroundImage: "url('/assets/bg2.svg')" }}
     >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">

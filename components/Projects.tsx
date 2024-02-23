@@ -7,7 +7,9 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
+    <div id="projects" 
+    className="w-full  p-2 skills-bg bg-cover bg-center"
+    style={{ backgroundImage: "url('/assets/bg1.svg')" }}>
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
           Projects
