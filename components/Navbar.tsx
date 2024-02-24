@@ -26,7 +26,7 @@ const Navbar = () => {
       setLinkColor("#2E2F34");
     } else {
       setNavBg("transparent");
-      setLinkColor("#D3AD63");
+      setLinkColor("#65689e");
     }
   }, [router]);
 

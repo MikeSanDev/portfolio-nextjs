@@ -10,54 +10,15 @@ const Main = () => {
     <div
       id="home"
       className="w-full h-screen text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/bg2.svg')" }}
+      style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
+      // FADE IN BACKGROUND - SVG IS ALREADY OPTIMIZED
     >
-      <div id="block" className="max-w-4xl w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div className="main_block1 flex flex-col w-1/3">
+        {/* Adjust the 'space-x-_' to give more space between elements */}
+      <div id="block" className="max-w-4xl w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
+        <div className="main_block1 flex flex-col w-1/3" >
           <h1 className="py-1 text-[#CFCDBD]">
-            Michael Sanchez
+            Michael <span>Sanchez</span>
           </h1>
-          <a className="py-1 text-accentColor">Contact Me</a>
-        </div>
-        <div className="main_block2 flex flex-col w-1/3">
-        <AnimatePresence>
-            <motion.div
-              className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: 0 }} // Initial state (above)
-              animate={{ opacity: 1, y: -50 }} // Animate state (down)
-              exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 3 }} // Duration of transition
-              style={{ zIndex: 1 }} // Ensure it's above the circle
-            >
-              <Image
-                className="rounded-xl main_img"
-                src="/assets/main_img.png"
-                alt="Me"
-                title="Me"
-                width="1415"
-                height="100"
-              />
-            </motion.div>
-            <motion.div
-              className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: -100 }} // Initial state (above)
-              animate={{ opacity: 1, y: -30 }} // Animate state (down)
-              exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 3 }} // Duration of transition
-              style={{ zIndex: 0 }} // Ensure it's behind the image
-            >
-              <Image
-                className="rounded-xl main_img"
-                src="/assets/main_circle.png"
-                alt="Me"
-                title="Me"
-                width="1235"
-                height="1000"
-              />
-            </motion.div>
-          </AnimatePresence>
-        </div>
-        <div className="main_block3 flex flex-col w-1/3">
           <div className="flex items-center justify-between">
             <div className="cursor-pointer hover:scale-110 ease-in duration-300">
               <a
@@ -134,6 +95,52 @@ const Main = () => {
               </a>
             </div>
           </div>
+          <a className="pt-4 text-accentColor">Contact Me</a>
+        </div>
+        <div className="main_block2 flex flex-col w-1/3 relative">
+        <AnimatePresence>
+            <motion.div
+              className="rounded-xl flex items-center justify-center absolute inset-0"
+              initial={{ opacity: 0, y: 0 }} // Initial state (above)
+              animate={{ opacity: 1, y: -50 }} // Animate state (down)
+              exit={{ opacity: 0, y: 100 }} // Exit state (down)
+              transition={{ duration: 3 }} // Duration of transition
+              style={{ zIndex: 1 }} // Ensure it's above the circle
+            >
+              <Image
+                className="rounded-xl main_img"
+                src="/assets/main_img.png"
+                alt=""
+                title=""
+                width="1415"
+                height="100"
+              />
+            </motion.div>
+            <motion.div
+              className="rounded-xl flex items-center justify-center absolute inset-0"
+              initial={{ opacity: 0, y: -100 }} // Initial state (above)
+              animate={{ opacity: 1, y: -30 }} // Animate state (down)
+              exit={{ opacity: 0, y: 100 }} // Exit state (down)
+              transition={{ duration: 3 }} // Duration of transition
+              style={{ zIndex: 0 }} // Ensure it's behind the image
+            >
+              <Image
+                className="rounded-xl main_img"
+                src="/assets/main_circle.png"
+                alt="Me"
+                title="Me"
+                width="1235"
+                height="1000"
+              />
+            </motion.div>
+          </AnimatePresence>
+        </div>
+        <div className="main_block3 flex flex-col w-1/3">
+          <h1>Introduction</h1>
+          <p>I am a full stack developer with a passion for creating fully
+            functional websites and applications and a background in Dentistry. 
+            In my free time i like to dance, create and solve puzzles.</p>
+            <button> More About Me </button>
         </div>
       </div>
     </div>

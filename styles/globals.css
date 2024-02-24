@@ -7,11 +7,10 @@ html {
 }
 
 body {
-    overflow-y: scroll;
+    overflow-y: auto;
+    /* or overflow-y: scroll; */
     scrollbar-width: none;
-    /* Firefox */
     -ms-overflow-style: none;
-    /* Internet Explorer 10+ */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -79,12 +78,13 @@ body::-webkit-scrollbar {
 
 }
 
+/***************** Main Page Styles *******************/
 .main_img {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(120%);
     max-width: none;
-
 }
+
 
 /***************** About Styles *******************/
 .about-img {
