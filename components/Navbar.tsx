@@ -23,10 +23,10 @@ const Navbar = () => {
       router.asPath === "/spotify"
     ) {
       setNavBg("transparent");
-      setLinkColor("#2E2F34");
+      setLinkColor("#ecf0f3");
     } else {
       setNavBg("transparent");
-      setLinkColor("#65689e");
+      setLinkColor("#9B4819");
     }
   }, [router]);
 
