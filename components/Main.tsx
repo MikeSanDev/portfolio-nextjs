@@ -15,6 +15,12 @@ const Main = () => {
     >
         {/* Adjust the 'space-x-_' to give more space between elements */}
       <div id="block" className="max-w-4xl w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
+      <motion.div
+          className="main_block1 flex flex-col w-1/3"
+          initial={{ opacity: 0, x: -200 }}
+          animate={{ opacity: 1, x: -50 }}
+          transition={{ duration: 3 }}
+        >
         <div className="main_block1 flex flex-col w-1/3" >
           <h1 className="py-1 text-[#CFCDBD]">
             Michael <span>Sanchez</span>
@@ -97,6 +103,7 @@ const Main = () => {
           </div>
           <a className="pt-4 text-accentColor">Contact Me</a>
         </div>
+        </motion.div>
         <div className="main_block2 flex flex-col w-1/3 relative">
         <AnimatePresence>
             <motion.div
@@ -135,13 +142,17 @@ const Main = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="main_block3 flex flex-col w-1/3">
+        <motion.div 
+        className="main_block3 flex flex-col w-1/3"
+        initial={{ opacity: 0, x: 200 }}
+        animate={{ opacity: 1, x: 80 }}
+        transition={{ duration: 3 }}>
           <h1>Introduction</h1>
           <p>I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
             <button> More About Me </button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
