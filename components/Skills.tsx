@@ -36,7 +36,7 @@ const Skills = () => {
           <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {skills.map((skill, index) => (
               <motion.div
-                key={skill.name}
+                key={index} // <-- Assigning the index as the key
                 initial={{ opacity: 0, x: -42 }}
                 animate={{ opacity: 1, x: 0 }}
                 className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-110 ease-in duration-300"
