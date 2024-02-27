@@ -13,97 +13,126 @@ const Main = () => {
       style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
       // FADE IN BACKGROUND - SVG IS ALREADY OPTIMIZED
     >
-        {/* Adjust the 'space-x-_' to give more space between elements */}
+      {/* Adjust the 'space-x-_' to give more space between elements */}
       <div id="block" className="max-w-4xl w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
-      <motion.div
+        <div
           className="main_block1 flex flex-col w-1/3"
-          initial={{ opacity: 0, x: -200 }}
-          animate={{ opacity: 1, x: -50 }}
-          transition={{ duration: 3 }}
+          style={{ pointerEvents: "auto" }} // Add this line
         >
-        <div className="main_block1 flex flex-col w-1/3" >
-          <h1 className="py-1 text-[#CFCDBD]">
-            Michael <span>Sanchez</span>
-          </h1>
-          <div className="flex items-center justify-between">
-            <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                className="footer-link"
-                href="https://www.linkedin.com/in/michael-sanchez-825882182/"
-                target="_blank"
-                rel="noopener noreferrer"
+          <motion.div className="main_block1 flex flex-col w-1/3 "
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 3 }}>
+            <h1 className="py-1 text-[#CFCDBD]">
+              Michael <span>Sanchez</span>
+            </h1>
+            <div className="main_link_btns space-x-2 flex items-center justify-between" style={{ zIndex: 999 }}>
+              <motion.div
+                className="cursor-pointer hover:scale-110 ease-in duration-300"
+                initial={{ opacity: 0, x: -200 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }}
               >
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-accentColor"
-                  style={{ backgroundColor: "#ffffff" }}
+                <a
+                  className="footer-link"
+                  href="https://www.linkedin.com/in/michael-sanchez-825882182/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FaLinkedinIn size={22} />
-                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
-                    Linkedin
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                className="footer-link"
-                href="https://github.com/MikeSanDev"
-                target="_blank"
-                rel="noopener noreferrer"
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
+                    style={{ backgroundColor: "#ffffff" }}
+                  >
+                    <FaLinkedinIn size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                      Linkedin
+                    </span>
+                  </div>
+                </a>
+              </motion.div>
+              <motion.div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+                initial={{ opacity: 0, x: -200 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }}
               >
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-accentColor"
-                  style={{ backgroundColor: "#ffffff" }}
+                <a
+                  className="footer-link"
+                  href="https://github.com/MikeSanDev"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FaGithub size={22} />
-                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
-                    Github
-                  </span>
-                </div>
-              </a>
-            </div>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
+                    style={{ backgroundColor: "#ffffff" }}
+                  >
+                    <FaGithub size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                      Github
+                    </span>
+                  </div>
+                </a>
+              </motion.div>
 
-            <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                className="footer-link"
-                href="mailto:mike.san.dev16@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <motion.div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+                initial={{ opacity: 0, x: -200 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }}
               >
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-accentColor"
-                  style={{ backgroundColor: "#ffffff" }}
+                <a
+                  className="footer-link"
+                  href="mailto:mike.san.dev16@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <AiOutlineMail size={22} />
-                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
-                    Email
-                  </span>
-                </div>
-              </a>
-            </div>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
+                    style={{ backgroundColor: "#ffffff" }}
+                  >
+                    <AiOutlineMail size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                      Email
+                    </span>
+                  </div>
+                </a>
+              </motion.div>
 
-            <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                className="footer-link"
-                href="/assets/michael_sanchez_resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+              <motion.div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+                initial={{ opacity: 0, x: -200 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }}
               >
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-4 text-accentColor"
-                  style={{ backgroundColor: "#ffffff" }}
+                <a
+                  className="footer-link"
+                  href="/assets/michael_sanchez_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <BsFillPersonLinesFill size={22} />
-                  <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
-                    Resume
-                  </span>
-                </div>
-              </a>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
+                    style={{ backgroundColor: "#ffffff" }}
+                  >
+                    <BsFillPersonLinesFill size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                      Resume
+                    </span>
+                  </div>
+                </a>
+              </motion.div>
             </div>
-          </div>
-          <a className="pt-4 text-accentColor">Contact Me</a>
+            <motion.div 
+            className="block1_btn flex justify-center"
+            initial={{ opacity: 0, x: -200 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 3 }}>
+
+              <a href="/#contact" className="main_block1_btn pt-4 text-accentColor">Contact Me</a>
+
+            </motion.div>
+          </motion.div>
         </div>
-        </motion.div>
         <div className="main_block2 flex flex-col w-1/3 relative">
         <AnimatePresence>
             <motion.div
