@@ -28,7 +28,7 @@ const Main = () => {
             </h1>
             <div className="main_link_btns space-x-2 flex items-center justify-between" style={{ zIndex: 999 }}>
               <motion.div
-                className="cursor-pointer hover:scale-110 ease-in duration-300"
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
                 initial={{ opacity: 0, x: -200 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2 }}
@@ -44,7 +44,7 @@ const Main = () => {
                     style={{ backgroundColor: "#ffffff" }}
                   >
                     <FaLinkedinIn size={20} />
-                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Linkedin
                     </span>
                   </div>
@@ -67,7 +67,7 @@ const Main = () => {
                     style={{ backgroundColor: "#ffffff" }}
                   >
                     <FaGithub size={20} />
-                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Github
                     </span>
                   </div>
@@ -91,7 +91,7 @@ const Main = () => {
                     style={{ backgroundColor: "#ffffff" }}
                   >
                     <AiOutlineMail size={20} />
-                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Email
                     </span>
                   </div>
@@ -115,7 +115,7 @@ const Main = () => {
                     style={{ backgroundColor: "#ffffff" }}
                   >
                     <BsFillPersonLinesFill size={20} />
-                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip">
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Resume
                     </span>
                   </div>
