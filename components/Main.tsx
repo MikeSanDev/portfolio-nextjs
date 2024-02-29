@@ -4,6 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -19,19 +20,21 @@ const Main = () => {
           className="main_block1 flex flex-col w-1/3"
           style={{ pointerEvents: "auto" }} // Add this line
         >
-          <motion.div className="main_block1 flex flex-col w-1/3 "
+          <div className="main_block1 flex flex-col w-1/3" >
+            <motion.div className="main_block1 flex flex-col w-1/3 "
               initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: 0 }}
+              animate={{ opacity: 1, x: -140 }}
               transition={{ duration: 3 }}>
-            <h1 className="py-1 text-[#CFCDBD]">
+            <h1 className="py-1 text-secondaryColor">
               Michael <span>Sanchez</span>
             </h1>
-            <div className="main_link_btns space-x-2 flex items-center justify-between" style={{ zIndex: 999 }}>
+            </motion.div>
+            <div className="main_link_btns space-x-2 flex items-center justify-between">
               <motion.div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-                initial={{ opacity: 0, x: -200 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 2 }}
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: -140 }}
+              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -40,8 +43,8 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
-                    style={{ backgroundColor: "#ffffff" }}
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaLinkedinIn size={20} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
@@ -52,9 +55,9 @@ const Main = () => {
               </motion.div>
               <motion.div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-                initial={{ opacity: 0, x: -200 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 2 }}
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: -140 }}
+              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -63,8 +66,8 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
-                    style={{ backgroundColor: "#ffffff" }}
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaGithub size={20} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
@@ -76,9 +79,9 @@ const Main = () => {
 
               <motion.div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-                initial={{ opacity: 0, x: -200 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 2 }}
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: -140 }}
+              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -87,8 +90,8 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
-                    style={{ backgroundColor: "#ffffff" }}
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
                   >
                     <AiOutlineMail size={20} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
@@ -100,9 +103,9 @@ const Main = () => {
 
               <motion.div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-                initial={{ opacity: 0, x: -200 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 2 }}
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: -140 }}
+              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -111,8 +114,8 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-accentColor"
-                    style={{ backgroundColor: "#ffffff" }}
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
                   >
                     <BsFillPersonLinesFill size={20} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
@@ -125,13 +128,13 @@ const Main = () => {
             <motion.div 
             className="block1_btn flex justify-center"
             initial={{ opacity: 0, x: -200 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 3 }}>
+            animate={{ opacity: 1, x: -140 }}
+            transition={{ duration: 2 }}>
 
-              <a href="/#contact" className="main_block1_btn pt-4 text-accentColor">Contact Me</a>
+              <a href="/#contact" className="main_block1_btn pt-4">Contact Me</a>
 
             </motion.div>
-          </motion.div>
+          </div>
         </div>
         <div className="main_block2 flex flex-col w-1/3 relative">
         <AnimatePresence>
@@ -140,7 +143,7 @@ const Main = () => {
               initial={{ opacity: 0, y: 0 }} // Initial state (above)
               animate={{ opacity: 1, y: -50 }} // Animate state (down)
               exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 3 }} // Duration of transition
+              transition={{ duration: 2 }} // Duration of transition
               style={{ zIndex: 1 }} // Ensure it's above the circle
             >
               <Image
@@ -157,7 +160,7 @@ const Main = () => {
               initial={{ opacity: 0, y: -100 }} // Initial state (above)
               animate={{ opacity: 1, y: -30 }} // Animate state (down)
               exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 3 }} // Duration of transition
+              transition={{ duration: 2 }} // Duration of transition
               style={{ zIndex: 0 }} // Ensure it's behind the image
             >
               <Image
@@ -172,15 +175,17 @@ const Main = () => {
           </AnimatePresence>
         </div>
         <motion.div 
-        className="main_block3 flex flex-col w-1/3"
+        className="main_block3 flex flex-col justify-center items-center w-1/3"
         initial={{ opacity: 0, x: 200 }}
-        animate={{ opacity: 1, x: 80 }}
+        animate={{ opacity: 1, x: 160 }}
         transition={{ duration: 3 }}>
-          <h1>Introduction</h1>
-          <p>I am a full stack developer with a passion for creating fully
+          <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
+          <p className="py-1 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
-            <button> More About Me </button>
+            <Link href="/#contact">
+            <button className="main_block1_btn2 mt-2"> More About Me </button>
+            </Link>
         </motion.div>
       </div>
     </div>

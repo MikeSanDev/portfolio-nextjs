@@ -12,9 +12,9 @@ const Projects = () => {
     style={{ backgroundImage: "url('/assets/bg1.svg')" }}>
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
-          Projects
+          Projects & Experience
         </p>
-        <h2 className="py-4 text-slate-50 ">What I&rsquo;ve Built</h2>
+        <h2 className="py-4 text-slate-50 ">What I&rsquo;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Kinetic Footwear"
@@ -41,6 +41,13 @@ const Projects = () => {
             projectUrl="/spotify"
           />
         </div>
+        {/* <h2 className="py-4 text-slate-50 ">Work Experience</h2>
+        <ProjectItem
+            title="Accenture"
+            backgroundImg={spotify}
+            language="Packaged App Developer"
+            projectUrl="/spotify"
+          /> */}
       </div>
     </div>
   );
