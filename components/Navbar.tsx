@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#d4d1cf");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("#CFCDBD");
+  const [linkColor, setLinkColor] = useState("#D3AD63");
   const router = useRouter();
 
   // changes nav button color on individual project pages
@@ -23,10 +23,10 @@ const Navbar = () => {
       router.asPath === "/spotify"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setLinkColor("#CFCDBD");
     } else {
       setNavBg("transparent");
-      setLinkColor("#65689e");
+      setLinkColor("#D3AD63");
     }
   }, [router]);
 
@@ -50,8 +50,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-50px shadow-xl z-[100] pb-8"
+          : "fixed w-full h-20px z-[100]"
       }
     >
       <motion.div
@@ -66,20 +66,21 @@ const Navbar = () => {
           x: 0,
           opacity: 1,
         }}
-        className="flex justify-between items-center w-full h-full px-2 2xl:px-14"
+        className="flex justify-between items-center w-full h-full px-6 2xl:px-14"
       >
-        <Link href="/">
+        <Link href="/#home">
           <Image
+            className="pl-2"
             src="/assets/yellow_logo.png"
             alt="/"
-            width="100"
-            height="40"
+            width="80"
+            height="50"
           />
         </Link>
         <div>
           <ul
             style={{ color: `${linkColor}` }}
-            className="hidden md:flex nav-items pr-6 "
+            className="hidden md:flex nav-items pr-4 "
           >
             <Link href="/#home">
               <li className="ml-10 text-sm uppercase">Home</li>

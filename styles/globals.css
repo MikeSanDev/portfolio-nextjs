@@ -25,7 +25,8 @@ body::-webkit-scrollbar {
         --secondBg: #34353A;
         --mainColor: #D3AD63;
         --secondaryColor: #CFCDBD;
-        --accentColor: #65689e;
+        --accentColor: #728981;
+        --text_Color: #FFFCF5;
 
         @apply text-[#000000] tracking-wide;
     }
@@ -52,7 +53,7 @@ body::-webkit-scrollbar {
     }
 
     button {
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase
+        @apply shadow-xl shadow-gray-400 rounded-xl
     }
 
 }
@@ -94,14 +95,27 @@ body::-webkit-scrollbar {
     width: 120px;
     font-size: 15px;
     border-width: 3px;
-    border-color: #65689e;
+    border-color: var(--text_Color);
     background-color: transparent;
-    color: #65689e;
-    border-style: outset;
-    border-radius: 10px;
+    color: var(--secondaryColor);
+    border-radius: 1px;
     box-shadow: 0px 0px 8px rgba(66, 66, 66, .75);
     text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
     justify-content: center;
+}
+
+.main_block1_btn2 {
+    padding: 5px;
+    width: 150px;
+    font-size: 15px;
+    border-width: 3px;
+    border-color: var(--text_Color);
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border-radius: 1px;
+    box-shadow: 0px 0px 8px rgba(66, 66, 66, .75);
+    text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+
 }
 
 .css-input:focus {
@@ -141,7 +155,7 @@ body::-webkit-scrollbar {
     opacity: 1;
 }
 
-.tooltip {
+/* .tooltip {
     display: none;
     position: absolute;
     opacity: 0;
@@ -156,7 +170,7 @@ body::-webkit-scrollbar {
     color: #ffe590;
     z-index: 1;
     transition: opacity 0.9s ease-in-out;
-}
+} */
 
 .footer-link:hover .tooltip2 {
     display: block;
