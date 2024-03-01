@@ -137,14 +137,8 @@ const Main = () => {
           </div>
         </div>
         <div className="main_block2 flex flex-col w-1/3 relative">
-        <AnimatePresence>
-            <motion.div
+            <div
               className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: 0 }} // Initial state (above)
-              animate={{ opacity: 1, y: 0 }} // Animate state (down)
-              exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 2 }} // Duration of transition
-              style={{ zIndex: 1 }} // Ensure it's above the circle
             >
               <Image
                 className="rounded-xl main_img"
@@ -154,14 +148,9 @@ const Main = () => {
                 width="100"
                 height="100"
               />
-            </motion.div>
-            <motion.div
+            </div>
+            <div
               className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: 0 }} // Initial state (above)
-              animate={{ opacity: 1, y: 0 }} // Animate state (down)
-              exit={{ opacity: 0, y: 100 }} // Exit state (down)
-              transition={{ duration: 2 }} // Duration of transition
-              style={{ zIndex: 0 }} // Ensure it's behind the image
             >
               <Image
                 className="rounded-xl main_img"
@@ -171,8 +160,7 @@ const Main = () => {
                 width="100"
                 height="1000"
               />
-            </motion.div>
-          </AnimatePresence>
+            </div>
         </div>
         <motion.div 
         className="main_block3 flex flex-col justify-center items-center w-1/3"
