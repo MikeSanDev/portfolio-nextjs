@@ -141,34 +141,34 @@ const Main = () => {
             <motion.div
               className="rounded-xl flex items-center justify-center absolute inset-0"
               initial={{ opacity: 0, y: 0 }} // Initial state (above)
-              animate={{ opacity: 1, y: -50 }} // Animate state (down)
+              animate={{ opacity: 1, y: 0 }} // Animate state (down)
               exit={{ opacity: 0, y: 100 }} // Exit state (down)
               transition={{ duration: 2 }} // Duration of transition
               style={{ zIndex: 1 }} // Ensure it's above the circle
             >
               <Image
                 className="rounded-xl main_img"
-                src="/assets/main_img.png"
+                src="/assets/main_img.svg"
                 alt=""
                 title=""
-                width="1415"
+                width="100"
                 height="100"
               />
             </motion.div>
             <motion.div
               className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: -100 }} // Initial state (above)
-              animate={{ opacity: 1, y: -30 }} // Animate state (down)
+              initial={{ opacity: 0, y: 0 }} // Initial state (above)
+              animate={{ opacity: 1, y: 0 }} // Animate state (down)
               exit={{ opacity: 0, y: 100 }} // Exit state (down)
               transition={{ duration: 2 }} // Duration of transition
               style={{ zIndex: 0 }} // Ensure it's behind the image
             >
               <Image
                 className="rounded-xl main_img"
-                src="/assets/main_circle.png"
+                src="/assets/main_circle.svg"
                 alt="Me"
                 title="Me"
-                width="1235"
+                width="100"
                 height="1000"
               />
             </motion.div>
@@ -183,7 +183,7 @@ const Main = () => {
           <p className="py-1 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
-            <Link href="/#contact">
+            <Link href="/#about">
             <button className="main_block1_btn2 mt-2"> More About Me </button>
             </Link>
         </motion.div>
