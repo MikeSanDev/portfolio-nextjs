@@ -83,7 +83,7 @@ body::-webkit-scrollbar {
 .main_img {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(120%);
-    max-width: none;
+
 }
 
 .block1_btn {
@@ -121,6 +121,7 @@ body::-webkit-scrollbar {
 .css-input:focus {
     outline: none;
 }
+
 
 
 /***************** About Styles *******************/
