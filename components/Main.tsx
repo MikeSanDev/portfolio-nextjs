@@ -130,9 +130,9 @@ const Main = () => {
             initial={{ opacity: 0, x: -200 }}
             animate={{ opacity: 1, x: -140 }}
             transition={{ duration: 2 }}>
-
-              <a href="/#contact" className="main_block1_btn pt-4">Contact Me</a>
-
+            <Link href="/#contact">
+              <button className="main_block1_btn pt-4">Contact Me</button>
+              </Link>
             </motion.div>
           </div>
         </div>

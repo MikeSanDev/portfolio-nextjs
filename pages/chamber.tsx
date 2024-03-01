@@ -1,16 +1,18 @@
 import React from "react";
 import { RiCodeSSlashFill } from "react-icons/ri";
 import Link from "next/link";
+import Image from 'next/image';
 
 const chamber = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/40 z-10" />
-        <img
+        <Image
           className="absolute inset-0 w-full h-full object-cover z-1"
           src="/assets/projects/chamber_io.gif"
           alt="/"
+          width={500} height={300}
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="mb-2 py-2 pl-6">Chamber.IO</h2>
