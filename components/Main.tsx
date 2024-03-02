@@ -3,7 +3,6 @@ import Image from "next/image";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const Main = () => {
@@ -15,26 +14,20 @@ const Main = () => {
       // FADE IN BACKGROUND - SVG IS ALREADY OPTIMIZED
     >
       {/* Adjust the 'space-x-_' to give more space between elements */}
-      <div id="block" className="max-w-4xl w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
+      <div id="block" className=" w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
         <div
           className="main_block1 flex flex-col w-1/3"
           style={{ pointerEvents: "auto" }} // Add this line
         >
           <div className="main_block1 flex flex-col w-1/3" >
-            <motion.div className="main_block1 flex flex-col w-1/3 "
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: -140 }}
-              transition={{ duration: 3 }}>
+            <div className="main_block1 flex flex-col w-1/3 ">
             <h1 className="py-1 text-secondaryColor">
               Michael <span>Sanchez</span>
             </h1>
-            </motion.div>
+            </div>
             <div className="main_link_btns space-x-2 flex items-center justify-between">
-              <motion.div
+              <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: -140 }}
-              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -52,12 +45,9 @@ const Main = () => {
                     </span>
                   </div>
                 </a>
-              </motion.div>
-              <motion.div
+              </div>
+              <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: -140 }}
-              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -75,13 +65,10 @@ const Main = () => {
                     </span>
                   </div>
                 </a>
-              </motion.div>
+              </div>
 
-              <motion.div
+              <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: -140 }}
-              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -99,13 +86,10 @@ const Main = () => {
                     </span>
                   </div>
                 </a>
-              </motion.div>
+              </div>
 
-              <motion.div
+              <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
-              initial={{ opacity: 0, x: -200 }}
-              animate={{ opacity: 1, x: -140 }}
-              transition={{ duration: 2 }}
               >
                 <a
                   className="footer-link"
@@ -123,17 +107,14 @@ const Main = () => {
                     </span>
                   </div>
                 </a>
-              </motion.div>
+              </div>
             </div>
-            <motion.div 
-            className="block1_btn flex justify-center"
-            initial={{ opacity: 0, x: -200 }}
-            animate={{ opacity: 1, x: -140 }}
-            transition={{ duration: 2 }}>
+            <div 
+            className="block1_btn flex justify-center">
             <Link href="/#contact">
-              <button className="main_block1_btn pt-4">Contact Me</button>
+              <button className="main_block1_btn pl-4 pt-4">Contact Me</button>
               </Link>
-            </motion.div>
+            </div>
           </div>
         </div>
         <div className="main_block2 flex flex-col w-1/3 relative">
@@ -142,11 +123,11 @@ const Main = () => {
             >
               <Image
                 className="rounded-xl main_img"
-                src="/assets/main_img.svg"
+                src="/assets/main_img2.png"
                 alt=""
                 title=""
-                width="100"
-                height="100"
+                width={300}
+                height={300}
               />
             </div>
             <div
@@ -154,19 +135,16 @@ const Main = () => {
             >
               <Image
                 className="rounded-xl main_img"
-                src="/assets/main_circle.svg"
+                src="/assets/main_circle2.png"
                 alt="Me"
                 title="Me"
-                width="100"
-                height="1000"
+                width={400}
+                height={400}
               />
             </div>
         </div>
-        <motion.div 
-        className="main_block3 flex flex-col justify-center items-center w-1/3"
-        initial={{ opacity: 0, x: 200 }}
-        animate={{ opacity: 1, x: 160 }}
-        transition={{ duration: 3 }}>
+        <div 
+        className="main_block3 flex flex-col justify-center items-center w-1/3">
           <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
           <p className="py-1 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
@@ -174,7 +152,7 @@ const Main = () => {
             <Link href="/#about">
             <button className="main_block1_btn2 mt-2"> More About Me </button>
             </Link>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
