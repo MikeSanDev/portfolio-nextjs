@@ -4,6 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
@@ -15,8 +16,11 @@ const Main = () => {
     >
       {/* Adjust the 'space-x-_' to give more space between elements */}
       <div id="block" className=" w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
-        <div
+        <motion.div
           className="main_block1 flex flex-col w-1/3"
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 100 }}
+          transition={{ duration: 3 }}
           style={{ pointerEvents: "auto" }} // Add this line
         >
           <div className="main_block1 flex flex-col w-1/3" >
@@ -116,22 +120,29 @@ const Main = () => {
               </Link>
             </div>
           </div>
-        </div>
-        <div className="main_block2 flex flex-col w-1/3 relative">
-            <div
-              className="rounded-xl flex items-center justify-center absolute inset-0" 
+        </motion.div>
+        <div           
+          className="main_block2 flex flex-col w-1/3 relative">
+            <motion.div
+              className="rounded-xl flex items-center justify-center absolute inset-0 z-10" 
+              initial={{ opacity: 0, y: -100 }}
+              animate={{ opacity: 1, y: 90 }}
+              transition={{ duration: 3 }}
             >
               <Image
-                className="rounded-xl main_img z-10"
+                className="rounded-xl main_img "
                 src="/assets/main_img2.png"
                 alt=""
                 title=""
                 width={300}
                 height={300}
               />
-            </div>
-            <div
+            </motion.div>
+            <motion.div
               className="rounded-xl flex items-center justify-center absolute inset-0"
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 3 }}
             >
               <Image
                 className="rounded-xl main_img"
@@ -141,18 +152,21 @@ const Main = () => {
                 width={400}
                 height={400}
               />
-            </div>
+            </motion.div>
         </div>
-        <div 
-        className="main_block3 flex flex-col justify-center items-center w-1/3">
+        <motion.div 
+                  className="main_block3 flex flex-col justify-center items-center w-1/3"
+                  initial={{ opacity: 0, x: 100 }}
+                  animate={{ opacity: 1, x: -30 }}
+                  transition={{ duration: 3 }}>
           <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
-          <p className="py-1 text-text_Color">I am a full stack developer with a passion for creating fully
+          <p className="py-2 px-5 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
             <Link href="/#about">
             <button className="main_block1_btn2 mt-2"> More About Me </button>
             </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
