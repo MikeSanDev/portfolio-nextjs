@@ -119,10 +119,10 @@ const Main = () => {
         </div>
         <div className="main_block2 flex flex-col w-1/3 relative">
             <div
-              className="rounded-xl flex items-center justify-center absolute inset-0"
+              className="rounded-xl flex items-center justify-center absolute inset-0" 
             >
               <Image
-                className="rounded-xl main_img"
+                className="rounded-xl main_img z-10"
                 src="/assets/main_img2.png"
                 alt=""
                 title=""
