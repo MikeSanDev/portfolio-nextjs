@@ -101,7 +101,7 @@ body::-webkit-scrollbar {
     border-radius: 1px;
     box-shadow: 0px 0px 8px rgba(66, 66, 66, .75);
     text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
-    justify-content: center;
+    margin-left: 80px;
 }
 
 .main_block1_btn2 {

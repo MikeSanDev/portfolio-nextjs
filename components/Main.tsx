@@ -26,10 +26,10 @@ const Main = () => {
           <div className="main_block1 flex flex-col w-1/3" >
             <div className="main_block1 flex flex-col w-1/3 ">
             <h1 className="py-1 text-secondaryColor">
-              Michael <span>Sanchez</span>
+              Michael <span className="pl-3">Sanchez</span>
             </h1>
             </div>
-            <div className="main_link_btns space-x-2 flex items-center justify-between">
+            <div className="main_link_btns space-x-2 flex items-center justify-between pl-6">
               <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
               >
@@ -116,7 +116,7 @@ const Main = () => {
             <div 
             className="block1_btn flex justify-center">
             <Link href="/#contact">
-              <button className="main_block1_btn pl-4 pt-4">Contact Me</button>
+              <button className="main_block1_btn ">Contact Me</button>
               </Link>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Main = () => {
           className="main_block2 flex flex-col w-1/3 relative">
             <motion.div
               className="rounded-xl flex items-center justify-center absolute inset-0 z-10" 
-              initial={{ opacity: 0, y: -100 }}
+              initial={{ opacity: 0.01, y: -100 }}
               animate={{ opacity: 1, y: 90 }}
               transition={{ duration: 3 }}
             >
@@ -133,22 +133,20 @@ const Main = () => {
                 className="rounded-xl main_img "
                 src="/assets/main_img2.png"
                 alt=""
-                title=""
                 width={300}
                 height={300}
               />
             </motion.div>
             <motion.div
               className="rounded-xl flex items-center justify-center absolute inset-0"
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0.01, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 3 }}
             >
               <Image
                 className="rounded-xl main_img"
                 src="/assets/main_circle2.png"
-                alt="Me"
-                title="Me"
+                alt=""
                 width={400}
                 height={400}
               />
@@ -160,7 +158,7 @@ const Main = () => {
                   animate={{ opacity: 1, x: -30 }}
                   transition={{ duration: 3 }}>
           <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
-          <p className="py-2 px-5 text-text_Color">I am a full stack developer with a passion for creating fully
+          <p className="py-2 px-6 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
             <Link href="/#about">
