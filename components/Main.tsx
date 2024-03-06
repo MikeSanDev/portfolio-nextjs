@@ -20,7 +20,7 @@ const Main = () => {
           className="main_block1 flex flex-col w-1/3"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 100 }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 4 }}
           style={{ pointerEvents: "auto" }} // Add this line
         >
           <div className="main_block1 flex flex-col w-1/3" >
@@ -127,7 +127,7 @@ const Main = () => {
               className="rounded-xl flex items-center justify-center absolute inset-0 z-10" 
               initial={{ opacity: 0.01, y: -100 }}
               animate={{ opacity: 1, y: 90 }}
-              transition={{ duration: 3 }}
+              transition={{ duration: 4 }}
             >
               <Image
                 className="rounded-xl main_img "
@@ -141,7 +141,7 @@ const Main = () => {
               className="rounded-xl flex items-center justify-center absolute inset-0"
               initial={{ opacity: 0.01, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 3 }}
+              transition={{ duration: 4 }}
             >
               <Image
                 className="rounded-xl main_img"
@@ -156,7 +156,7 @@ const Main = () => {
                   className="main_block3 flex flex-col justify-center items-center w-1/3"
                   initial={{ opacity: 0, x: 100 }}
                   animate={{ opacity: 1, x: -30 }}
-                  transition={{ duration: 3 }}>
+                  transition={{ duration: 4 }}>
           <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
           <p className="py-2 px-6 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 

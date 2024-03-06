@@ -8,6 +8,7 @@ html {
 
 body {
     overflow-y: auto;
+    overflow-x: hidden;
     /* or overflow-y: scroll; */
     scrollbar-width: none;
     -ms-overflow-style: none;
