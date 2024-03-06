@@ -41,13 +41,13 @@ const Projects = () => {
             projectUrl="/spotify"
           />
         </div>
-        <h2 className="py-4 text-slate-50 ">Work Experience</h2>
+        {/* <h2 className="py-4 text-slate-50 ">Work Experience</h2>
         <ProjectItem
             title="Accenture"
             backgroundImg={spotify}
             language="Packaged App Developer"
             projectUrl="/spotify"
-          />
+          /> */}
       </div>
     </div>
   );
