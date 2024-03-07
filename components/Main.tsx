@@ -25,7 +25,7 @@ const Main = () => {
         >
           <div className="main_block1 flex flex-col w-1/3" >
             <div className="main_block1 flex flex-col w-1/3 ">
-            <h1 className="py-1 text-secondaryColor">
+            <h1 className="py-1 main_text text-secondaryColor">
               Michael <span className="pl-3">Sanchez</span>
             </h1>
             </div>
