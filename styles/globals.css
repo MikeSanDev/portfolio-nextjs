@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 
 @layer base {
     body {
-        font-family: 'Eczar', serif;
+        font-family: 'Playfair Display', serif;
         --mainBg: #2E2F34;
         --secondBg: #34353A;
         --mainColor: #D3AD63;
@@ -85,6 +85,10 @@ body::-webkit-scrollbar {
     filter: drop-shadow(4px 4px 8px #999999);
     filter: saturate(120%);
 
+}
+
+.main_text {
+    font-size: 75px;
 }
 
 .block1_btn {
