@@ -25,7 +25,7 @@ const About = () => {
     <div
       id="about"
       className="w-full md:h-screen p-2 flex items-center py-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/bg1.svg')" }}
+      style={{ backgroundImage: "url('/assets/about4.png')" }}
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
@@ -51,7 +51,7 @@ const About = () => {
           </p>
           <Link
             href="/#projects"
-            className="py-2 text-accentColor underline cursor-pointer"
+            className="py-2 text-mainColor underline cursor-pointer"
           >
             Check out some of my latest projects.
           </Link>
