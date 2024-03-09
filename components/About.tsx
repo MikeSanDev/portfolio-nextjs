@@ -32,22 +32,21 @@ const About = () => {
           <p className="text-xl tracking-widest text-[#ffe590] uppercase">
             About
           </p>
-          <h2 className="py-4 text-slate-50">Who I Am </h2>
+          <h2 className="py-2 text-slate-50">Who I Am </h2>
           <p className="py-2 text-secondaryColor">
-            I am a full stack developer with a passion for creating fully
-            functional websites and applications and a background in Dentistry.
+          Welcome! I'm a versatile full-stack developer driven by a passion for crafting dynamic websites and applications. 
+          My journey began in dentistry, as a Dental Hygienist but my innate creativity and thirst for skill improvement led me to transition into the dynamic realm of software development.
           </p>
           <p className="py-2 text-secondaryColor">
-            I pursued a career in software development to tap into my creativity
-            and continuously grow my skills. To further my knowledge, I
-            completed a coding bootcamp at Coding Dojo and have since worked on
-            a number of full-stack projects.
+            To further my knowledge, I completed a coding bootcamp at Coding Dojo and have since worked on
+            a number of full-stack projects. Recently, I embarked on an exhilarating journey at Accenture, embracing new challenges daily and expanding my skills in a professional setting.
+
+
           </p>
           <p className="py-2 text-secondaryColor">
-            In my free time, I enjoy staying active through various physical
-            activities such as lifting weights, running, and dancing. I am a Hip
-            Hop freestyle dancer and regularly train with my crew, competing in
-            dance battles across Chicago.
+          Beyond coding, I find joy in staying active and pursuing my passion for Hip Hop freestyle dancing. 
+          Alongside my crew, I immerse myself in the vibrant, growing dance culture of Chicago, competing in exhilarating battles and continuously pushing the boundaries of my craft. 
+        
           </p>
           <Link
             href="/#projects"
@@ -66,7 +65,7 @@ const About = () => {
           <Image
             className="rounded-xl about-img"
             src="/assets/about.png"
-            alt="Breakdance Picture"
+            alt="Bboy"
             title="Me"
             width="250"
             height="300"

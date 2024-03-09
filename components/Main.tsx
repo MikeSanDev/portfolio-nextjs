@@ -131,7 +131,7 @@ const Main = () => {
             >
               <Image
                 className="rounded-xl main_img "
-                src="/assets/main_img2.png"
+                src="/assets/main_img.png"
                 alt=""
                 width={300}
                 height={300}
@@ -145,7 +145,7 @@ const Main = () => {
             >
               <Image
                 className="rounded-xl main_img"
-                src="/assets/main_circle2.png"
+                src="/assets/main_circle.png"
                 alt=""
                 width={400}
                 height={400}
@@ -157,7 +157,7 @@ const Main = () => {
                   initial={{ opacity: 0, x: 100 }}
                   animate={{ opacity: 1, x: -30 }}
                   transition={{ duration: 4 }}>
-          <h1 className="py-1 text-mainColor text-4xl">Introduction</h1>
+          <h1 className="py-1 text-[#ffe590] text-4xl">Introduction</h1>
           <p className="py-2 px-6 text-text_Color">I am a full stack developer with a passion for creating fully
             functional websites and applications and a background in Dentistry. 
             In my free time i like to dance, create and solve puzzles.</p>
