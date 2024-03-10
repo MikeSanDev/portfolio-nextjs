@@ -34,7 +34,7 @@ const About = () => {
           </p>
           <h2 className="py-2 text-slate-50">Who I Am </h2>
           <p className="py-2 text-secondaryColor">
-          Welcome! I'm a versatile full-stack developer driven by a passion for crafting dynamic websites and applications. 
+          Welcome! My name is Michael, and I am a versatile full-stack developer based in Chicago, IL. I am driven by a passion for crafting dynamic websites and applications. 
           My journey began in dentistry, as a Dental Hygienist but my innate creativity and thirst for skill improvement led me to transition into the dynamic realm of software development.
           </p>
           <p className="py-2 text-secondaryColor">
@@ -44,15 +44,14 @@ const About = () => {
 
           </p>
           <p className="py-2 text-secondaryColor">
-          Beyond coding, I find joy in staying active and pursuing my passion for Hip Hop freestyle dancing. 
+          Beyond coding, I find joy in staying active and pursuing my passion for Popping and Hip Hop freestyle dancing. 
           Alongside my crew, I immerse myself in the vibrant, growing dance culture of Chicago, competing in exhilarating battles and continuously pushing the boundaries of my craft. 
-        
           </p>
           <Link
             href="/#projects"
             className="py-2 text-mainColor underline cursor-pointer"
           >
-            Check out some of my latest projects.
+            Check out some of my latest projects I've been working on.
           </Link>
         </div>
         <motion.div
