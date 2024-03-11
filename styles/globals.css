@@ -26,10 +26,10 @@ body::-webkit-scrollbar {
         --secondBg: #34353A;
         --mainColor: #D3AD63;
         --secondaryColor: #CFCDBD;
-        --accentColor: #728981;
+        --accentColor: #ffe590;
         --text_Color: #FFFCF5;
 
-        @apply text-[#000000] tracking-wide;
+        @apply text-[#000000] bg-[#34353A] tracking-wide;
     }
 
     h1,
