@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
     }
 
     button {
-        @apply shadow-xl shadow-gray-400 rounded-xl
+        @apply shadow-xl shadow-gray-700 rounded-xl
     }
 
 }
