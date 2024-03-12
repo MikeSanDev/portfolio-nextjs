@@ -21,8 +21,8 @@ const spotify = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-[#5e6d96] mb-2">Overview</h2>
-          <h3 className="text-gray-600">
+          <h2 className="text-accentColor mb-2">Overview</h2>
+          <h3 className="text-text_Color">
             I developed a real-time Spotify clone project that included user
             authentication, responsive design, and API usage. The project was
             designed using Material UI and built with the Spotify API to display
@@ -44,13 +44,13 @@ const spotify = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 text-white bg-[#5e6d96] proj-btn">
+            <button className="px-6 py-1 mt-4 text-white bg-mainColor proj-btn">
               Code
             </button>
           </a>
           <div>
             <Link href="/#projects">
-              <p className="underline cursor-pointer text-[#5e6d96] py-10 back-project-link">
+              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
               </p>
             </Link>
@@ -58,30 +58,30 @@ const spotify = () => {
         </div>
         <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies Used</p>
+            <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> React JS
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Spotify API
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Context API
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Node JS
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Express JS
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> HTML/CSS
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Material UI
               </p>
-              <p className="text-[#5e6d96] py-2 flex items-center">
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Mongo DB
               </p>
             </div>
