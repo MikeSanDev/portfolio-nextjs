@@ -51,7 +51,7 @@ const About = () => {
             href="/#projects"
             className="py-2 text-mainColor underline cursor-pointer"
           >
-            Check out some of my latest projects I've been working on.
+            Check out some of my latest projects I have been working on.
           </Link>
         </div>
         <motion.div
