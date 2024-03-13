@@ -12,8 +12,8 @@ const chamber = () => {
           className="absolute inset-0 w-full h-full object-cover z-1"
           src="/assets/projects/chamber_io.gif"
           alt="/"
-          width={500} height={300}
-        />
+          layout="fill"
+          />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="mb-2 py-2 pl-6">Chamber.IO</h2>
           <p className="mb-2 pb-3 pl-6"> React JS | Stripe | Netlify </p>
