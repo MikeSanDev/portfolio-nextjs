@@ -12,8 +12,8 @@ const whiteElephant = () => {
           className="absolute z-1 inset-0 w-full h-full object-cover"
           src="/assets/projects/white.gif"
           alt="White Elephant Gif"
-          width={500} height={300}
-        />
+          layout="fill"
+          />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="mb-2 py-2 pl-6">White Elephant</h2>
           <p className="mb-2 pb-3 pl-6"> Java | Spring Boot | MySQL </p>
@@ -21,8 +21,8 @@ const whiteElephant = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-[#5e6d96] mb-2">Overview</h2>
-          <h3 className="text-gray-600">
+          <h2 className="text-accentColor mb-2">Overview</h2>
+          <h3 className="text-text_Color">
             I developed a fully functional CRUD application using Java and
             Spring Boot that allows users to create gift ideas for their
             friends. To design and plan the application from scratch, I created
@@ -47,13 +47,13 @@ const whiteElephant = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-2 mt-4 text-white bg-[#5e6d96] proj-btn ">
+            <button className="px-8 py-1 mt-4 text-white bg-mainColor proj-btn ">
               Code
             </button>
           </a>
           <div>
             <Link href="/#projects">
-              <p className="underline cursor-pointer text-[#5e6d96] py-10 back-project-link">
+              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
               </p>
             </Link>
@@ -61,32 +61,32 @@ const whiteElephant = () => {
         </div>
         <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2 text-[#5e6d96] ">
+            <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used
             </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Java
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Spring Boot
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> MySQL
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Figma
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> HTML
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> CSS
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Git
               </p>
-              <p className="text-[#5e6d96]  py-2 flex items-center">
+              <p className="text-secondBg  py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Github
               </p>
             </div>
