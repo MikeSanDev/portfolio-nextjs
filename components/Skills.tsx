@@ -39,9 +39,9 @@ const Skills = () => {
                 key={index} // <-- Assigning the index as the key
                 initial={{ opacity: 0, x: -42 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="bg-[#7782a1] p-6 drop-shadow-xl rounded-xl hover:scale-110 ease-in duration-300"
-                // exit={{ opacity: 0, x: 100 }}
-                // transition={{ duration: 1.5, delay: index * 0.6 }}
+                className="bg-secondaryColor p-6 drop-shadow-xl rounded-xl hover:scale-110 ease-in duration-300"
+                exit={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5, delay: index * 0.6 }}
               >
                 <div className="grid grid-cols-2 gap-4 justify-center items-center first-line ">
                   <div className="m-auto hover:scale-110 ease-in duration-300">
@@ -52,7 +52,7 @@ const Skills = () => {
                       alt={skill.name}
                     />
                   </div>
-                  <div className="text-gray-200 flex flex-col items-center justify-center">
+                  <div className="text-mainColor flex flex-col items-center justify-center">
                     <h3>{skill.name}</h3>
                   </div>
                 </div>
