@@ -195,6 +195,6 @@ body::-webkit-scrollbar {
     padding: 8px;
     text-align: center;
     font-size: 14px;
-    color: #5e6d96;
+    color: var(--mainColor);
     z-index: 1;
 }
