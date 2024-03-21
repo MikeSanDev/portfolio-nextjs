@@ -62,81 +62,99 @@ const Contact = () => {
                   height="200"
                 />
                 <div>
-                  <h2 className="py-3 text-accentColor">Michael Sanchez</h2>
+                  <h2 className="py-2 text-accentColor">Michael Sanchez</h2>
                   <h3 className="text-secondaryColor">Full-Stack Developer</h3>
-                  <p className="py-3 text-accentColor">
+                  <p className="py-2 text-accentColor underline">
                     Contact me directly!
                   </p>
                 </div>
               </div>
               <div>
-                <p className="pt-8 text-secondaryColor text-center">
-                  Other ways to connect:
-                </p>
-                <div className="flex items-center justify-evenly py-4">
-                  <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="footer-link"
-                      href="https://www.linkedin.com/in/michael-sanchez-825882182/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-secondaryColor text-mainColor">
-                        <FaLinkedinIn size={22} title="LinkedIn" />
-                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
-                          Linkedin
-                        </span>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="footer-link"
-                      href="https://github.com/MikeSanDev"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="rounded-full shadow-lg shadow-gray-900 bg-secondaryColor p-4 text-mainColor">
-                        <FaGithub size={22} title="Github" />
-                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
-                          Github
-                        </span>
-                      </div>
-                    </a>
-                  </div>
 
-                  <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="footer-link"
-                      href="mailto:mike.san.dev16@gmail.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-secondaryColor text-mainColor">
-                        <AiOutlineMail size={22} title="Email" />
-                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
-                          Email
-                        </span>
-                      </div>
-                    </a>
+                <div className="main_link_btns space-x-2 flex items-center">
+              <div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+              >
+                <a
+                  className="footer-link"
+                  href="https://www.linkedin.com/in/michael-sanchez-825882182/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
+                  >
+                    <FaLinkedinIn size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
+                      Linkedin
+                    </span>
                   </div>
+                </a>
+              </div>
+              <div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+              >
+                <a
+                  className="footer-link"
+                  href="https://github.com/MikeSanDev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
+                  >
+                    <FaGithub size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
+                      Github
+                    </span>
+                  </div>
+                </a>
+              </div>
 
-                  <div className="cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="footer-link"
-                      href="/assets/michael_sanchez_resume.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-secondaryColor text-mainColor">
-                        <BsFillPersonLinesFill size={22} title="Resume" />
-                        <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
-                          Resume
-                        </span>
-                      </div>
-                    </a>
+              <div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+              >
+                <a
+                  className="footer-link"
+                  href="mailto:mike.san.dev16@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
+                  >
+                    <AiOutlineMail size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
+                      Email
+                    </span>
                   </div>
-                </div>
+                </a>
+              </div>
+
+              <div
+                className="cursor-pointer hover:scale-110 ease-in duration-200"
+              >
+                <a
+                  className="footer-link"
+                  href="/assets/michael_sanchez_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}
+                  >
+                    <BsFillPersonLinesFill size={20} />
+                    <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
+                      Resume
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
               </div>
             </div>
           </div>
