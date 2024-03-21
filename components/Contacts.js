@@ -56,23 +56,22 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl "
-                  src="/assets/me-gray.png"
+                  src="/assets/me-yellow.png"
                   alt="/"
                   width="500"
-                  height="400"
+                  height="200"
                 />
                 <div>
                   <h2 className="py-3 text-accentColor">Michael Sanchez</h2>
                   <h3 className="text-secondaryColor">Full-Stack Developer</h3>
                   <p className="py-3 text-accentColor">
-                    I am available for freelance or a full-time position.
-                    Contact me to connect!
+                    Contact me directly!
                   </p>
                 </div>
               </div>
               <div>
                 <p className="pt-8 text-secondaryColor text-center">
-                  Connect With Me
+                  Other ways to connect:
                 </p>
                 <div className="flex items-center justify-evenly py-4">
                   <div className="cursor-pointer hover:scale-110 ease-in duration-300">
