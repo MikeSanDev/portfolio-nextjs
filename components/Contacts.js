@@ -52,7 +52,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
+            <div className="lg:p-3 h-full">
               <div>
                 <Image
                   className="rounded-xl "
@@ -62,7 +62,7 @@ const Contact = () => {
                   height="200"
                 />
                 <div>
-                  <h2 className="py-2 text-accentColor">Michael Sanchez</h2>
+                  <h2 className="pt-2 text-accentColor">Michael Sanchez</h2>
                   <h3 className="text-secondaryColor">Full-Stack Developer</h3>
                   <p className="py-2 text-accentColor underline">
                     Contact me directly!
@@ -71,7 +71,7 @@ const Contact = () => {
               </div>
               <div>
 
-                <div className="main_link_btns space-x-2 flex items-center">
+                <div className="main_link_btns space-x-2 flex pt-1 items-center">
               <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
               >
