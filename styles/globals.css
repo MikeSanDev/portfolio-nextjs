@@ -198,3 +198,68 @@ body::-webkit-scrollbar {
     color: var(--mainColor);
     z-index: 1;
 }
+
+
+/* Assuming you have a CSS file linked to your Next.js project */
+
+/* Hide the images for iPad and iPhone sized screens */
+@media only screen and (max-width: 500px) {
+
+
+    #block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+    }
+
+
+
+    /* Cancel animation for main_block1 */
+    .main_block1 {
+        animation: none !important;
+    }
+
+    /* Cancel animation for main_block2 */
+    .main_block2 {
+        animation: none !important;
+    }
+
+    /* Cancel animation for main_block3 */
+    .main_block3 {
+        animation: none !important;
+        display: none;
+    }
+}
+
+/* Adjust layout for iPad and iPhone sized screens */
+@media only screen and (max-width: 1024px) {
+
+    /* Change flex direction to vertical */
+    #block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+    }
+
+
+
+    /* Cancel animation for main_block1 */
+    .main_block1 {
+        animation: none !important;
+    }
+
+    /* Cancel animation for main_block2 */
+    .main_block2 {
+        animation: none !important;
+    }
+
+    /* Cancel animation for main_block3 */
+    .main_block3 {
+        animation: none !important;
+        display: none;
+    }
+}
