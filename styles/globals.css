@@ -250,6 +250,31 @@ body::-webkit-scrollbar {
     /* Cancel animation for main_block1 */
     .main_block1 {
         animation: none !important;
+        transform: none !important;
+    }
+
+    .main_text {
+        font-size: 100px;
+    }
+
+    .main_block1_btn {
+        padding: 3px;
+        width: 180px;
+        font-size: 25px;
+        margin-left: 200px;
+    }
+
+    /* .res_ipad {
+        padding: 25px;
+    }
+
+    .footer-link .react-icons {
+
+}
+
+*/
+    .block1_btn {
+        padding-bottom: 200px;
     }
 
     /* Cancel animation for main_block2 */
