@@ -238,6 +238,7 @@ body::-webkit-scrollbar {
 
     /* Change flex direction to vertical */
     #block {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -245,36 +246,39 @@ body::-webkit-scrollbar {
         margin: auto;
     }
 
-
-
     /* Cancel animation for main_block1 */
     .main_block1 {
         animation: none !important;
         transform: none !important;
+        flex-direction: column;
+        align-items: center;
     }
 
     .main_text {
         font-size: 100px;
     }
 
+    .last_name_span {
+        padding: 0;
+    }
+
+    .main_link_btns {
+        padding: 0;
+    }
+
     .main_block1_btn {
         padding: 3px;
         width: 180px;
         font-size: 25px;
-        margin-left: 200px;
+        text-align: center;
+        margin: 0;
     }
 
-    /* .res_ipad {
-        padding: 25px;
-    }
-
-    .footer-link .react-icons {
-
-}
-
-*/
     .block1_btn {
         padding-bottom: 200px;
+        flex: auto;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* Cancel animation for main_block2 */
