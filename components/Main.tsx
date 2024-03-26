@@ -144,7 +144,7 @@ const Main = () => {
               transition={{ duration: 4 }}
             >
               <Image
-                className="rounded-xl main_img"
+                className="rounded-xl circe_img"
                 src="/assets/main_circle.png"
                 alt=""
                 width={400}
