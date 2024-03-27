@@ -298,17 +298,16 @@ body::-webkit-scrollbar {
         margin-top: 50px;
     }
 
-    .main_img,
-    .circle_img {
-        animation: none !important;
-    }
-
-    /* Control the size of the images */
     .main_img {
         width: 300px;
-        /* Set the width of main_img */
+        /* Adjust as needed */
         height: auto;
-        /* Maintain aspect ratio */
+    }
+
+    .circle_img {
+        width: 400px;
+        /* Adjust as needed */
+        height: auto;
     }
 
     .circle_img {
