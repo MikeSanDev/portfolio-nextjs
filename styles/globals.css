@@ -96,6 +96,11 @@ body::-webkit-scrollbar {
     font-size: 75px;
 }
 
+.last_name {
+    font-size: 75px;
+
+}
+
 .block1_btn {
     margin-top: 15px;
 }
@@ -205,25 +210,137 @@ body::-webkit-scrollbar {
 }
 
 
-/* Assuming you have a CSS file linked to your Next.js project */
-
 /* Hide the images for iPad and iPhone sized screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
 
 
     #block {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        align-content: center;
         padding: 0;
         margin: auto;
     }
 
+    #home {
+        height: 150vh;
+    }
 
     /* Cancel animation for main_block1 */
     .main_block1 {
         animation: none !important;
+        transform: none !important;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -100px;
     }
+
+    .main_text {
+        font-size: 65px !important;
+        margin-bottom: 30px;
+
+    }
+
+    .last_name {
+        padding: 0;
+        font-size: 65px !important;
+        margin-bottom: 30px;
+
+    }
+
+    .main_link_btns {
+        padding: 0;
+    }
+
+    .main_block1_btn {
+        padding: 3px;
+        width: 150px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .block1_btn {
+
+        flex: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* Cancel animation for main_block2 */
+    .main_block2 {
+        animation: none !important;
+    }
+
+    /* Cancel animation for main_block3 */
+    .main_block3 {
+        animation: none !important;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    #block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    #home {
+        height: 150vh;
+    }
+
+    .main_block1 {
+        animation: none !important;
+        transform: none !important;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -100px;
+    }
+
+    .main_text {
+        font-size: 90px !important;
+        margin-bottom: 30px;
+
+    }
+
+    .last_name {
+        padding: 0;
+        font-size: 90px !important;
+        margin-bottom: 30px;
+
+    }
+
+    .main_link_btns {
+        padding: 0;
+    }
+
+    .main_block1_btn {
+        padding: 3px;
+        width: 150px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .block1_btn {
+
+        flex: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     /* Cancel animation for main_block2 */
     .main_block2 {
@@ -268,8 +385,9 @@ body::-webkit-scrollbar {
         font-size: 100px;
     }
 
-    .last_name_span {
+    .last_name {
         padding: 0;
+        font-size: 100px;
     }
 
     .main_link_btns {
