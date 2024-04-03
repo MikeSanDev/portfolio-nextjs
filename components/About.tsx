@@ -28,7 +28,7 @@ const About = () => {
       style={{ backgroundImage: "url('/assets/about4.png')" }}
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
+        <div className="about_text col-span-2">
           <p className="text-xl tracking-widest text-[#ffe590] uppercase">
             About
           </p>

@@ -352,6 +352,10 @@ body::-webkit-scrollbar {
         animation: none !important;
         display: none;
     }
+
+    .about_text {
+        padding: 0px 20px !important;
+    }
 }
 
 /* Adjust layout for iPad and iPhone sized screens */
