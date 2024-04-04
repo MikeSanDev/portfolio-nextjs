@@ -117,14 +117,14 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e7e7e7] p-10 ease-in duration-500"
+              ? "fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#34353A] p-10 ease-in duration-500"
               : "fixed left-[-120%] top 0  p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/assets/blue_logo.png"
+                src="/assets/yellow_logo.png"
                 alt="/"
                 width="87"
                 height="35"
@@ -137,7 +137,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 text-[#5e6d96]">
+              <p className="w-[85%] md:w-[90%] py-4 text-[#CFCDBD]">
                 Let&rsquo;s create something that will change the world.
               </p>
             </div>
@@ -147,7 +147,7 @@ const Navbar = () => {
               <Link href="/#home">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Home
                 </li>
@@ -155,7 +155,7 @@ const Navbar = () => {
               <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   About
                 </li>
@@ -163,7 +163,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Skills
                 </li>
@@ -171,7 +171,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Projects
                 </li>
@@ -179,14 +179,14 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 "
+                  className="py-4 text-sm nav-items2 text-[#ffe590] "
                 >
                   Contact
                 </li>
               </Link>
             </ul>
             <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#5e6d96]">
+              <p className="uppercase tracking-widest text-[#CFCDBD]">
                 Let&rsquo;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
