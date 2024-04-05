@@ -131,7 +131,8 @@ const Navbar = () => {
               />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer text-mainColor"
+                style={{ backgroundColor: "#e7e6de" }}
               >
                 <AiOutlineClose />
               </div>
@@ -197,8 +198,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaLinkedinIn size={22} title="LinkedIn" />
+                    <div className="rounded-full shadow-lg shadow-gray-900 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <FaLinkedinIn size={20} title="LinkedIn" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Linkedin
                       </span>
@@ -212,8 +214,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaGithub size={22} title="Github" />
+                    <div className="rounded-full shadow-lg shadow-gray-900 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <FaGithub size={20} title="Github" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Github
                       </span>
@@ -228,8 +231,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <AiOutlineMail size={22} title="Email" />
+                    <div className="rounded-full shadow-lg shadow-gray-900 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <AiOutlineMail size={20} title="Email" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Email
                       </span>
@@ -244,8 +248,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <BsFillPersonLinesFill size={22} title="Resume" />
+                    <div className="rounded-full shadow-lg shadow-gray-900 p-2 text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <BsFillPersonLinesFill size={20} title="Resume" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Resume
                       </span>

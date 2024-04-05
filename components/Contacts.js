@@ -51,7 +51,7 @@ const Contact = () => {
         <h2 className="py-4 text-slate-50">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-700 rounded-xl p-4">
             <div className="lg:p-3 h-full">
               <div>
                 <Image
@@ -82,7 +82,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaLinkedinIn size={20} />
@@ -102,7 +102,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaGithub size={20} />
@@ -123,7 +123,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <AiOutlineMail size={20} />
@@ -144,7 +144,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <BsFillPersonLinesFill size={20} />
@@ -159,7 +159,7 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="bg-[#5c4c68] col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="bg-[#5c4c68] col-span-3 w-full h-auto shadow-xl shadow-gray-700 rounded-xl lg:p-4">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-1 gap-4 w-full py-2">
@@ -205,7 +205,7 @@ const Contact = () => {
                   placeholder="Send Message"
                   value="Send Message"
                   className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
-        from-secondaryColor to-mainColor shadow-xl shadow-gray-900 rounded-xl uppercase cursor-pointer"
+        from-secondaryColor to-mainColor shadow-xl shadow-gray-600 rounded-xl uppercase cursor-pointer"
                 />
               </form>
             </div>
@@ -213,7 +213,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg  shadow-gray-400 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor">
+            <div className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor">
               <HiOutlineChevronDoubleUp size={30} className="m-auto" />
             </div>
           </Link>
