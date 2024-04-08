@@ -64,14 +64,18 @@ const Contact = () => {
                 <div>
                   <h2 className="pt-2 text-accentColor">Michael Sanchez</h2>
                   <h3 className="text-secondaryColor">Full-Stack Developer</h3>
-                  <p className="py-2 text-accentColor underline">
+                  <h3 className="text-accentColor underline">
                     Contact me directly!
-                  </p>
+                  </h3>
+                  <div className="pt-10 flex justify-center ">
+                  <h3 className=" text-accentColor">
+                  Other Links
+                  </h3>
                 </div>
               </div>
-              <div>
-
-                <div className="main_link_btns space-x-2 flex pt-1 items-center">
+              <div className="flex justify-center">
+-
+                <div className="main_link_btns space-x-4 flex pt-1 items-center">
               <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
               >
@@ -82,10 +86,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
-                    <FaLinkedinIn size={20} />
+                    <FaLinkedinIn size={25} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Linkedin
                     </span>
@@ -102,10 +106,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
-                    <FaGithub size={20} />
+                    <FaGithub size={25} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Github
                     </span>
@@ -123,10 +127,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
-                    <AiOutlineMail size={20} />
+                    <AiOutlineMail size={25} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Email
                     </span>
@@ -144,10 +148,10 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
+                    className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
-                    <BsFillPersonLinesFill size={20} />
+                    <BsFillPersonLinesFill size={25} />
                     <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg ">
                       Resume
                     </span>
@@ -156,6 +160,7 @@ const Contact = () => {
               </div>
             </div>
               </div>
+            </div>
             </div>
           </div>
           {/* right */}
@@ -195,7 +200,7 @@ const Contact = () => {
                   <label className="uppercase text-accentColor text-sm py-2">Message</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
-                    rows={10}
+                    rows={8}
                     name="message"
                     required
                   />
@@ -213,7 +218,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor">
+            <div  className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor">
               <HiOutlineChevronDoubleUp size={30} className="m-auto" />
             </div>
           </Link>
