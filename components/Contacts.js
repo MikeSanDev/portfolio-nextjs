@@ -44,7 +44,7 @@ const Contact = () => {
       id="contact"
       className="w-full  p-2 skills-bg bg-cover bg-center"
     style={{ backgroundImage: "url('/assets/bg2.svg')" }}>
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+      <div className="max-w-[1240px] m-auto px-2 pt-8 pb-0 w-full">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
           Contact
         </p>
@@ -216,9 +216,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
+        <div className="flex justify-center py-10">
           <Link href="/">
-            <div  className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor">
+            <div  className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
+            title="Back to the top">
               <HiOutlineChevronDoubleUp size={30} className="m-auto" />
             </div>
           </Link>
