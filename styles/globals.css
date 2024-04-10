@@ -175,44 +175,10 @@ body::-webkit-scrollbar {
     opacity: 1;
 }
 
-/* .tooltip {
-    display: none;
-    position: absolute;
-    opacity: 0;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: transparent;
-    border-radius: 4px;
-    padding: 8px;
-    text-align: center;
-    font-size: 14px;
-    color: #ffe590;
-    z-index: 1;
-    transition: opacity 0.9s ease-in-out;
-} */
-
-.footer-link:hover .tooltip2 {
-    display: block;
-    opacity: 1;
+.work_item {
+    width: 1000px;
+    height: auto;
 }
-
-.tooltip2 {
-    display: none;
-    position: absolute;
-    opacity: 0;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: transparent;
-    border-radius: 4px;
-    padding: 8px;
-    text-align: center;
-    font-size: 14px;
-    color: var(--mainColor);
-    z-index: 1;
-}
-
 
 /* Hide the images for iPad and iPhone sized screens */
 @media only screen and (max-width: 400px) {
