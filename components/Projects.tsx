@@ -3,6 +3,7 @@ import kinetic from "../public/assets/projects/kinetic.png";
 import chamber from "../public/assets/projects/chamber_proj.png";
 import whiteElephant from "../public/assets/projects/elephant.png";
 import spotify from "../public/assets/projects/spotify.png";
+import acc_logo from "../public/assets/acc_bg3.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -46,9 +47,9 @@ const Projects = () => {
         <div className="work_item">
         <ProjectItem
             title="Accenture"
-            backgroundImg={spotify}
+            backgroundImg={acc_logo}
             language="Packaged App Developer"
-            projectUrl="/spotify"
+            projectUrl="/accenture"
           />
           </div>
           </div> */}
