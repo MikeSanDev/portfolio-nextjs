@@ -23,14 +23,14 @@ const spotify = () => {
         <div className="col-span-4 ">
           <h2 className="text-accentColor mb-2">Overview</h2>
           <h3 className="text-text_Color">
-            I developed a real-time Spotify clone project that included user
-            authentication, responsive design, and API usage. The project was
-            designed using Material UI and built with the Spotify API to display
-            user account and playlist information. To prevent prop drilling
-            between components, I utilized the Context API. The project serves
-            as a functional and interactive clone of Spotify, enabling users to
-            enjoy the platform&rsquo;s music streaming features while also
-            providing a seamless user experience.
+
+          During my tenure as a Package App Developer Associate at Accenture, I honed my skills in asset management within IBM Maximo, an enterprise asset management system. 
+          My responsibilities spanned various facets, including user administration, where I created user profiles and permissions to ensure seamless access and security protocols. 
+          Leveraging tools like Red Hat Open Shift, I orchestrated the deployment of Maximo instances, optimizing their performance and scalability. 
+          I also utilized tools such as SQL and wrote code in Jython and Java, crafting automation scripts and escalations to streamline processes and enhance operational efficiency. 
+          Outside of the technical work, I was also a support pillar in the Social/Events for our client.
+          
+          {/* &rsquo; */}
           </h3>
           {/* <a
             href=""
@@ -40,12 +40,12 @@ const spotify = () => {
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
           </a> */}
           <a
-            href="https://github.com/MikeSanDev/Spotify-Clone"
+            href="https://www.accenture.com/us-en"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="px-6 py-1 mt-4 text-white bg-mainColor proj-btn">
-              Code
+              Accenture Website
             </button>
           </a>
           <div>
@@ -61,28 +61,19 @@ const spotify = () => {
             <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> React JS
+                <RiCodeSSlashFill className="pr-1" /> IBM Maximo
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Spotify API
+                <RiCodeSSlashFill className="pr-1" /> Red Hat Open Shift
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Context API
+                <RiCodeSSlashFill className="pr-1" /> SQL
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Node JS
+                <RiCodeSSlashFill className="pr-1" /> Java
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Express JS
-              </p>
-              <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> HTML/CSS
-              </p>
-              <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Material UI
-              </p>
-              <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Mongo DB
+                <RiCodeSSlashFill className="pr-1" /> Jython
               </p>
             </div>
           </div>
