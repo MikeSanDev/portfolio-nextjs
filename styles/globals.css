@@ -324,6 +324,7 @@ body::-webkit-scrollbar {
     }
 }
 
+
 /* Adjust layout for iPad and iPhone sized screens */
 @media only screen and (max-width: 1024px) {
 
@@ -406,4 +407,10 @@ body::-webkit-scrollbar {
         animation: none !important;
         display: none;
     }
+
+    .contact_img {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
 }

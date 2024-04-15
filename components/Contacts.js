@@ -53,18 +53,18 @@ const Contact = () => {
           {/* left */}
           <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-700 rounded-xl p-4">
             <div className="lg:p-3 h-full">
-              <div>
+              <div className="flex justify-center flex-col">
                 <Image
-                  className="rounded-xl "
+                  className="rounded-xl flex justify-center lg:justify-start contact_img"
                   src="/assets/me-yellow.png"
                   alt="/"
                   width="500"
                   height="200"
                 />
                 <div>
-                  <h2 className="pt-2 text-accentColor">Michael Sanchez</h2>
-                  <h3 className="text-secondaryColor">Full-Stack Developer</h3>
-                  <h3 className="text-accentColor underline">
+                  <h2 className="pt-6 text-accentColor flex justify-center">Michael Sanchez</h2>
+                  <h3 className="text-lg text-secondaryColor flex justify-center">Full-Stack Developer</h3>
+                  <h3 className="text-accentColor underline flex justify-center">
                     Contact me directly!
                   </h3>
                   <div className="pt-10 flex justify-center ">
