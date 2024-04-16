@@ -180,6 +180,7 @@ body::-webkit-scrollbar {
     height: auto;
 }
 
+
 /* Hide the images for iPad and iPhone sized screens */
 @media only screen and (max-width: 400px) {
 
@@ -246,6 +247,10 @@ body::-webkit-scrollbar {
     .main_block3 {
         animation: none !important;
         display: none;
+    }
+
+    .contact_text1 {
+        font-size: 40px !important;
     }
 }
 
@@ -408,9 +413,17 @@ body::-webkit-scrollbar {
         display: none;
     }
 
-    .contact_img {
-        display: flex !important;
-        justify-content: center !important;
+    .contact_text1 {
+        font-size: 50px;
+    }
+
+    .contact_text2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .contact_text3 {
+        font-size: 20px;
     }
 
 }

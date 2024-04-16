@@ -51,24 +51,24 @@ const Contact = () => {
         <h2 className="py-4 text-slate-50">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-700 rounded-xl p-4">
-            <div className="lg:p-3 h-full">
-              <div className="flex justify-center flex-col">
+          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 flex flex-col items-center justify-center w-full h-full shadow-xl shadow-gray-700 rounded-xl p-4">
+            <div className=" h-full">
+              <div className="flex flex-col items-center">
                 <Image
-                  className="rounded-xl flex justify-center lg:justify-start contact_img"
+                  className="rounded-xl contact_img"
                   src="/assets/me-yellow.png"
                   alt="/"
                   width="500"
                   height="200"
                 />
                 <div>
-                  <h2 className="pt-6 text-accentColor flex justify-center">Michael Sanchez</h2>
-                  <h3 className="text-lg text-secondaryColor flex justify-center">Full-Stack Developer</h3>
-                  <h3 className="text-accentColor underline flex justify-center">
-                    Contact me directly!
+                  <h2 className="pt-6 text-accentColor flex justify-center contact_text1">Michael Sanchez</h2>
+                  <h2 className="text-xl text-secondaryColor flex justify-center contact_text2">Full-Stack Developer</h2>
+                  <h3 className="text-accentColor underline flex justify-center contact_text3">
+                    Contact me directly
                   </h3>
                   <div className="pt-10 flex justify-center ">
-                  <h3 className=" text-accentColor">
+                  <h3 className=" text-accentColor pb-1">
                   Other Links
                   </h3>
                 </div>
