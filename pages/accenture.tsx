@@ -16,7 +16,7 @@ const spotify = () => {
           />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="mb-2 py-2 pl-6">Accenture</h2>
-          <p className="mb-2 pb-3 pl-6">Packaged App Development Associate</p>
+          <p className="mb-2 pb-3 pl-6">Packaged Application Development Associate</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -24,7 +24,7 @@ const spotify = () => {
           <h2 className="text-accentColor mb-2">Overview</h2>
           <h3 className="text-text_Color">
 
-          During my tenure as a Package App Developer Associate at Accenture, I honed my skills in asset management within IBM Maximo, an enterprise asset management system. 
+          During my tenure as an Packaged App Developer at Accenture, I honed my skills in asset management within IBM Maximo, an enterprise asset management system. 
           My responsibilities spanned various facets, including user administration, where I created user profiles and permissions to ensure seamless access and security protocols. 
           Leveraging tools like Red Hat Open Shift, I orchestrated the deployment of Maximo instances, optimizing their performance and scalability. 
           I also utilized tools such as SQL and wrote code in Jython and Java, crafting automation scripts and escalations to streamline processes and enhance operational efficiency. 
@@ -56,7 +56,7 @@ const spotify = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
@@ -65,6 +65,9 @@ const spotify = () => {
               </p>
               <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Red Hat Open Shift
+              </p>
+              <p className="text-secondBg py-2 flex items-center">
+                <RiCodeSSlashFill className="pr-1" /> Azure Dev Ops
               </p>
               <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> SQL
