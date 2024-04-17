@@ -42,7 +42,7 @@ const Projects = () => {
             projectUrl="/spotify"
           />
         </div>
-        {/* <div className=" py-8 work_exp ">
+        <div className=" py-8 work_exp ">
         <h2 className="py-4 text-slate-50 ">Work Experience</h2>
         <div className="work_item">
         <ProjectItem
@@ -52,7 +52,7 @@ const Projects = () => {
             projectUrl="/accenture"
           />
           </div>
-          </div> */}
+          </div> 
       </div>
     </div>
   );

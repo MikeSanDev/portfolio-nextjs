@@ -59,7 +59,7 @@ const whiteElephant = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used
@@ -78,16 +78,10 @@ const whiteElephant = () => {
                 <RiCodeSSlashFill className="pr-1" /> Figma
               </p>
               <p className="text-secondBg  py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> HTML
+                <RiCodeSSlashFill className="pr-1" /> HTML/CSS
               </p>
               <p className="text-secondBg  py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> CSS
-              </p>
-              <p className="text-secondBg  py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Git
-              </p>
-              <p className="text-secondBg  py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Github
+                <RiCodeSSlashFill className="pr-1" /> Git/Github
               </p>
             </div>
           </div>
