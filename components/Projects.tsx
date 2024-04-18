@@ -45,11 +45,12 @@ const Projects = () => {
         <div className=" py-8 work_exp ">
         <h2 className="py-4 text-slate-50 ">Work Experience</h2>
         <div className="work_item">
-        <ProjectItem
+        <ProjectItem 
             title="Accenture"
             backgroundImg={acc_logo}
             language="Packaged App Developer"
             projectUrl="/accenture"
+        
           />
           </div>
           </div> 
