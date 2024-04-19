@@ -139,7 +139,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-[#CFCDBD]">
-              "With each line of code, we pave the path to a more remarkable future."
+                Let&rsquo;s create something that will change the world.
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-2 text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}>
                       <FaLinkedinIn size={23} title="LinkedIn" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -214,7 +214,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-2 text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}>
                       <FaGithub size={23} title="Github" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -231,7 +231,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-2 text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}>
                       <AiOutlineMail size={23} title="Email" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -248,7 +248,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-2 text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}>
                       <BsFillPersonLinesFill size={23} title="Resume" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
