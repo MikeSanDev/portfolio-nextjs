@@ -14,15 +14,15 @@ const spotify = () => {
           alt="Spotify dashboard Gif"
           layout="fill"
           />
-        <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-          <h2 className="mb-2 py-2 pl-6">Accenture</h2>
-          <p className="mb-2 pb-3 pl-6">Packaged Application Development Associate</p>
+        <div className="proj_header_text absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
+          <h2 className="proj_title mb-2 py-2 pl-6">Accenture</h2>
+          <p className="proj_subtext mb-2 pb-3 pl-6">Packaged Application Development Associate</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-accentColor mb-2">Overview</h2>
-          <h3 className="text-text_Color">
+          <h2 className="ov_title text-accentColor mb-2">Overview</h2>
+          <h3 className="ov_text text-text_Color">
 
           During my tenure as an Packaged App Developer at Accenture, I honed my skills in asset management within IBM Maximo, an enterprise asset management system. 
           My responsibilities spanned various facets, including user administration, where I created user profiles and permissions to ensure seamless access and security protocols. 
@@ -39,6 +39,7 @@ const spotify = () => {
             >
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
           </a> */}
+          <div className="back_project_link">
           <a
             href="https://www.accenture.com/us-en"
             target="_blank"
@@ -48,9 +49,8 @@ const spotify = () => {
               Accenture Website
             </button>
           </a>
-          <div>
             <Link href="/#projects">
-              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
+              <p className="underline cursor-pointer text-mainColor py-4">
                 Back To Projects
               </p>
             </Link>
