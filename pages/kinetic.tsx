@@ -17,14 +17,14 @@ const kinetic = () => {
     
     />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-          <h2 className="mb-2 py-2 pl-6">Kinetic Footwear</h2>
-          <p className="mb-2 pb-3 pl-6"> React JS | Framer Motion | Netlify </p>
+          <h2 className="proj_title mb-2 py-2 pl-6">Kinetic Footwear</h2>
+          <p className="proj_subtext mb-2 pb-3 pl-6"> React JS | Framer Motion | Netlify </p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className=" text-accentColor mb-3">Overview</h2>
-          <h3 className=" text-text_Color">
+          <h2 className="ov_title text-accentColor mb-3">Overview</h2>
+          <h3 className="ov_text text-text_Color">
             I designed and developed a conceptual website for a shoe company
             that specializes in chargeable sneakers. As the project lead, I
             incorporated engaging animations and seamless page transitions using
@@ -38,12 +38,14 @@ const kinetic = () => {
             a success, demonstrating my ability to create engaging websites that
             meet client needs and user expectations.
           </h3>
+          <div className="back_project_link">
+            <div className="proj_btns">
           <a
             href="https://kineticfootwear.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-1 mt-5 mr-8 text-white bg-mainColor proj-btn">
+            <button className="px-8 py-1 mt-5 mr-8 text-white bg-mainColor proj-btn1">
               Demo
             </button>
           </a>
@@ -52,11 +54,11 @@ const kinetic = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-1 mt-5 text-white bg-mainColor proj-btn">
+            <button className="px-8 py-1 mt-5 text-white bg-mainColor proj-btn2">
               Code
             </button>
           </a>
-          <div>
+          </div>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects

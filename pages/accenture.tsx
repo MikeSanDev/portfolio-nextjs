@@ -39,7 +39,7 @@ const spotify = () => {
             >
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
           </a> */}
-          <div className="back_project_link">
+          <div >
           <a
             href="https://www.accenture.com/us-en"
             target="_blank"
