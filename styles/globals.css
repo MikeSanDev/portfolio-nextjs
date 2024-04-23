@@ -253,8 +253,13 @@ body::-webkit-scrollbar {
         font-size: 40px !important;
     }
 
-    .proj_header_text {
+    .project-header-title {
         text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .proj-btn {
+        margin-right: 0;
     }
 
     .proj_title {
@@ -280,6 +285,12 @@ body::-webkit-scrollbar {
     .proj-btn {
         display: flex;
         justify-content: center;
+    }
+
+    .proj_btns {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
     .back_project_link {
