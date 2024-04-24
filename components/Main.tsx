@@ -27,7 +27,7 @@ const Main = () => {
             <div className="main_block1 flex flex-col w-1/3 ">
             <h1 className="py-1 main_text text-secondaryColor">
               Michael            </h1>
-               <h1 className="last_name py-1 pl-3 text-secondaryColor">Sanchez</h1>
+              <h1 className="last_name py-1 pl-3 text-secondaryColor">Sanchez</h1>
             </div>
             <div className="main_link_btns space-x-2 flex items-center justify-between pl-6">
               <div
