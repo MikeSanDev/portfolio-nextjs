@@ -66,7 +66,7 @@ const kinetic = () => {
             </Link>
           </div>
         </div>
-        <div className=" bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className=" bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used

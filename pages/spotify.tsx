@@ -15,14 +15,14 @@ const spotify = () => {
           layout="fill"
           />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-          <h2 className="mb-2 py-2 pl-6">Spotify Clone</h2>
-          <p className="mb-2 pb-3 pl-6">React JS | Spotify API | Context API</p>
+          <h2 className="proj_title mb-2 py-2 pl-6">Spotify Clone</h2>
+          <p className="proj_subtext mb-2 pb-3 pl-6">React JS | Spotify API | Context API</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
-          <h2 className="text-accentColor mb-2">Overview</h2>
-          <h3 className="text-text_Color">
+          <h2 className="ov_title text-accentColor mb-2">Overview</h2>
+          <h3 className="ov_text text-text_Color">
             I developed a real-time Spotify clone project that included user
             authentication, responsive design, and API usage. The project was
             designed using Material UI and built with the Spotify API to display
@@ -39,6 +39,8 @@ const spotify = () => {
             >
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
           </a> */}
+        <div className="back_project_link">
+            <div className="proj_btns">
           <a
             href="https://github.com/MikeSanDev/Spotify-Clone"
             target="_blank"
@@ -48,7 +50,7 @@ const spotify = () => {
               Code
             </button>
           </a>
-          <div>
+          </div>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
@@ -56,7 +58,7 @@ const spotify = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 tech_block tech_block sm:col-span-2 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">

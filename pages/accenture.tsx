@@ -39,7 +39,8 @@ const spotify = () => {
             >
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button>
           </a> */}
-          <div >
+        <div className="back_project_link">
+            <div className="proj_btns">
           <a
             href="https://www.accenture.com/us-en"
             target="_blank"
@@ -49,6 +50,7 @@ const spotify = () => {
               Accenture Website
             </button>
           </a>
+          </div>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4">
                 Back To Projects
@@ -56,7 +58,7 @@ const spotify = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
