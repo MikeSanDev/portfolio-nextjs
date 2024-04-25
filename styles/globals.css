@@ -251,6 +251,7 @@ body::-webkit-scrollbar {
 
     .contact_text1 {
         font-size: 40px !important;
+        text-align: center !important;
     }
 
     .project-header-title {

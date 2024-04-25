@@ -52,7 +52,7 @@ const Skills = () => {
                       alt={skill.name}
                     />
                   </div>
-                  <div className="text-accentColor flex flex-col items-center justify-center">
+                  <div className="text-mainColor flex flex-col items-center justify-center">
                     <h3>{skill.name}</h3>
                   </div>
                 </div>
