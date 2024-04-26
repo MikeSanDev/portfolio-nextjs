@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 }
 
 #home {
-    height: 120vh !important;
+    height: 100vh !important;
 }
 
 /***************** Nav buttons hover *******************/
