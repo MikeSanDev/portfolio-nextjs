@@ -8,8 +8,8 @@ const Skills = () => {
     threshold: 0.2, // Trigger animation when the component is 20% visible
   });
   const skills = [
-    { name: "HTML", imageSrc: "/assets/skills/html.png" },
-    { name: "CSS", imageSrc: "/assets/skills/css.png" },
+    { name: "Maximo", imageSrc: "/assets/skills/ibm.png" },
+    { name: "Redhat Openshift", imageSrc: "/assets/skills/redhat.png" },
     { name: "Javascript", imageSrc: "/assets/skills/javascript.png" },
     { name: "Node JS", imageSrc: "/assets/skills/node.png" },
     { name: "React JS", imageSrc: "/assets/skills/react.png" },
@@ -43,12 +43,12 @@ const Skills = () => {
                 // exit={{ opacity: 0, x: 100 }}
                 // transition={{ duration: .5, delay: index * 0.6 }}
               >
-                <div className="grid grid-cols-2 gap-4 justify-center items-center first-line ">
+                <div className="grid grid-cols-2 gap-4 justify-center items-center content-center   first-line ">
                   <div className="m-auto hover:scale-110 ease-in duration-300">
                     <Image
                       src={skill.imageSrc}
-                      width="64"
-                      height="64"
+                      width="65"
+                      height="65"
                       alt={skill.name}
                     />
                   </div>
