@@ -17,7 +17,7 @@ const Skills = () => {
     { name: "Javascript", imageSrc: "/assets/skills/javascript.png" },
     { name: "Node JS", imageSrc: "/assets/skills/node.png" },
     { name: "Mongo DB", imageSrc: "/assets/skills/mongo.png" },
-    { name: "Github", imageSrc: "/assets/skills/github.png" },
+    { name: "Microsoft Azure", imageSrc: "/assets/skills/azure.png" },
     { name: "Tailwind", imageSrc: "/assets/skills/tailwind.png" },
     { name: "Bootstrap", imageSrc: "/assets/skills/bootstrap.png" },
   ];
@@ -52,7 +52,7 @@ const Skills = () => {
                       alt={skill.name}
                     />
                   </div>
-                  <div className="text-mainColor flex flex-col items-center justify-center">
+                  <div className="text-mainColor flex flex-col items-center text-center justify-center">
                     <h3>{skill.name}</h3>
                   </div>
                 </div>
