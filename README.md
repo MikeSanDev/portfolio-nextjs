@@ -23,17 +23,20 @@ My personal website with my contacts, skills and projects. I built this fully re
 </br>
 
 ### Skills </br>
+<img width="1420" alt="Screen Shot 2024-05-07 at 9 07 22 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/7fe47c4f-7d3f-4953-8f43-9384e0af5b2d">
 
 
 
 </br>
 
 ### Projects </br>
+<img width="1902" alt="Screen Shot 2024-05-07 at 9 07 58 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/e3cdc72e-1523-4215-aa8b-7218d86c7e3e">
 
 
 </br>
 
 ### Contact </br>
+<img width="1424" alt="Screen Shot 2024-05-07 at 10 03 06 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/2d4ecfc3-a073-4d9f-9e9d-3c7c094ed043">
 
 
 </br>
