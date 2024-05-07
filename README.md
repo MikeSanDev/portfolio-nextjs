@@ -11,29 +11,30 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 
 ### Home Page  </br>
-![titile_screen](https://user-images.githubusercontent.com/96930354/227096252-b1511f06-7971-422e-87ee-04ca68a36001.gif)
+<img width="1425" alt="Screen Shot 2024-05-02 at 11 37 46 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/9e8a76e9-8352-41e9-a589-1508ccb4a58c">
+
 
 </br>
 
 ### About Page </br>
+<img width="1424" alt="Screen Shot 2024-05-02 at 11 38 11 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/e91b2e75-b8b9-4163-b212-1664e90f585a">
 
-![about2](https://user-images.githubusercontent.com/96930354/227099282-843d1e04-e16a-4f0f-a26d-de85a1bec3e0.gif)
 
 </br>
 
 ### Skills </br>
-![skills](https://user-images.githubusercontent.com/96930354/227097491-c9b8b9fc-cae3-43d6-9cc5-2ca09d1408c5.gif)
+
 
 
 </br>
 
 ### Projects </br>
-![projects2](https://user-images.githubusercontent.com/96930354/227099422-52158d45-e52e-403e-80fd-726d16957c1f.gif)
+
 
 </br>
 
 ### Contact </br>
-![contact (1)](https://user-images.githubusercontent.com/96930354/227100147-11d0d6b3-11ce-41ae-836e-7ba935537265.gif)
+
 
 </br>
 
