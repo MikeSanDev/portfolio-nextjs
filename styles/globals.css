@@ -193,6 +193,7 @@ body::-webkit-scrollbar {
         align-content: center;
         padding: 0;
         margin-bottom: 100px !important;
+        height: 120vh;
     }
 
 
@@ -202,6 +203,7 @@ body::-webkit-scrollbar {
         transform: none !important;
         flex-direction: column;
         align-items: center;
+
     }
 
     .main_text {
@@ -220,6 +222,10 @@ body::-webkit-scrollbar {
     .main_link_btns {
         padding: 0;
     }
+
+    /* .main_img {
+  
+    } */
 
     .main_block1_btn {
         padding: 3px;
@@ -241,6 +247,7 @@ body::-webkit-scrollbar {
     /* Cancel animation for main_block2 */
     .main_block2 {
         animation: none !important;
+        margin-top: 0 !important;
     }
 
     /* Cancel animation for main_block3 */
