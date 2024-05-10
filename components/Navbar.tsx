@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#d4d1cf");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("#CFCDBD");
+  const [linkColor, setLinkColor] = useState("#D3AD63");
   const router = useRouter();
 
   // changes nav button color on individual project pages
@@ -23,10 +23,10 @@ const Navbar = () => {
       router.asPath === "/spotify"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setLinkColor("#CFCDBD");
     } else {
       setNavBg("transparent");
-      setLinkColor("#ffffff");
+      setLinkColor("#D3AD63");
     }
   }, [router]);
 
@@ -50,8 +50,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-50px shadow-xl z-[100] pb-8"
+          : "fixed w-full h-20px z-[100]"
       }
     >
       <motion.div
@@ -66,20 +66,21 @@ const Navbar = () => {
           x: 0,
           opacity: 1,
         }}
-        className="flex justify-between items-center w-full h-full px-2 2xl:px-14"
+        className="flex justify-between items-center w-full h-full px-6 2xl:px-14"
       >
-        <Link href="/">
+        <Link href="/#home">
           <Image
+            className="pl-2"
             src="/assets/yellow_logo.png"
             alt="/"
-            width="100"
-            height="40"
+            width="80"
+            height="50"
           />
         </Link>
         <div>
           <ul
             style={{ color: `${linkColor}` }}
-            className="hidden md:flex nav-items pr-6 "
+            className="hidden md:flex nav-items pr-4 "
           >
             <Link href="/#home">
               <li className="ml-10 text-sm uppercase">Home</li>
@@ -116,27 +117,28 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e7e7e7] p-10 ease-in duration-500"
+              ? "fixed left-0 top 0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#34353A] p-10 ease-in duration-500"
               : "fixed left-[-120%] top 0  p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/assets/blue_logo.png"
+                src="/assets/yellow_logo.png"
                 alt="/"
                 width="87"
                 height="35"
               />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer text-mainColor"
+                style={{ backgroundColor: "#e7e6de" }}
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 text-[#5e6d96]">
+              <p className="w-[85%] md:w-[90%] py-4 text-[#CFCDBD]">
                 Let&rsquo;s create something that will change the world.
               </p>
             </div>
@@ -146,7 +148,7 @@ const Navbar = () => {
               <Link href="/#home">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Home
                 </li>
@@ -154,7 +156,7 @@ const Navbar = () => {
               <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   About
                 </li>
@@ -162,7 +164,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Skills
                 </li>
@@ -170,7 +172,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2"
+                  className="py-4 text-sm nav-items2 text-[#ffe590]"
                 >
                   Projects
                 </li>
@@ -178,17 +180,17 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 "
+                  className="py-4 text-sm nav-items2 text-[#ffe590] "
                 >
                   Contact
                 </li>
               </Link>
             </ul>
-            <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#5e6d96]">
+            <div className="pt-10 flex justify-center flex-col">
+              <p className="uppercase flex justify-center tracking-widest text-[#CFCDBD]">
                 Let&rsquo;s Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-center my-4 w-full sm:w-[80%]">
                 <div className="cursor-pointer hover:scale-110 ease-in duration-300">
                   <a
                     className="footer-link"
@@ -196,8 +198,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaLinkedinIn size={22} title="LinkedIn" />
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <FaLinkedinIn size={23} title="LinkedIn" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Linkedin
                       </span>
@@ -211,8 +214,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <FaGithub size={22} title="Github" />
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <FaGithub size={23} title="Github" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Github
                       </span>
@@ -227,8 +231,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <AiOutlineMail size={22} title="Email" />
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <AiOutlineMail size={23} title="Email" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Email
                       </span>
@@ -243,8 +248,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 text-[#5e6d96]">
-                      <BsFillPersonLinesFill size={22} title="Resume" />
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    style={{ backgroundColor: "#e7e6de" }}>
+                      <BsFillPersonLinesFill size={23} title="Resume" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Resume
                       </span>
