@@ -17,7 +17,7 @@ const ProjectItem = ({
   return (
     <div
       className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r 
-        from-secondaryColor to-accentColor"
+        from-[#d5bcb7] to-[#5e6d96]"
     >
       <Image
         className="rounded-xl group-hover:opacity-10"
@@ -27,12 +27,12 @@ const ProjectItem = ({
         height="400"
       />
       <div className="hidden group-hover:block absolute ">
-        <h3 className="text-2xl text-secondBg tracking-wider text-center">
+        <h3 className="text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-secondBg text-center">{language}</p>
+        <p className="pb-4 pt-2 text-white text-center">{language}</p>
         <Link href={projectUrl}>
-          <div className="text-center py-3 rounded-lg bg-white text-mainColor font-bold text-lg cursor-pointer flex items-center justify-center h-full w-full">
+          <div className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer flex items-center justify-center h-full w-full">
             More Info
           </div>
         </Link>
