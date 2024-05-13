@@ -53,6 +53,12 @@ const About = () => {
           >
             Check out some of my latest projects I have been working on.
           </Link>
+          <br/>
+          {/* <Link href="/dance">
+              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
+                Dance Databank
+              </p>
+          </Link> */}
         </div>
         <motion.div
           ref={ref}
