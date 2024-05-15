@@ -26,12 +26,12 @@ const spotify = () => {
         <div className="back_project_link">
             <div className="proj_btns">
           <a
-            href="https://www.accenture.com/us-en"
+            href="https://www.instagram.com/_.kuya.mike._/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="px-6 py-1 mt-4 text-white bg-mainColor proj-btn">
-              Accenture Website
+              Instagram
             </button>
           </a>
           </div>
