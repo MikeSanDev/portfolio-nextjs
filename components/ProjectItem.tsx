@@ -16,7 +16,7 @@ const ProjectItem = ({
 }) => {
   return (
     <div
-      className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r 
+      className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-900 rounded-xl p-4 group hover:bg-gradient-to-r 
         from-secondaryColor to-accentColor"
     >
       <Image

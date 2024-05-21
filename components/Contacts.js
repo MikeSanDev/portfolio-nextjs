@@ -51,7 +51,7 @@ const Contact = () => {
         <h2 className="py-4 text-slate-50">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 flex flex-col items-center justify-center w-full h-full shadow-xl shadow-gray-700 rounded-xl p-4">
+          <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 flex flex-col items-center justify-center w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4">
             <div className=" h-full">
               <div className="flex flex-col items-center">
                 <Image
@@ -164,7 +164,7 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="bg-[#5c4c68] col-span-3 w-full h-auto shadow-xl shadow-gray-700 rounded-xl lg:p-4">
+          <div className="bg-[#5c4c68] col-span-3 w-full h-auto shadow-xl shadow-gray-900 rounded-xl lg:p-4">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-1 gap-4 w-full py-2">
@@ -210,7 +210,7 @@ const Contact = () => {
                   placeholder="Send Message"
                   value="Send Message"
                   className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
-        from-secondaryColor to-mainColor shadow-xl shadow-gray-600 rounded-xl uppercase cursor-pointer"
+        from-mainColor to-[#5c4c68] shadow-xl shadow-gray-800 rounded-xl uppercase cursor-pointer"
                 />
               </form>
             </div>
@@ -218,7 +218,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-10">
           <Link href="/">
-            <div  className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
+            <div  className="rounded-full shadow-lg  shadow-gray-900 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
             title="Back to the top">
               <HiOutlineChevronDoubleUp size={30} className="m-auto" />
             </div>
