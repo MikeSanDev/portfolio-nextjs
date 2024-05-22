@@ -40,7 +40,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaLinkedinIn size={20} />
@@ -60,7 +60,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaGithub className="res_icon" size={20} />
@@ -81,7 +81,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <AiOutlineMail size={20} />
@@ -102,7 +102,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-400 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <BsFillPersonLinesFill size={20} />
@@ -114,7 +114,7 @@ const Main = () => {
               </div>
             </div>
             <div 
-            className="block1_btn flex justify-center">
+            className="block1_btn flex justify-center pt-1">
             <Link href="/#contact">
               <button className="main_block1_btn ">Contact Me</button>
               </Link>
