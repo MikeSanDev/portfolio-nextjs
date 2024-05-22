@@ -39,7 +39,7 @@ const Skills = () => {
                 key={index} // <-- Assigning the index as the key
                 initial={{ opacity: 0, x: -42 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="bg-[#5c4c68] p-6 drop-shadow-xl rounded-xl hover:scale-110 ease-in duration-300"
+                className="bg-[#5c4c68] p-6 drop-shadow-xl shadow-lg  shadow-gray-900 rounded-xl hover:scale-110 ease-in duration-300"
                 // exit={{ opacity: 0, x: 100 }}
                 // transition={{ duration: .5, delay: index * 0.6 }}
               >
