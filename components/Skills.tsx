@@ -24,14 +24,14 @@ const Skills = () => {
 
   return (
     <div id="skills" 
-    className="w-full lg:h-screen p-2 skills-bg bg-cover bg-center"
+    className="w-full py-16 px-6  lg:h-screen p-2 skills-bg bg-cover bg-center"
     style={{ backgroundImage: "url('/assets/bg2.svg')" }}
     >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#ffe590]">
           Skills
         </p>
-        <h2 className="py-4 text-slate-50">Tools I&rsquo;ve Recently Used</h2>
+        <h2 className="py-2 text-l  text-slate-50">Tools I&rsquo;ve Recently Used</h2>
         <AnimatePresence>
           <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {skills.map((skill, index) => (

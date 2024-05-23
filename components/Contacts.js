@@ -45,10 +45,10 @@ const Contact = () => {
       className="w-full  p-2 skills-bg bg-cover bg-center"
     style={{ backgroundImage: "url('/assets/bg2.svg')" }}>
       <div className="max-w-[1240px] m-auto px-2 pt-8 pb-0 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#ffe590]">
+        <p className="text-xl px-2 tracking-widest uppercase text-[#ffe590]">
           Contact
         </p>
-        <h2 className="py-4 text-slate-50">Get In Touch</h2>
+        <h2 className="py-2 px-2 text-slate-50">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 flex flex-col items-center justify-center w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4">

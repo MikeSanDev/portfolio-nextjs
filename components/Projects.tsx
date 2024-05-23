@@ -12,10 +12,10 @@ const Projects = () => {
     className="w-full  p-2 skills-bg bg-cover bg-center"
     style={{ backgroundImage: "url('/assets/bg1.svg')" }}>
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#ffe590]">
+        <p className="text-xl px-2 tracking-widest uppercase text-[#ffe590]">
           Projects & Experience
         </p>
-        <h2 className="py-4 text-slate-50 ">What I&rsquo;ve Built </h2>
+        <h2 className="py-2 px-2 text-slate-50 ">What I&rsquo;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Kinetic Footwear"
@@ -43,7 +43,7 @@ const Projects = () => {
           />
         </div>
         <div className=" py-8 work_exp ">
-        <h2 className="py-4 text-slate-50 ">Work Experience</h2>
+        <h2 className="p-2 text-slate-50 ">Work Experience</h2>
         <div className="work_item">
         <ProjectItem 
             title="Accenture"
