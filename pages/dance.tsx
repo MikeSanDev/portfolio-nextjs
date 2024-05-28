@@ -3,7 +3,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
 
-const spotify = () => {
+const dance = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
@@ -21,7 +21,7 @@ const spotify = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-
+            <p className="text-white">Check out some of my recent videos here: </p>
         <div className="back_project_link">
             <div className="proj_btns">
           <a
@@ -36,6 +36,7 @@ const spotify = () => {
           </div>
           </div>
         </div>
+      </div>
         <div className="flex justify-center py-10">
           <Link href="/">
             <div  className="rounded-full shadow-lg  shadow-gray-500 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
@@ -44,9 +45,8 @@ const spotify = () => {
             </div>
           </Link>
         </div>
-      </div>
     </div>
   );
 };
 
-export default spotify;
+export default dance;
