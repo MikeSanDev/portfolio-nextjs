@@ -199,7 +199,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
-                    style={{ backgroundColor: "#e7e6de" }}>
+                      style={{ backgroundColor: "#e7e6de" }}>
                       <FaLinkedinIn size={23} title="LinkedIn" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Linkedin
@@ -215,7 +215,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
-                    style={{ backgroundColor: "#e7e6de" }}>
+                      style={{ backgroundColor: "#e7e6de" }}>
                       <FaGithub size={23} title="Github" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Github
@@ -232,7 +232,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
-                    style={{ backgroundColor: "#e7e6de" }}>
+                      style={{ backgroundColor: "#e7e6de" }}>
                       <AiOutlineMail size={23} title="Email" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Email
@@ -244,12 +244,12 @@ const Navbar = () => {
                 <div className="cursor-pointer hover:scale-110 ease-in duration-300">
                   <a
                     className="footer-link"
-                    href="/assets/michael_sanchez_resume.pdf"
+                    href="/assets/michael_sanchez_resume1.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
-                    style={{ backgroundColor: "#e7e6de" }}>
+                      style={{ backgroundColor: "#e7e6de" }}>
                       <BsFillPersonLinesFill size={23} title="Resume" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
                         Resume
