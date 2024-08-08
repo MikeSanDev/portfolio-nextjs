@@ -74,7 +74,6 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex justify-center">
--
                 <div className="main_link_btns space-x-4 flex pt-1 items-center">
               <div
                 className="cursor-pointer hover:scale-110 ease-in duration-200"
@@ -143,7 +142,7 @@ const Contact = () => {
               >
                 <a
                   className="footer-link"
-                  href="/assets/michael_sanchez_resume.pdf"
+                  href="/assets/michael_sanchez_resume1.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
