@@ -13,7 +13,7 @@ const whiteElephant = () => {
           src="/assets/projects/white.gif"
           alt="White Elephant Gif"
           layout="fill"
-          />
+        />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="proj_title mb-2 py-2 pl-6">White Elephant</h2>
           <p className="proj_subtext mb-2 pb-3 pl-6"> Java | Spring Boot | MySQL </p>
@@ -43,15 +43,15 @@ const whiteElephant = () => {
             rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8 text-white ">Demo</button></a> */}
           <div className="back_project_link">
-          <a
-            href="https://github.com/MikeSanDev/White-Elephant"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="px-8 py-1 mt-4 text-white bg-mainColor proj-btn ">
-              Code
-            </button>
-          </a>
+            <a
+              href="https://github.com/MikeSanDev/White-Elephant"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-8 mr-4 py-1 mt-4 text-white bg-mainColor proj-btn ">
+                Code
+              </button>
+            </a>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects

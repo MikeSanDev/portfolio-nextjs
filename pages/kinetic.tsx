@@ -10,12 +10,12 @@ const kinetic = () => {
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/40 z-10" />
         <Image
-      className="absolute inset-0 w-full h-full object-cover z-1"
-      src="/assets/projects/kinetic_gif.gif"
-      alt="Kinetic Footwear Gif"
-      layout="fill"
-    
-    />
+          className="absolute inset-0 w-full h-full object-cover z-1"
+          src="/assets/projects/kinetic_gif.gif"
+          alt="Kinetic Footwear Gif"
+          layout="fill"
+
+        />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="proj_title mb-2 py-2 pl-6">Kinetic Footwear</h2>
           <p className="proj_subtext mb-2 pb-3 pl-6"> React JS | Framer Motion | Netlify </p>
@@ -40,25 +40,25 @@ const kinetic = () => {
           </h3>
           <div className="back_project_link">
             <div className="proj_btns">
-          <a
-            href="https://kineticfootwear.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="px-8 py-1 mt-5 mr-8 text-white bg-mainColor proj-btn1">
-              Demo
-            </button>
-          </a>
-          <a
-            href="https://github.com/MikeSanDev/Kinetic-React"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="px-8 py-1 mt-5 text-white bg-mainColor proj-btn2">
-              Code
-            </button>
-          </a>
-          </div>
+              <a
+                href="https://kineticfootwear.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="px-8 py-1 mt-5 mr-8 text-white bg-mainColor proj-btn1">
+                  Website
+                </button>
+              </a>
+              <a
+                href="https://github.com/MikeSanDev/Kinetic-React"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="px-8 py-1 mt-5 text-white bg-mainColor proj-btn2">
+                  Code
+                </button>
+              </a>
+            </div>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
