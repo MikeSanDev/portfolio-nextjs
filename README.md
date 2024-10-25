@@ -3,11 +3,8 @@ My personal website with my contacts, skills and projects. I built this fully re
 
 ### Built With:
 * Next.js
-* HTML/CSS
-* Javascript
-* Framer Motion
 * Tailwind CSS
-
+* Framer Motion
 
 ### Home Page  </br>
 <img width="1425" alt="Screen Shot 2024-05-02 at 11 37 46 AM" src="https://github.com/MikeSanDev/portfolio-nextjs/assets/96930354/9e8a76e9-8352-41e9-a589-1508ccb4a58c">
