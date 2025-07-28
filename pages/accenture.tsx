@@ -50,12 +50,12 @@ const spotify = () => {
               Accenture Website
             </button>
           </a>
-          </div>
             <Link href="/#projects">
               <p className="underline cursor-pointer text-mainColor py-4">
                 Back To Projects
               </p>
             </Link>
+          </div>
           </div>
         </div>
         <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
@@ -69,16 +69,22 @@ const spotify = () => {
                 <RiCodeSSlashFill className="pr-1" /> Red Hat Open Shift
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Azure Dev Ops
+                <RiCodeSSlashFill className="pr-1" /> Microsoft Azure Services
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> SQL
+                <RiCodeSSlashFill className="pr-1" /> Microsoft Visio
               </p>
               <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Java
               </p>
               <p className="text-secondBg py-2 flex items-center">
+                <RiCodeSSlashFill className="pr-1" /> Python
+              </p>
+              <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Jython
+              </p>
+              <p className="text-secondBg py-2 flex items-center">
+                <RiCodeSSlashFill className="pr-1" /> SQL
               </p>
             </div>
           </div>

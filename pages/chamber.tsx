@@ -39,7 +39,7 @@ const chamber = () => {
           <div className="back_project_link">
             <div className="proj_btns">
           <a
-            href="https://chamber-io.netlify.com/"
+            href="https://chamber-io.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
