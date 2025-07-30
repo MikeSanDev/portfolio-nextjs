@@ -377,7 +377,10 @@ body::-webkit-scrollbar {
         flex-direction: column;
         align-items: center;
     }
-
+  .contact_text1 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
 
     /* Cancel animation for main_block2 */
     .main_block2 {
