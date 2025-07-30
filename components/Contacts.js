@@ -208,7 +208,7 @@ const Contact = () => {
                   type="submit"
                   placeholder="Send Message"
                   value="Send Message"
-                  className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r 
+                  className="w-full p-4 text-gray-100 mt-8 bg-gradient-to-r 
         from-mainColor to-[#5c4c68] shadow-xl shadow-gray-800 rounded-xl uppercase cursor-pointer"
                 />
               </form>
