@@ -25,7 +25,7 @@ const About = () => {
     <div
       id="about"
       className="w-full md:h-screen p-2 flex items-center py-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/about4.png')" }}
+      style={{ backgroundImage: "url('/assets/bg1.svg')" }}
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="about_text col-span-2">

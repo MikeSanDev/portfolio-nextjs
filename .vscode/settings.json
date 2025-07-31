@@ -1,0 +1,44 @@
+  {// Tailwind CSS @ rules (@tailwind, @apply, etc.) are unknown to vanilla CSS linter.
+  // This tells VS Code to ignore those warnings.
+  "css.lint.unknownAtRules": "ignore",
+
+  // Enables inline suggestions inside strings (e.g., className="...")
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // Automatically format files when you save.
+  // Usually runs Prettier or any formatter you have configured.
+  "editor.formatOnSave": true,
+
+  // Tell VS Code to run ESLint on these file types.
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+
+  // Tell Tailwind IntelliSense to treat these languages properly for autocomplete.
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "typescript"
+  },
+
+  // Files and folders to hide from the Explorer and search
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+
+  // How long in milliseconds to delay hover popups (like type info)
+  "editor.hover.delay": 300,
+
+  // Allow snippets to coexist with quick suggestions without blocking them
+  "editor.suggest.snippetsPreventQuickSuggestions": false
+}
