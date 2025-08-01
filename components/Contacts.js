@@ -142,7 +142,7 @@ const Contact = () => {
               >
                 <a
                   className="footer-link"
-                  href="/assets/michael_sanchez_resume1.pdf"
+                  href="/assets/michael_sanchez_resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
