@@ -76,7 +76,7 @@ const Main = () => {
               >
                 <a
                   className="footer-link"
-                  href="mailto:mike.san.dev16@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=mjs070594@gmail.com&su=Portfolio%20Contact&body=Hi%20Michael,%0D%0A%0D%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch.%0D%0A%0D%0A"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
