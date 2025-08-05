@@ -5,17 +5,31 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import LightRays from "@/components/LightRays";
 
 const Main = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
+      className="relative w-full min-h-screen h-screen overflow-hidden text-center"
+      // style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
     // FADE IN BACKGROUND - SVG IS ALREADY OPTIMIZED
     >
+        <LightRays
+          raysOrigin="top-center"
+          raysColor="#ffe58b"
+          raysSpeed={1.5}
+          lightSpread={0.8}
+          rayLength={1.2}
+          followMouse={true}
+          mouseInfluence={0.1}
+          noiseAmount={0.1}
+          distortion={0.05}
+          className="absolute inset-0 z-0 pointer-events-none"
+        />
+
       {/* Adjust the 'space-x-_' to give more space between elements */}
-      <div id="block" className=" w-full h-full mx-auto p-4 flex justify-between items-center space-x-8">
+      <div id="block" className="absolute inset-0 z-10 w-full h-full p-4 flex justify-between items-center space-x-8">
         <motion.div
           className="main_block1 flex flex-col w-1/3"
           initial={{ opacity: 0, x: -100 }}
