@@ -13,20 +13,27 @@ const Main = () => {
       id="home"
       className="relative w-full min-h-screen h-screen overflow-hidden text-center"
       // style={{ backgroundImage: "url('/assets/bg_main.svg')" }}
-    // FADE IN BACKGROUND - SVG IS ALREADY OPTIMIZED
+    // Light Rays component added for light effect - adjust below
     >
-        <LightRays
-          raysOrigin="top-center"
-          raysColor="#ffe58b"
-          raysSpeed={1.5}
-          lightSpread={0.8}
-          rayLength={1.2}
-          followMouse={true}
-          mouseInfluence={0.1}
-          noiseAmount={0.1}
-          distortion={0.05}
-          className="absolute inset-0 z-0 pointer-events-none"
-        />
+<motion.div
+  className="absolute inset-0 z-0 pointer-events-none"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 3 }}
+  transition={{ duration: 5, ease: "easeOut" }} // customize timing here
+>
+  <LightRays
+    raysOrigin="top-center"
+    raysColor="#ffe58b"
+    raysSpeed={0.8}
+    lightSpread={1}
+    rayLength={3}
+    followMouse={true}
+    mouseInfluence={0.1}
+    noiseAmount={0.1}
+    distortion={0.05}
+    className="w-full h-full"
+  />
+</motion.div>
 
       {/* Adjust the 'space-x-_' to give more space between elements */}
       <div id="block" className="absolute inset-0 z-10 w-full h-full p-4 flex justify-between items-center space-x-8">
@@ -54,7 +61,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaLinkedinIn size={20} />
@@ -74,7 +81,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <FaGithub className="res_icon" size={20} />
@@ -95,7 +102,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <AiOutlineMail size={20} />
@@ -116,7 +123,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="res_ipad rounded-full shadow-lg shadow-gray-600 p-2 text-mainColor"
+                    className="res_ipad rounded-full shadow-lg shadow-gray-700 p-2 text-mainColor"
                     style={{ backgroundColor: "#e7e6de" }}
                   >
                     <BsFillPersonLinesFill size={20} />
