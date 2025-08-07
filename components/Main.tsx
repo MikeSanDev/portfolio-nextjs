@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import LightRays from "@/components/LightRays";
+import LightRays from "@/components/effects/LightRays";
 
 const Main = () => {
   return (
