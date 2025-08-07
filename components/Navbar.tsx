@@ -77,25 +77,26 @@ const Navbar = () => {
             height="50"
           />
         </Link>
+        {/* MAIN NAV */}
         <div>
           <ul
             style={{ color: `${linkColor}` }}
             className="hidden md:flex nav-items pr-4 "
           >
             <Link href="/#home">
-              <li className="ml-10 text-sm uppercase">Home</li>
+              <li className="ml-10 textmd uppercase">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase">About</li>
+              <li className="ml-10 textmd uppercase">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase">Skills</li>
+              <li className="ml-10 textmd uppercase">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase">Projects</li>
+              <li className="ml-10 textmd uppercase">Projects</li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase">Contact</li>
+              <li className="ml-10 textmd uppercase">Contact</li>
             </Link>
           </ul>
           <div
@@ -107,7 +108,7 @@ const Navbar = () => {
         </div>
       </motion.div>
 
-      {/* popup nav */}
+      {/* POP UP NAV */}
       {/* Nav open/close logic */}
       <div
         className={
@@ -148,7 +149,7 @@ const Navbar = () => {
               <Link href="/#home">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 text-[#ffe590]"
+                  className="py-4 text-md nav-items2 text-[#ffe590]"
                 >
                   Home
                 </li>
@@ -156,7 +157,7 @@ const Navbar = () => {
               <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 text-[#ffe590]"
+                  className="py-4 text-md nav-items2 text-[#ffe590]"
                 >
                   About
                 </li>
@@ -164,7 +165,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 text-[#ffe590]"
+                  className="py-4 text-md nav-items2 text-[#ffe590]"
                 >
                   Skills
                 </li>
@@ -172,7 +173,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 text-[#ffe590]"
+                  className="py-4 text-md nav-items2 text-[#ffe590]"
                 >
                   Projects
                 </li>
@@ -180,7 +181,7 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm nav-items2 text-[#ffe590] "
+                  className="py-4 text-md nav-items2 text-[#ffe590] "
                 >
                   Contact
                 </li>
@@ -190,7 +191,7 @@ const Navbar = () => {
               <p className="uppercase flex justify-center tracking-widest text-[#CFCDBD]">
                 Let&rsquo;s Connect
               </p>
-              <div className="flex items-center justify-center my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-center my-4 space-x-3 w-full sm:w-[80%]">
                 <div className="cursor-pointer hover:scale-110 ease-in duration-300">
                   <a
                     className="footer-link"
@@ -198,7 +199,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                       style={{ backgroundColor: "#e7e6de" }}>
                       <FaLinkedinIn size={23} title="LinkedIn" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -214,7 +215,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                       style={{ backgroundColor: "#e7e6de" }}>
                       <FaGithub size={23} title="Github" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -231,7 +232,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                       style={{ backgroundColor: "#e7e6de" }}>
                       <AiOutlineMail size={23} title="Email" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
@@ -248,7 +249,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 mx-text-mainColor"
+                    <div className="rounded-full shadow-lg shadow-gray-700 p-3 text-mainColor"
                       style={{ backgroundColor: "#e7e6de" }}>
                       <BsFillPersonLinesFill size={23} title="Resume" />
                       <span className="hidden absolute top-0 left-0 bg-white py-2 px-4 text-gray-900 rounded-lg tooltip2">
