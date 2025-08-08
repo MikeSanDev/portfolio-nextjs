@@ -1,10 +1,22 @@
 import Image from "next/legacy/image";
 import React from "react";
 import { RiCodeSSlashFill } from "react-icons/ri";
-import Link from "next/link";
+import { useRouter } from 'next/router';
 
+const Kinetic = () => {
+  const router = useRouter(); // Move this inside the component
 
-const kinetic = () => {
+  const handleBackToProjects = () => {
+    router.push('/').then(() => {
+      setTimeout(() => {
+        const projectsSection = document.getElementById('projects');
+        if (projectsSection) {
+          projectsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    });
+  };
+
   return (
     <div className="w-full no-scroll-x ">
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
@@ -14,7 +26,6 @@ const kinetic = () => {
           src="/assets/projects/kinetic_gif.gif"
           alt="Kinetic Footwear Gif"
           layout="fill"
-
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="proj_title mb-2 py-2 pl-6">Kinetic Footwear</h2>
@@ -59,14 +70,12 @@ const kinetic = () => {
                 </button>
               </a>
             </div>
-            <Link href="/#projects">
-              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
-                Back To Projects
-              </p>
-            </Link>
+            <p onClick={handleBackToProjects} className="underline cursor-pointer text-mainColor py-4 back-project-link">
+              Back To Projects
+            </p>
           </div>
         </div>
-        <div className=" bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className=" bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used
@@ -93,7 +102,6 @@ const kinetic = () => {
               <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> Git/Github
               </p>
-
             </div>
           </div>
         </div>
@@ -102,4 +110,4 @@ const kinetic = () => {
   );
 };
 
-export default kinetic;
+export default Kinetic;
