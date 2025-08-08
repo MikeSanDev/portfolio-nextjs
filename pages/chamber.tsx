@@ -1,9 +1,23 @@
 import React from "react";
 import { RiCodeSSlashFill } from "react-icons/ri";
-import Link from "next/link";
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
-const chamber = () => {
+
+const Chamber = () => {
+  const router = useRouter(); // Move this inside the component
+  
+    const handleBackToProjects = () => {
+      router.push('/').then(() => {
+        setTimeout(() => {
+          const projectsSection = document.getElementById('projects');
+          if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
+      });
+    };
+  
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
@@ -57,14 +71,12 @@ const chamber = () => {
             </button>
           </a>
           </div>
-            <Link href="/#projects">
-              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
+              <p onClick={handleBackToProjects}  className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
               </p>
-            </Link>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 tech_block sm:col-span-2 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 tech_block sm:col-span-2 md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used
@@ -99,4 +111,4 @@ const chamber = () => {
   );
 };
 
-export default chamber;
+export default Chamber;

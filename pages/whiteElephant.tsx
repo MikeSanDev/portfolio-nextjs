@@ -1,9 +1,22 @@
 import React from "react";
 import { RiCodeSSlashFill } from "react-icons/ri";
-import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from 'next/router';
 
-const whiteElephant = () => {
+const WhiteElephant = () => {
+  const router = useRouter(); // Move this inside the component
+  
+    const handleBackToProjects = () => {
+      router.push('/').then(() => {
+        setTimeout(() => {
+          const projectsSection = document.getElementById('projects');
+          if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
+      });
+    };
+
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[60vh]  relative">
@@ -52,14 +65,14 @@ const whiteElephant = () => {
                 Code
               </button>
             </a>
-            <Link href="/#projects">
-              <p className="underline cursor-pointer text-mainColor py-4 back-project-link">
+
+              <p onClick={handleBackToProjects} className="underline cursor-pointer text-mainColor py-4 back-project-link">
                 Back To Projects
               </p>
-            </Link>
+
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg ">
               Technologies Used
@@ -91,4 +104,4 @@ const whiteElephant = () => {
   );
 };
 
-export default whiteElephant;
+export default WhiteElephant;
