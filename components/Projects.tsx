@@ -18,28 +18,28 @@ const Projects = () => {
         <h2 className="py-2 px-2 text-slate-50 ">What I&rsquo;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Sage Music Agent"
+            backgroundImg={whiteElephant}
+            language="Python"
+            projectUrl="/sageMusicAgent"
+          />
+          <ProjectItem
             title="Kinetic Footwear"
             backgroundImg={kinetic}
             language="React JS"
             projectUrl="/kinetic"
           />
+            <ProjectItem
+              title="UI/UX Designer Portfolio"
+              backgroundImg={asj}
+              language="Next.JS"
+              projectUrl="/asj"
+            />
           <ProjectItem
             title="Chamber.IO"
             backgroundImg={chamber}
             language="React JS"
             projectUrl="/chamber"
-          />
-          <ProjectItem
-            title="UI/UX Designer Portfolio"
-            backgroundImg={asj}
-            language="Next.JS"
-            projectUrl="/asj"
-          />
-          <ProjectItem
-            title="White Elephant"
-            backgroundImg={whiteElephant}
-            language="Java"
-            projectUrl="/whiteElephant"
           />
         </div>
         <div className=" py-8 work_exp ">
