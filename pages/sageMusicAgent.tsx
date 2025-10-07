@@ -45,7 +45,7 @@ const SageMusicAgent = () => {
             can take hours, so I built this tool to automate the entire process and make music prep faster and more reliable for use in the Serato DJ application.
             <br />
             <br />
-            SAGE 2.5 scans folders for duplicate MP3 files using MD5 hashing and filename heuristics, then automatically renames tracks 
+            SAGE scans folders for duplicate MP3 files using MD5 hashing and filename heuristics, then automatically renames tracks 
             based on their ID3 tags into a clean &quot;Artist &ndash; Title&quot; format. It processed over 200+ songs in under 10 seconds, moving duplicates safely 
             to a timestamped trash directory for review. Every operation is logged in both JSON and TXT files for transparency and easy debugging.
             <br />

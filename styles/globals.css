@@ -54,7 +54,8 @@ body::-webkit-scrollbar {
     }
 
     button {
-        @apply shadow-xl shadow-gray-700 rounded-xl
+        @apply shadow-xl rounded-xl
+        
     }
 
 }
@@ -62,6 +63,7 @@ body::-webkit-scrollbar {
 #home {
     height: 100vh !important;
 }
+
 
 /***************** Nav buttons hover *******************/
 .nav-items li:hover {
@@ -166,7 +168,7 @@ body::-webkit-scrollbar {
 
 .proj-btn:hover {
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: all 0.4s ease-in-out;
 }
 
@@ -276,7 +278,10 @@ body::-webkit-scrollbar {
         padding: 0 !important;
 
     }
-
+    .proj-btn1,
+    .proj-btn2 {
+    box-shadow: none !important;
+    }
     .proj_subtext {
         margin: 0 !important;
         padding: 0 !important;
@@ -510,4 +515,14 @@ body::-webkit-scrollbar {
         font-size: 20px;
     }
 
+}
+
+button:focus,
+a:focus,
+p:focus,
+div:focus,
+span:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  caret-color: transparent !important;
 }
