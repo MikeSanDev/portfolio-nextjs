@@ -34,12 +34,18 @@ const Asj = () => {
             <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
                 <div className="col-span-4 ">
                     <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-                    <h3 className="ov_text text-text_Color">
-                        I collaborated with a UI/UX designer to develop his personal portfolio website!
-                        Aaron created his design specifications on Figma and I was tasked to recreate his vision. I wanted to use this opportunity to gain experience in collaborating with a UI/UX Designer by making his vision come to life and to be as precise to his specifications as possible.
-                        Like me, Aaron transitioned into tech a year after I did and is looking for his first opportunity. With this website we hope he will be able to land interviews easier and show off his projects to finally land that job.
-                        I utilized the speed and performance of Next.js while styling with tailwind and framer motion. All tools that I have been learning and has been a regular tools for my toolbelt.
-                    </h3>
+                   <h3 className="ov_text text-text_Color">
+  I collaborated with a UI/UX designer who had recently completed his design program to build his first professional 
+  portfolio website. His goal was to create a design that captured his personality and creative style, while my focus 
+  was to faithfully translate that vision into a fully functional web experience.<br /><br />
+
+  Aaron designed the layout and components in Figma, and I implemented his specifications with precision using 
+  Next.js, Tailwind CSS, and Framer Motion. I treated this as an opportunity to refine my collaboration skills with 
+  designers and to deliver pixel&ndash;perfect alignment between concept and implementation.<br /><br />
+
+  The final result became a clean, fast, and expressive portfolio that reflects Aaron&rsquo;s creative identity and 
+  strengthens his presence as he enters the tech industry.<br /><br />
+</h3>
                     <div className="back_project_link">
                         <div className="proj_btns">
                             <a

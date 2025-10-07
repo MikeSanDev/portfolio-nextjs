@@ -35,20 +35,22 @@ const Kinetic = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-3">Overview</h2>
-          <h3 className="ov_text text-text_Color">
-            I designed and developed a conceptual website for a shoe company
-            that specializes in chargeable sneakers. As the project lead, I
-            incorporated engaging animations and seamless page transitions using
-            the Framer Motion library for the homepage. I also collected and
-            analyzed survey data using form tags, storing and exporting the data
-            to Google Sheets for easy collaboration and more efficient
-            decision-making. To ensure the project met client needs, I
-            collaborated closely with Kinetic Footwear leadership, organized
-            weekly design meetings, and defined feature requirements, gathered
-            assets, and created mockups and wireframes. Overall, the project was
-            a success, demonstrating my ability to create engaging websites that
-            meet client needs and user expectations.
-          </h3>
+<h3 className="ov_text text-text_Color">
+  I independently designed and developed a conceptual website for Kinetic Footwear, a startup founded by a colleague 
+  creating USB&ndash;chargeable sneakers that power up with every step. As both UI/UX designer and full&ndash;stack developer, 
+  I translated the founders&rsquo; vision into an interactive online experience that blended function and style.<br /><br />
+
+  I built a fully responsive static site to showcase early product concepts, earning strong user feedback through an 
+  integrated interest form. Using Framer Motion, I implemented smooth animations and seamless transitions to deliver a 
+  dynamic homepage experience that reflected the brand&rsquo;s innovative feel.<br /><br />
+
+  I also automated survey data collection with Google Sheets API and improved engagement through MailChimp updates, 
+  boosting retention by 15% and user interaction by 20%. Collaborating directly with the founders, I managed design 
+  meetings, gathered assets, and delivered wireframes that aligned creative goals with technical execution.<br /><br />
+
+  Overall, the project showcased my ability to design and build responsive, visually engaging, and data&ndash;driven 
+  web experiences that deliver measurable results.<br /><br />
+</h3>
           <div className="back_project_link">
             <div className="proj_btns">
               <a

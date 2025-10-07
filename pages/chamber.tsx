@@ -21,7 +21,6 @@ const Chamber = () => {
   return (
     <div className="w-full no-scroll-x">
       <div className="w-screen h-[30vh] lg:h-[50vh]  relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/40 z-10" />
         <Image
           className="absolute inset-0 w-full h-full object-cover z-1"
           src="/assets/projects/chamber_io.gif"
@@ -36,20 +35,21 @@ const Chamber = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-          <h3 className="ov_text text-text_Color ">
-            I developed a website for a local dance training organization that
-            allowed users to purchase tickets with ease. I utilized the Stripe
-            payment portal, simplifying ticket tracking for the client and
-            resulting in an improved user experience. Furthermore, to ensure a
-            smooth user experience, I incorporated React Bootstrap components to
-            display detailed information for each training session and developed
-            an in-cart function to enable users to add and remove items from
-            their cart effortlessly. As the lead of weekly design meetings with
-            the founder and cross-functional team, I collaborated with 10 local
-            dancers in Chicago to create a video that was featured on the
-            landing page for a notable dance company, resulting in a 50%
-            increase in website traffic and ticket sales since launch.
-          </h3>
+<h3 className="ov_text text-text_Color">
+  I designed and developed an ecommerce website for Chamber, a local dance training organization, 
+  to streamline ticket purchases and event management. The goal was to create a modern, 
+  intuitive platform that handled payments, scheduling, and ticket tracking seamlessly.<br /><br />
+
+  I integrated the Stripe payment gateway to simplify transactions and improve ticket management 
+  for both users and organizers. To enhance usability, I implemented React Bootstrap components 
+  for clean session layouts and built a custom cart system allowing users to add and remove items 
+  effortlessly.<br /><br />
+
+  Beyond development, I collaborated with the founder and a creative team of 10 Chicago dancers 
+  to produce a promotional video featured on the landing page. This launch drove a 50% increase 
+  in traffic and ticket sales, positioning Chamber as one of the city&rsquo;s most accessible 
+  and visually engaging training platforms.<br /><br/>
+</h3>
           <div className="back_project_link">
             <div className="proj_btns">
           <a

@@ -34,17 +34,18 @@ const Accenture = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-          <h3 className="ov_text text-text_Color">
+<h3 className="ov_text text-text_Color">
+  As a Packaged App Developer at Accenture, I contributed to a large&ndash;scale upgrade of the IBM Maximo Application Suite (MAS), 
+  helping transition the client&rsquo;s legacy asset management system to a modern, cloud&ndash;based platform.<br /><br />
 
-          During my tenure as an Packaged App Developer at Accenture, I honed my skills in asset management within IBM Maximo, an enterprise asset management system. 
-          My responsibilities spanned various facets, including user administration, where I created user profiles and permissions to ensure seamless access and security protocols. 
-          Leveraging tools like Red Hat Open Shift, I orchestrated the deployment of Maximo instances, optimizing their performance and scalability. 
-          I also utilized tools such as SQL and wrote code in Jython and Java, crafting automation scripts and escalations to streamline processes and enhance operational efficiency. 
-          Outside of the technical work, I was also a support pillar in the Social/Events for our client.
-          
-          {/* &rsquo; */}
-          </h3>
-        <div className="back_project_link">
+  I managed user provisioning for 50+ end users across multiple environments, created detailed runbooks and deployment guides, 
+  and collaborated with engineers on Azure and Red Hat OpenShift infrastructure to ensure smooth releases. 
+  I also wrote automation scripts in Python, Jython, and Java to streamline processes and improve system reliability.<br /><br />
+
+  Beyond development, I served as the Social and Events lead for our client team, fostering collaboration and engagement throughout 
+  the project lifecycle.<br /><br />
+</h3>
+        <div className="back_project_link flex flex-row" >
             <div className="proj_btns">
           <a
             href="https://www.accenture.com/us-en"
