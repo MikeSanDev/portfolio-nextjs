@@ -8,7 +8,6 @@ import Link from "next/link";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 import Image from "next/image";
-import GlareHover from "./effects/GlareHover"
 
 const Contact = () => {
   const form = useRef();
@@ -89,25 +88,14 @@ const Contact = () => {
           <div className="bg-[#5c4c68] col-span-3 lg:col-span-2 flex flex-col items-center justify-center w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4">
             <div className=" h-full">
               <div className="flex flex-col items-center">
-                
-                 <GlareHover
-                            glareColor="#ffffff"
-                            glareOpacity={0.7}
-                            glareAngle={-30}
-                            glareSize={300}
-                            transitionDuration={900}
-                            playOnce={false}
-                            background="transparent"
-                            borderRadius="3%"
-                            style={{ width: 'auto', height: 'auto' }}
-                          ><Image
+                          <Image
                   className="rounded-xl contact_img"
                   src="/assets/me-yellow.png"
                   alt="/"
                   width="500"
                   height="200"
                 />
-                </GlareHover>
+
                 <div>
                   <h2 className="pt-6 text-accentColor flex justify-center contact_text1">Michael Sanchez</h2>
                   <h2 className="text-xl text-secondaryColor flex justify-center contact_text2">Full-Stack Developer</h2>
@@ -245,8 +233,7 @@ const Contact = () => {
                   type="submit"
                   placeholder="Send Message"
                   value="Send Message"
-                  className="w-full p-4 text-gray-100 mt-8 bg-gradient-to-r 
-        from-mainColor to-[#5c4c68] shadow-xl shadow-gray-800 rounded-xl uppercase cursor-pointer hover:scale-105 transition-transform duration-200"
+                  className="w-full p-4 text-gray-100 mt-8 bg-gradient-to-r from-mainColor to-[#5c4c68] shadow-xl shadow-gray-800 rounded-xl uppercase cursor-pointer hover:scale-105 transition-transform duration-200"
                 />
               </form>
             </div>
