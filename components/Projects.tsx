@@ -1,7 +1,7 @@
 import React from "react";
 import kinetic from "../public/assets/projects/kinetic.png";
 import chamber from "../public/assets/projects/chamber_proj.png";
-import whiteElephant from "../public/assets/projects/elephant.png";
+import sage from "../public/assets/projects/sage_logo_resized.png";
 import asj from "../public/assets/projects/asj.png";
 import acc_logo from "../public/assets/acc_bg3.jpg";
 import ProjectItem from "./ProjectItem";
@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Sage Music Agent"
-            backgroundImg={whiteElephant}
+            backgroundImg={sage}
             language="Python"
             projectUrl="/sageMusicAgent"
           />

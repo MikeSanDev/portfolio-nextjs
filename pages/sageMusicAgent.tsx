@@ -23,7 +23,7 @@ const SageMusicAgent = () => {
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[60vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1 inset-0 w-full h-full object-cover"
-          src="/assets/projects/sage.gif"
+          src="/assets/projects/sage_duplicate.gif"
           alt="SAGE Music Agent Gif"
           layout="fill"
         />
