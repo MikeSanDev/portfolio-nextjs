@@ -18,10 +18,10 @@ const Projects = () => {
         <h2 className="py-2 px-2 text-slate-50 ">What I&rsquo;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Sage Music Agent"
+            title="TrackSAGE DJ Music Tool"
             backgroundImg={sage}
             language="Python"
-            projectUrl="/sageMusicAgent"
+            projectUrl="/trackSage"
           />
           <ProjectItem
             title="Kinetic Footwear"

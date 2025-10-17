@@ -3,7 +3,7 @@ import { RiCodeSSlashFill } from "react-icons/ri";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-const SageMusicAgent = () => {
+const TrackSage = () => {
   const router = useRouter();
 
   const handleBackToProjects = () => {
@@ -28,7 +28,7 @@ const SageMusicAgent = () => {
           layout="fill"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-          <h2 className="proj_title mb-2 py-2 pl-6">SAGE 2.5 Music File Management Agent</h2>
+          <h2 className="proj_title mb-2 py-2 pl-6">TrackSAGE DJ Music Tool</h2>
           <p className="proj_subtext mb-2 pb-3 pl-6">
             Python | FastAPI | OpenAI API | Pydantic | CLI
           </p>
@@ -39,24 +39,24 @@ const SageMusicAgent = () => {
         <div className="col-span-4">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
           <h3 className="ov_text text-text_Color">
-            SAGE (System for Automation, Generation, and Execution) is an AI agent that I have been improving over time. 
-            This particular version focuses on cleaning and organizing large music libraries. 
-            As a DJ, I often download entire playlists from SoundCloud and other sources. Sorting and renaming hundreds of MP3 files manually 
-            can take hours, so I built this tool to automate the entire process and make music prep faster and more reliable for use in the Serato DJ application.
-            <br />
-            <br />
-            SAGE scans folders for duplicate MP3 files using MD5 hashing and filename heuristics, then automatically renames tracks 
-            based on their ID3 tags into a clean &quot;Artist &ndash; Title&quot; format. It processed over 200+ songs in under 10 seconds, moving duplicates safely 
-            to a timestamped trash directory for review. Every operation is logged in both JSON and TXT files for transparency and easy debugging.
-            <br />
-            <br />
-            The system includes AI-assisted tagging and smart renaming using the OpenAI API, which suggests improved file names and metadata corrections. 
-            This version of SAGE focuses on practical automation, safety, and applying AI to real creative workflows.
-          </h3>
+              TrackSAGE DJ Music Tool is an AI-powered automation system I designed to help DJs manage and clean large music libraries. 
+              As a DJ, I often download massive playlists from SoundCloud and other sources—sorting, tagging, and renaming hundreds of MP3s manually can take hours. 
+              TrackSAGE streamlines this process, automatically detecting duplicates, renaming files, and repairing missing metadata for faster, more reliable music prep in Serato DJ.
+              <br />
+              <br />
+              The tool scans folders recursively, identifying duplicate tracks using MD5 hashing and filename heuristics before safely moving them to a timestamped trash folder. 
+              It also inspects existing ID3 tags, then renames tracks into a standardized “Artist – Title” format for clean organization across libraries. 
+              Every run is fully logged in both JSON and TXT formats for transparency and easy debugging.
+              <br />
+              <br />
+              TrackSAGE integrates AI-assisted renaming powered by OpenAI’s GPT-4o-mini model, which intelligently infers artist and title information for untagged files. 
+              A built-in caching system stores AI suggestions locally, reducing costs and speeding up repeated runs. 
+              The newest update also introduces a tag inspection feature for verifying metadata and a placeholder for future audio transcription capabilities—laying the groundwork for complete creative automation in DJ workflows.
+            </h3>
 
           <div className="back_project_link">
             <a
-              href="https://github.com/MikeSanDev/sage2.5_music_agent"
+              href="https://github.com/MikeSanDev/tracksage_dj_music_tool"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -109,4 +109,4 @@ const SageMusicAgent = () => {
   );
 };
 
-export default SageMusicAgent;
+export default TrackSage;
