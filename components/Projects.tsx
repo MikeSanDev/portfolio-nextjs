@@ -1,8 +1,8 @@
 import React from "react";
 import kinetic from "../public/assets/projects/kinetic.png";
 import chamber from "../public/assets/projects/chamber_proj.png";
-import sage from "../public/assets/projects/sage_logo_resized.png";
-import asj from "../public/assets/projects/asj.png";
+import sage from "../public/assets/projects/track_sage_resized.png";
+import asj from "../public/assets/projects/asjproj_resized.png";
 import acc_logo from "../public/assets/acc_bg3.jpg";
 import ProjectItem from "./ProjectItem";
 
