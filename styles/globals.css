@@ -29,7 +29,9 @@ body::-webkit-scrollbar {
         --accentColor: #ffe590;
         --text_Color: #FFFCF5;
 
-        @apply text-[#000000] bg-[#34353A] tracking-wide;
+        color: #000000;
+        background-color: #34353A;
+        letter-spacing: 0.05em;
     }
 
     h1,
@@ -38,24 +40,43 @@ body::-webkit-scrollbar {
     h4,
     h5,
     h6 {
-        @apply font-bold
+        font-weight: 600;
     }
 
     h1 {
-        @apply text-4xl sm:text-5xl md:text-6xl
+        font-size: 2.25rem;
+    }
+
+    /* Responsive h1 sizes */
+    @media (min-width: 640px) {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 3.75rem;
+        }
     }
 
     h2 {
-        @apply text-3xl sm:text-4xl
+        font-size: 1.875rem;
+    }
+
+    /* Responsive h2 size */
+    @media (min-width: 640px) {
+        h2 {
+            font-size: 2.25rem;
+        }
     }
 
     li {
-        @apply cursor-pointer
+        cursor: pointer;
     }
 
     button {
-        @apply shadow-xl rounded-xl
-        
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+        border-radius: 0.75rem;
     }
 
 }

@@ -35,7 +35,7 @@ const Chamber = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-<h3 className="ov_text text-text_Color">
+<h3 className="ov_text text-text_Color font-normal leading-relaxed">
   I designed and developed an ecommerce website for Chamber, a local dance training organization, 
   to streamline ticket purchases and event management. The goal was to create a modern, 
   intuitive platform that handled payments, scheduling, and ticket tracking seamlessly.<br /><br />
