@@ -34,7 +34,7 @@ const Asj = () => {
             <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
                 <div className="col-span-4 ">
                     <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-                   <h3 className="ov_text text-text_Color">
+                   <h3 className="ov_text text-text_Color font-normal leading-relaxed">
   I collaborated with a UI/UX designer who had recently completed his design program to build his first professional 
   portfolio website. His goal was to create a design that captured his personality and creative style, while my focus 
   was to faithfully translate that vision into a fully functional web experience.<br /><br />

@@ -34,7 +34,7 @@ const Accenture = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-<h3 className="ov_text text-text_Color">
+<h3 className="ov_text text-text_Color font-normal leading-relaxed">
   As a Packaged App Developer at Accenture, I contributed to a large&ndash;scale upgrade of the IBM Maximo Application Suite (MAS), 
   helping transition the client&rsquo;s legacy asset management system to a modern, cloud&ndash;based platform.<br /><br />
 
@@ -46,20 +46,18 @@ const Accenture = () => {
   the project lifecycle.<br /><br />
 </h3>
         <div className="back_project_link flex flex-row" >
-            <div className="proj_btns">
           <a
             href="https://www.accenture.com/us-en"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-6 py-1 mt-4 text-white bg-mainColor proj-btn">
+            <button className="px-8 mr-4 py-1 text-white bg-mainColor proj-btn">
               Accenture Website
             </button>
           </a>
-              <p onClick={handleBackToProjects} className="underline cursor-pointer text-mainColor py-4">
+              <p onClick={handleBackToProjects} className="underline cursor-pointer text-mainColor pt-1">
                 Back To Projects
               </p>
-          </div>
           </div>
         </div>
         <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">

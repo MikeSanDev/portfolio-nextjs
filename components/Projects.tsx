@@ -48,7 +48,7 @@ const Projects = () => {
             <ProjectItem
               title="Accenture"
               backgroundImg={acc_logo}
-              language="Packaged App Developer"
+              language="Application Developer"
               projectUrl="/accenture"
 
             />

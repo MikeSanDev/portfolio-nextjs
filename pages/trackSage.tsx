@@ -38,7 +38,7 @@ const TrackSage = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-          <h3 className="ov_text text-text_Color">
+          <p className="ov_text text-secondaryColor font-normal leading-relaxed">
               TrackSAGE DJ Music Tool is an AI-powered automation system I designed to help DJs manage and clean large music libraries. 
               As a DJ, I often download massive playlists from SoundCloud and other sources—sorting, tagging, and renaming hundreds of MP3s manually can take hours. 
               TrackSAGE streamlines this process, automatically detecting duplicates, renaming files, and repairing missing metadata for faster, more reliable music prep in Serato DJ.
@@ -52,9 +52,9 @@ const TrackSage = () => {
               TrackSAGE integrates AI-assisted renaming powered by OpenAI’s GPT-4o-mini model, which intelligently infers artist and title information for untagged files. 
               A built-in caching system stores AI suggestions locally, reducing costs and speeding up repeated runs. 
               The newest update also introduces a tag inspection feature for verifying metadata and a placeholder for future audio transcription capabilities—laying the groundwork for complete creative automation in DJ workflows.
-            </h3>
+            </p>
 
-          <div className="back_project_link">
+          <div className="back_project_link flex flex-row">
             <a
               href="https://github.com/MikeSanDev/tracksage_dj_music_tool"
               target="_blank"
