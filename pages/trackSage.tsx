@@ -35,7 +35,7 @@ const TrackSage = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 items-start">
         <div className="col-span-4">
   <h2 className="ov_title text-accentColor mb-2">Overview</h2>
   <p className="ov_text text-text_Color font-normal leading-relaxed">
@@ -63,7 +63,10 @@ const TrackSage = () => {
     Useful for verifying and cleaning inconsistent ID3 tags before renaming.
   </p>
   <p className="text-mainColor font-semibold mt-2">DEMO:</p>
-  {/* insert GIF here */}
+  <video
+  src="/assets/projects/tracksage_vids/inspect_tags.mp4"
+  controls
+  className="w-full rounded-lg my-3 shadow-md"></video>
 
   <br />
   <h3 className="text-accentColor text-lg font-semibold mt-4">2. Duplicate Detector</h3>
@@ -73,7 +76,10 @@ const TrackSage = () => {
     into a timestamped <code>trash/</code> directory for safe review. Each run logs results to both JSON and TXT for transparency.
   </p>
   <p className="text-mainColor font-semibold mt-2">DEMO:</p>
-  {/* insert GIF here */}
+<video
+  src="/assets/projects/tracksage_vids/duplicate.mp4"
+  controls
+  className="w-full rounded-lg my-3 shadow-md"></video>
 
   <br />
   <h3 className="text-accentColor text-lg font-semibold mt-4">3. Smart Renamer</h3>
@@ -85,7 +91,10 @@ const TrackSage = () => {
     A <em>Dry Run mode</em> allows previewing results before applying changes.
   </p>
   <p className="text-mainColor font-semibold mt-2">DEMO:</p>
-  {/* insert GIF here */}
+    <video
+      src="/assets/projects/tracksage_vids/rename_w_cache.mp4"
+      controls
+      className="w-full rounded-lg my-3 shadow-md"></video>
 
   <br />
   <h3 className="text-accentColor text-lg font-semibold mt-4">4. Audio Transcription</h3>
@@ -97,7 +106,10 @@ const TrackSage = () => {
     with OpenAI for concise review notes. Summaries are saved separately as <code>logs/ai_summary_&lt;timestamp&gt;.txt</code>.
   </p>
   <p className="text-mainColor font-semibold mt-2">DEMO:</p>
-  {/* insert GIF here */}
+  <video
+    src="/assets/projects/tracksage_vids/transcript.mp4"
+    controls
+    className="w-full rounded-lg my-3 shadow-md"></video>
 
   <div className="back_project_link flex flex-row">
     <a
@@ -119,7 +131,7 @@ const TrackSage = () => {
   </div>
 </div>
 
-        <div className="bg-gray-200 col-span-4 sm:col-span-2 md:col-span-1 tech_block shadow-md shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 sm:col-span-2 md:col-span-1 tech_block shadow-md shadow-gray-900 rounded-xl p-4 self-start sticky top-24 h-fit">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg">
               Technologies Used
