@@ -9,17 +9,17 @@ const Skills = () => {
   });
   const skills = [
     { name: "Python", imageSrc: "/assets/skills/python.png" },
-    { name: "Maximo", imageSrc: "/assets/skills/ibm.png" },
-    { name: "Next JS", imageSrc: "/assets/skills/nextjs.png" },
-    { name: "React JS", imageSrc: "/assets/skills/react.png" },
-    { name: "Java", imageSrc: "/assets/skills/java.png" },
     { name: "Javascript", imageSrc: "/assets/skills/javascript.png" },
+    { name: "Java", imageSrc: "/assets/skills/java.png" },
+    { name: "React JS", imageSrc: "/assets/skills/react.png" },
+    { name: "Next JS", imageSrc: "/assets/skills/nextjs.png" },
+    { name: "Maximo", imageSrc: "/assets/skills/ibm.png" },
     { name: "Redhat Openshift", imageSrc: "/assets/skills/redhat.png" },
     { name: "Graph QL", imageSrc: "/assets/skills/graph_ql.png" },
     { name: "Node JS", imageSrc: "/assets/skills/node.png" },
     { name: "Mongo DB", imageSrc: "/assets/skills/mongo.png" },
     { name: "Microsoft Azure", imageSrc: "/assets/skills/azure.png" },
-    { name: "Tailwind", imageSrc: "/assets/skills/tailwind.png" },
+    { name: "SQL", imageSrc: "/assets/skills/sql.png" },
   ];
 
   return (

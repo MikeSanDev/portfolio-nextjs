@@ -31,7 +31,7 @@ const Asj = () => {
                     <p className="proj_subtext mb-2 pb-3 pl-6"> Next.JS | Tailwind | Framer Motion </p>
                 </div>
             </div>
-            <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+            <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 items-start">
                 <div className="col-span-4 ">
                     <h2 className="ov_title text-accentColor mb-2">Overview</h2>
                    <h3 className="ov_text text-text_Color font-normal leading-relaxed">
@@ -72,7 +72,7 @@ const Asj = () => {
                             </p>
                     </div>
                 </div>
-                <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">
+                <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4 self-start sticky top-24 h-fit">
                     <div className="p-2">
                         <p className="text-center font-bold pb-2 text-secondBg ">
                             Technologies Used

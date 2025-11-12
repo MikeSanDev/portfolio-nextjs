@@ -31,19 +31,27 @@ const Accenture = () => {
           <p className="proj_subtext mb-2 pb-3 pl-6">Packaged Application Development Associate</p>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 items-start">
         <div className="col-span-4 ">
           <h2 className="ov_title text-accentColor mb-2">Overview</h2>
 <h3 className="ov_text text-text_Color font-normal leading-relaxed">
-  As a Packaged App Developer at Accenture, I contributed to a large&ndash;scale upgrade of the IBM Maximo Application Suite (MAS), 
-  helping transition the client&rsquo;s legacy asset management system to a modern, cloud&ndash;based platform.<br /><br />
+  I started my journey at Accenture through their Apprenticeship Program, where I graduated in the 
+  first cohort to become a Packaged App Developer.
+  As a Packaged App Developer, I work on enhancing and maintaining the IBM Maximo Application Suite (MAS) 
+  for an enterprise client migrating from a legacy asset management system to a cloud-based platform on Azure and OpenShift.<br /><br />
 
-  I managed user provisioning for 50+ end users across multiple environments, created detailed runbooks and deployment guides, 
-  and collaborated with engineers on Azure and Red Hat OpenShift infrastructure to ensure smooth releases. 
-  I also wrote automation scripts in Python, Jython, and Java to streamline processes and improve system reliability.<br /><br />
+  Day-to-day, I handle developer tasks in Azure DevOps (ADOS) — building, testing, and coordinating 
+  deployments across multiple environments. My work includes configuring Maximo domains, escalations, 
+  and UI components to support critical workflows for Operations & Maintenance and Capital Projects teams. 
+  I also collaborate closely with functional leads to align system logic with automation scripts and SAP integrations, 
+  ensuring consistent and reliable performance.<br /><br />
 
-  Beyond development, I served as the Social and Events lead for our client team, fostering collaboration and engagement throughout 
-  the project lifecycle.<br /><br />
+  I contribute Python and Jython automation scripts that reduce repetitive manual steps and improve 
+  environment consistency, and I often serve as the bridge between on-shore and off-shore teams to 
+  keep delivery smooth and issues unblocked. Outside of development, I lead social and engagement 
+  initiatives for our client team to foster collaboration and morale across the project lifecycle.
+
+  <br /><br />
 </h3>
         <div className="back_project_link flex flex-row" >
           <a
@@ -60,7 +68,7 @@ const Accenture = () => {
               </p>
           </div>
         </div>
-        <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4">
+        <div className="bg-gray-200 col-span-4 sm:col-span-2 tech_block md:col-span-1 shadow-md shadow-gray-900 rounded-xl p-4 self-start sticky top-24 h-fit">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-secondBg">Technologies Used</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
@@ -83,7 +91,7 @@ const Accenture = () => {
                 <RiCodeSSlashFill className="pr-1" /> Python
               </p>
               <p className="text-secondBg py-2 flex items-center">
-                <RiCodeSSlashFill className="pr-1" /> Jython
+                <RiCodeSSlashFill className="pr-1" /> Azure DevOps
               </p>
               <p className="text-secondBg py-2 flex items-center">
                 <RiCodeSSlashFill className="pr-1" /> SQL

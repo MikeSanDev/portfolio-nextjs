@@ -23,14 +23,14 @@ const TrackSage = () => {
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[60vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1 inset-0 w-full h-full object-cover"
-          src="/assets/projects/sage_duplicate.gif"
+          src="/assets/projects/trackSage.gif"
           alt="SAGE Music Agent Gif"
           layout="fill"
         />
         <div className="absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
           <h2 className="proj_title mb-2 py-2 pl-6">TrackSAGE DJ Music Tool</h2>
           <p className="proj_subtext mb-2 pb-3 pl-6">
-            Python | FastAPI | OpenAI API | Pydantic | CLI
+            Python | FastAPI | OpenAI API | Faster-Whisper | Pydantic | CLI
           </p>
         </div>
       </div>
@@ -100,7 +100,7 @@ const TrackSage = () => {
   <h3 className="text-accentColor text-lg font-semibold mt-4">4. Audio Transcription</h3>
   <p className="ov_text text-text_Color font-normal leading-relaxed">
     Converts speech from <code>.mp3</code> and <code>.wav</code> files into text using 
-    <a href="https://github.com/guillaumekln/faster-whisper" target="_blank" rel="noopener noreferrer"> Faster-Whisper</a>.  
+    <a className="font-bold" href="https://github.com/guillaumekln/faster-whisper" target="_blank" rel="noopener noreferrer"> Faster-Whisper</a>.  
     Ideal for lectures, DJ sets, or creative voice notes.  
     Generates transcripts as <code>logs/transcribed_&lt;timestamp&gt;.txt</code> and optionally summarizes them 
     with OpenAI for concise review notes. Summaries are saved separately as <code>logs/ai_summary_&lt;timestamp&gt;.txt</code>.

@@ -20,11 +20,11 @@ const Projects = () => {
           <ProjectItem
             title="TrackSAGE DJ Music Tool"
             backgroundImg={sage}
-            language="Python"
+            language="Python (Local)"
             projectUrl="/trackSage"
           />
           <ProjectItem
-            title="Kinetic Footwear"
+            title="Kinetic Footwear (Freelance)"
             backgroundImg={kinetic}
             language="React JS"
             projectUrl="/kinetic"
