@@ -50,8 +50,8 @@ const Projects = () => {
               backgroundImg={acc_logo}
               language="Application Developer"
               projectUrl="/accenture"
-
             />
+            
           </div>
         </div>
       </div>
