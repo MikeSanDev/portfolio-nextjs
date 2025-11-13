@@ -15,10 +15,10 @@ const Skills = () => {
     { name: "Next JS", imageSrc: "/assets/skills/nextjs.png" },
     { name: "Maximo", imageSrc: "/assets/skills/ibm.png" },
     { name: "Redhat Openshift", imageSrc: "/assets/skills/redhat.png" },
+    { name: "Microsoft Azure", imageSrc: "/assets/skills/azure.png" },
     { name: "Graph QL", imageSrc: "/assets/skills/graph_ql.png" },
     { name: "Node JS", imageSrc: "/assets/skills/node.png" },
     { name: "Mongo DB", imageSrc: "/assets/skills/mongo.png" },
-    { name: "Microsoft Azure", imageSrc: "/assets/skills/azure.png" },
     { name: "SQL", imageSrc: "/assets/skills/sql.png" },
   ];
 
