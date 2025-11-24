@@ -66,7 +66,7 @@ export default function Creative() {
         <h2 className="text-5xl font-bold text-accentColor mb-6 text-center">Dance</h2>
         <p className="text-white text-xl leading-relaxed max-w-4xl mx-auto text-center mb-10">
           From popping to freestyle, dance has been my foundation of expression and rhythm.
-          I’ve performed, battled, and led projects that merge artistry with community.
+          I&apos;ve performed, battled, and led projects that merge artistry with community.
         </p>
 
         {/* Achievements */}

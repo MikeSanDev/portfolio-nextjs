@@ -44,6 +44,13 @@ const About = () => {
           >
             Check out some of my latest projects I have been working on.
           </Link>
+            <br />
+          {/* <Link
+            href="/creative"
+            className="py-2 text-mainColor underline cursor-pointer"
+          >
+            Creative Projects
+          </Link> */}
         </div>
 
         <div className="w-full h-auto m-auto rounded-xl ml-10 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
