@@ -40,13 +40,13 @@ const TrackSage = () => {
   <h2 className="ov_title text-accentColor mb-2">Overview</h2>
   <p className="ov_text text-text_Color font-normal leading-relaxed">
     <strong>TrackSAGE</strong> is an AI-powered automation system I designed to help DJs organize, clean, 
-    and analyze large music libraries. It’s built as a <em>local-first</em> desktop tool for full control over
+    and analyze large music libraries. It&apos;s built as a <em>local-first</em> desktop tool for full control over
     your music files — optimized for workflow speed, tagging accuracy, and creative preparation in Serato DJ.
     <br />
     <br />
     TrackSAGE now includes four intelligent modules: Tag Inspection, Duplicate Detection, Smart Renaming, and 
     Audio Transcription. Each module is built with structured logging, safe file handling, and optional AI integration 
-    powered by OpenAI’s GPT-4o-mini and Faster-Whisper.
+    powered by OpenAI&apos;s GPT-4o-mini and Faster-Whisper.
     <br />
     <br />
     This project began as a simple file renamer and has evolved into a complete DJ library maintenance suite. 
