@@ -8,7 +8,7 @@ import Link from "next/link";
 
 // Instagram embeds for Dance section
 const danceSlides = [
-  <Embed key="ig1" src="https://www.instagram.com/p/YOUR_POST_ID/embed" title="Dance clip 1" />,
+  <Embed key="ig1" src="https://www.instagram.com/reel/DJ2aUfUPlPt/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" title="Dance clip 1" />,
   <Embed key="ig2" src="https://www.instagram.com/p/YOUR_POST_ID_2/embed" title="Dance clip 2" />,
   <Embed key="ig3" src="https://www.instagram.com/reel/YOUR_REEL_ID/embed" title="Dance clip 3" />,
 ];
@@ -16,7 +16,25 @@ const danceSlides = [
 // SoundCloud embed for DJing section
 const djSoundcloudEmbed =
   "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true";
-
+const soundcloudTrackIds = [
+  "2090047866", // Pop Fiction Vol.1
+  "2104657263", // Mech Motion Vol.1
+  "2128409652", // The Foundation 80s NY Hip Hop
+];
+// Build slides for the DJ carousel
+const djSlides = soundcloudTrackIds.map((id, idx) => (
+  <iframe
+    key={id}
+    width="100%"
+    height="100%"
+    scrolling="no"
+    frameBorder="no"
+    allow="autoplay"
+    src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${id}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true`}
+    className="rounded-lg"
+    title={`SoundCloud mix ${idx + 1}`}
+  />
+));
 // Demo images for Graphic Design section
 const demoImages = [
   { src: "/assets/design1.jpg", alt: "Design 1" },
@@ -82,12 +100,8 @@ export default function Creative() {
           </ul>
         </div>
 
-        {/* Instagram Embed */}
-        <div className="relative w-full max-w-4xl mx-auto">
-          <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-gray-900">
-            <div className="absolute inset-0">{danceSlides[0]}</div>
-          </div>
-        </div>
+          {/* Instagram Embed */}
+        <Carousel slides={danceSlides} />
 
         {/* External Link */}
         <div className="flex justify-center mt-8">
@@ -132,7 +146,7 @@ export default function Creative() {
             {/* External Links */}
             <div className="flex flex-wrap justify-center gap-4 pt-4">
               <a
-                href="https://soundcloud.com/your-profile"
+                href="https://soundcloud.com/michael-sanchez-186"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -140,19 +154,22 @@ export default function Creative() {
                   SoundCloud
                 </button>
               </a>
+              <a
+                href="https://www.youtube.com/@DJ-Kuyami"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="px-8 py-3 text-white text-lg bg-mainColor hover:bg-opacity-80 transition-colors rounded proj-btn">
+                  Youtube
+                </button>
+              </a>
               {/* Add YouTube button later */}
             </div>
+      <Carousel slides={djSlides} className="mt-2" />     
+        </div>
           </div>
 
           {/* SoundCloud Embed */}
-          <div className="relative w-full max-w-4xl mx-auto">
-            <div className="relative h-[220px] overflow-hidden rounded-lg bg-gray-900">
-              <div className="absolute inset-0">
-                <Embed src={djSoundcloudEmbed} title="SoundCloud mix" />
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* ------------------------------------------- */}
