@@ -4,34 +4,43 @@ import Image from "next/image";
 
 export type CarouselImage = { src: string; alt: string };
 
-type Props = {
-  images: CarouselImage[];
-  className?: string;
-};
+// Props: EITHER images OR slides (not both)
+type Props =
+  | { images: CarouselImage[]; slides?: never; className?: string }
+  | { images?: never; slides: React.ReactNode[]; className?: string };
 
-export default function Carousel({ images, className = "" }: Props) {
+export default function Carousel(props: Props) {
   const [i, setI] = useState(0);
-  if (!images?.length) return <div className="text-white">No images</div>;
 
-  const next = () => setI((p) => (p + 1) % images.length);
-  const prev = () => setI((p) => (p - 1 + images.length) % images.length);
+  const isSlides = "slides" in props && Array.isArray(props.slides);
+  const count = isSlides ? (props.slides?.length ?? 0) : (props.images?.length ?? 0);
+  if (!count) return <div className="text-white">No content</div>;
+
+  const next = () => setI((p) => (p + 1) % count);
+  const prev = () => setI((p) => (p - 1 + count) % count);
+
+  const className = "className" in props && props.className ? props.className : "";
 
   return (
     <div className={`relative w-full max-w-4xl mx-auto ${className}`}>
       <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-gray-900">
         <div className="absolute inset-0">
-          <Image
-            src={images[i].src}
-            alt={images[i].alt}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 800px"
-            priority={i === 0}
-          />
+          {isSlides ? (
+            props.slides![i]
+          ) : (
+            <Image
+              src={props.images![i].src}
+              alt={props.images![i].alt}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 800px"
+              priority={i === 0}
+            />
+          )}
         </div>
       </div>
 
-      {images.length > 1 && (
+      {count > 1 && (
         <>
           <button
             onClick={prev}
@@ -47,6 +56,19 @@ export default function Carousel({ images, className = "" }: Props) {
           >
             ›
           </button>
+
+          <div className="flex justify-center mt-4 gap-2">
+            {Array.from({ length: count }).map((_, idx) => (
+              <button
+                key={idx}
+                aria-label={`Go to slide ${idx + 1}`}
+                onClick={() => setI(idx)}
+                className={`h-2.5 w-2.5 rounded-full ${
+                  idx === i ? "bg-accentColor" : "bg-gray-500"
+                }`}
+              />
+            ))}
+          </div>
         </>
       )}
     </div>
