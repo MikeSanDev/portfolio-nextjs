@@ -6,11 +6,35 @@ import Link from "next/link";
 
 // ---------------------- EMBED DATA ---------------------- //
 
-// Instagram embeds for Dance section
+// Dance video slides (local MP4s)
 const danceSlides = [
-  <Embed key="ig1" src="https://www.instagram.com/reel/DJ2aUfUPlPt/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" title="Dance clip 1" />,
-  <Embed key="ig2" src="https://www.instagram.com/p/YOUR_POST_ID_2/embed" title="Dance clip 2" />,
-  <Embed key="ig3" src="https://www.instagram.com/reel/YOUR_REEL_ID/embed" title="Dance clip 3" />,
+  <video
+    key="dance1"
+    src="/assets/projects/creative_vids/samsung.mp4"
+    className="w-full h-full object-cover rounded-lg"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />,
+  <video
+    key="dance2"
+    src="/assets/projects/creative_vids/collab.mp4"
+    className="w-full h-full object-cover rounded-lg"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />,
+  <video
+    key="dance3"
+    src="/assets/projects/creative_vids/animationbattle.mov"
+    className="w-full h-full object-cover rounded-lg"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />,
 ];
 
 // SoundCloud embed for DJing section
@@ -96,6 +120,9 @@ export default function Creative() {
             </li>
             <li className="text-white text-lg">
               <span className="text-accentColor mr-3 text-xl">•</span> Leader of Yokai Dance Crew, Chicago IL
+            </li>
+            <li className="text-white text-lg">
+              <span className="text-accentColor mr-3 text-xl">•</span> Top 8 Finalist at Midwest Animation Battle 
             </li>
           </ul>
         </div>
