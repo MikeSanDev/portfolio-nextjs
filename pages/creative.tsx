@@ -61,9 +61,12 @@ const djSlides = soundcloudTrackIds.map((id, idx) => (
 ));
 // Demo images for Graphic Design section
 const demoImages = [
-  { src: "/assets/design1.jpg", alt: "Design 1" },
-  { src: "/assets/design2.jpg", alt: "Design 2" },
-  { src: "/assets/design3.jpg", alt: "Design 3" },
+  { src: "/assets/projects/design1.png", alt: "Design 1" },
+  { src: "/assets/projects/design2.png", alt: "Design 2" },
+  { src: "/assets/projects/design3.png", alt: "Design 3" },
+  { src: "/assets/projects/cover1.png", alt: "cover 3" },
+  { src: "/assets/projects/cover2.png", alt: "cover 3" },
+  { src: "/assets/projects/cover3.png", alt: "cover 3" },
 ];
 
 export default function Creative() {
@@ -192,7 +195,11 @@ export default function Creative() {
               </a>
               {/* Add YouTube button later */}
             </div>
-      <Carousel slides={djSlides} className="mt-2" />     
+<Carousel
+  slides={djSlides}
+  className="mt-2"
+  frameClassName="h-[260px] md:h-[300px]"
+/>
         </div>
           </div>
 
@@ -205,10 +212,15 @@ export default function Creative() {
       <div className="border-t border-gray-700 my-12" />
       <h2 className="text-5xl font-bold text-accentColor mb-6 text-center">Graphic Design</h2>
       <p className="text-white text-xl leading-relaxed max-w-4xl mx-auto text-center mb-10">
-        Visual storytelling through digital art. I create brand identities, posters, and apparel
-        designs that merge culture with clean design principles.
+        Visual storytelling through digital art. I created the logo for my dance crew, designed our clothing and
+        album covers that capture the essence of the music mixes I have created. 
       </p>
-      <Carousel images={demoImages} />
+    <Carousel
+      images={demoImages}
+      imageFit="contain"
+      className="max-w-xl"            // narrower than 4xl, centers the art
+      frameClassName="aspect-square" // height = width, perfect square
+    />
       <div className="flex justify-center py-10">
                 <Link href="/creative#top">
                   <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"

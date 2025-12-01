@@ -4,10 +4,17 @@ import Image from "next/image";
 
 export type CarouselImage = { src: string; alt: string };
 
+// Shared props
+type BaseProps = {
+  className?: string;        // outer wrapper (margin, width tweaks)
+  frameClassName?: string;   // inner frame (height overrides)
+  imageFit?: "cover" | "contain";
+};
+
 // Props: EITHER images OR slides (not both)
 type Props =
-  | { images: CarouselImage[]; slides?: never; className?: string }
-  | { images?: never; slides: React.ReactNode[]; className?: string };
+  | ({ images: CarouselImage[]; slides?: never } & BaseProps)
+  | ({ images?: never; slides: React.ReactNode[] } & BaseProps);
 
 export default function Carousel(props: Props) {
   const [i, setI] = useState(0);
@@ -19,11 +26,13 @@ export default function Carousel(props: Props) {
   const next = () => setI((p) => (p + 1) % count);
   const prev = () => setI((p) => (p - 1 + count) % count);
 
-  const className = "className" in props && props.className ? props.className : "";
+  const outerClass = props.className ?? "";
+  const frameClass = props.frameClassName ?? "h-80 md:h-96";
+  const fit = props.imageFit ?? "cover";
 
   return (
-    <div className={`relative w-full max-w-4xl mx-auto ${className}`}>
-      <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-gray-900">
+    <div className={`relative w-full max-w-4xl mx-auto ${outerClass}`}>
+      <div className={`relative overflow-hidden rounded-lg bg-gray-900 ${frameClass}`}>
         <div className="absolute inset-0">
           {isSlides ? (
             props.slides![i]
@@ -32,7 +41,7 @@ export default function Carousel(props: Props) {
               src={props.images![i].src}
               alt={props.images![i].alt}
               fill
-              className="object-cover"
+              className={fit === "cover" ? "object-cover" : "object-contain"}
               sizes="(max-width: 768px) 100vw, 800px"
               priority={i === 0}
             />
