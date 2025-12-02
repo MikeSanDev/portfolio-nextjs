@@ -60,13 +60,18 @@ const djSlides = soundcloudTrackIds.map((id, idx) => (
   />
 ));
 // Demo images for Graphic Design section
-const demoImages = [
-  { src: "/assets/projects/design1.png", alt: "Design 1" },
-  { src: "/assets/projects/design2.png", alt: "Design 2" },
-  { src: "/assets/projects/design3.png", alt: "Design 3" },
-  { src: "/assets/projects/cover1.png", alt: "cover 3" },
-  { src: "/assets/projects/cover2.png", alt: "cover 3" },
-  { src: "/assets/projects/cover3.png", alt: "cover 3" },
+// Clothing design images
+const clothingImages = [
+  { src: "/assets/projects/clothing_design1.png", alt: "clothing_design1" },
+  { src: "/assets/projects/clothing_design2.png", alt: "clothing_design2" },
+  { src: "/assets/projects/clothing_design3.png", alt: "clothing_design3" },
+];
+
+// Album cover designs
+const albumCoverImages = [
+  { src: "/assets/projects/album_cover1.png", alt: "album_cover1" },
+  { src: "/assets/projects/album_cover2.png", alt: "album_cover2" },
+  { src: "/assets/projects/album_cover3.png", alt: "album_cover3" },
 ];
 
 export default function Creative() {
@@ -80,28 +85,27 @@ export default function Creative() {
         <div className="w-screen h-[30vh] lg:h-[50vh] relative">
           <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/40 z-10" />
           <Image
-            src="/assets/me_banner.jpg"
+            src="/assets/flag.png"
             alt="me"
             fill
             className="absolute inset-0 w-full h-full object-cover z-1"
             priority
           />
           <div className="proj_header_text absolute bottom-0 left-0 max-w-[1240px] w-full text-white z-10 p-2 project-header-title">
-            <h2 className="proj_title mb-2 py-2 pl-6">Creative Journey</h2>
+            <h2 className="proj_title mb-2 py-2 pl-6"></h2>
           </div>
         </div>
 
-        {/* Overview Section */}
-        <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-          <div className="col-span-4">
-            <h2 className="ov_title text-accentColor mb-2">Overview</h2>
-            <p className="text-white">
-              Beyond coding, I&apos;m passionate about various creative disciplines that fuel my artistic
-              expression and complement my technical skills. Each hobby has shaped my perspective and
-              enhanced my problem-solving as a developer.
-            </p>
-          </div>
-        </div>
+      {/* Overview Section */}
+      <div className="max-w-[1240px] mx-auto p-10 mb-10 text-center">
+        <h2 className="text-5xl font-bold text-accentColor mb-6">My Creative Journey</h2>
+
+        <p className="text-white text-xl leading-relaxed max-w-4xl mx-auto">
+          Beyond coding, I&apos;m passionate about various creative disciplines that fuel my artistic
+          expression and complement my technical skills. Each hobby has shaped my perspective and
+          enhanced my problem-solving as a developer.
+        </p>
+      </div>
       </div>
 
       {/* ------------------------------------------- */}
@@ -150,7 +154,6 @@ export default function Creative() {
       {/* ------------------------------------------- */}
       {/* DJING SECTION */}
       {/* ------------------------------------------- */}
-      <div className="border-t border-gray-700 my-12" />
       <section className="w-full py-24 px-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="text-center mb-16 space-y-8">
@@ -195,11 +198,11 @@ export default function Creative() {
               </a>
               {/* Add YouTube button later */}
             </div>
-<Carousel
-  slides={djSlides}
-  className="mt-2"
-  frameClassName="h-[260px] md:h-[300px]"
-/>
+          <Carousel
+            slides={djSlides}
+            className="mt-2"
+            frameClassName="h-[260px] md:h-[300px]"
+          />
         </div>
           </div>
 
@@ -209,26 +212,44 @@ export default function Creative() {
       {/* ------------------------------------------- */}
       {/* GRAPHIC DESIGN SECTION */}
       {/* ------------------------------------------- */}
-      <div className="border-t border-gray-700 my-12" />
       <h2 className="text-5xl font-bold text-accentColor mb-6 text-center">Graphic Design</h2>
       <p className="text-white text-xl leading-relaxed max-w-4xl mx-auto text-center mb-10">
         Visual storytelling through digital art. I created the logo for my dance crew, designed our clothing and
         album covers that capture the essence of the music mixes I have created. 
       </p>
-    <Carousel
-      images={demoImages}
-      imageFit="contain"
-      className="max-w-xl"            // narrower than 4xl, centers the art
-      frameClassName="aspect-square" // height = width, perfect square
-    />
-      <div className="flex justify-center py-10">
-                <Link href="/creative#top">
-                  <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
-                    title="Back to the top">
-                    <HiOutlineChevronDoubleUp size={30} className="m-auto" />
+
+          {/* Clothing Designs */}
+          <div className="mt-12">
+            <h3 className="text-3xl font-bold text-accentColor text-center mb-4">
+              Clothing Designs
+            </h3>
+            <Carousel
+              images={clothingImages}
+              imageFit="contain"
+              className="max-w-2xl"
+              frameClassName="aspect-square"
+            />
+          </div>
+          {/* Album Covers */}
+          <div className="mt-20">
+            <h3 className="text-3xl font-bold text-accentColor text-center mb-4">
+              Album Covers
+            </h3>
+            <Carousel
+              images={albumCoverImages}
+              imageFit="contain"
+              className="max-w-2xl"
+              frameClassName="aspect-square"
+            />
+          </div>
+                  <div className="flex justify-center py-10">
+                    <Link href="/creative#top">
+                      <div className="rounded-full shadow-lg shadow-gray-900 p-4 bg-[#5c4c68] cursor-pointer hover:scale-110 ease-in duration-300 text-accentColor"
+                        title="Back to the top">
+                        <HiOutlineChevronDoubleUp size={30} className="m-auto" />
+                      </div>
+                    </Link>
                   </div>
-                </Link>
-              </div>
     </>
   );
 }
