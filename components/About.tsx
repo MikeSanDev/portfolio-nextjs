@@ -39,10 +39,10 @@ const About = () => {
             boundaries of my craft.
           </p>
           <Link
-            href="/#projects"
+            href="/creative"
             className="py-2 text-mainColor underline cursor-pointer"
           >
-            Check out some of my latest projects I have been working on.
+            Check out my Creative page here. 
           </Link>
             <br />
           {/* <Link
@@ -53,7 +53,7 @@ const About = () => {
           </Link> */}
         </div>
 
-        <div className="w-full h-auto m-auto rounded-xl ml-10 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto rounded-xl ml-5 flex items-center justify-center  hover:scale-105 ease-in duration-300">
           <AnimatedContent
             distance={150}
             direction="vertical"
@@ -67,11 +67,11 @@ const About = () => {
             delay={0.3}
           >
             <Image
-              src="/assets/about.png"
+              src="/assets/transp-me.png"
               alt="Bboy"
               title="Me"
-              width={250}
-              height={300}
+              width={350}
+              height={350}
               className="rounded-full"
               style={{ objectFit: "cover" }}
             />
