@@ -16,7 +16,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-2 text-slate-50">Who I Am</h2>
-          <p className="py-2 text-secondaryColor">
+          <p className="py-2 text-xl text-secondaryColor">
             Welcome! My name is Michael, and I am a versatile full-stack
             developer based in Chicago, IL. I am driven by a passion for
             crafting dynamic websites and applications. My journey began in
@@ -24,33 +24,33 @@ const About = () => {
             for skill improvement led me to transition into the dynamic realm of
             software development.
           </p>
-          <p className="py-2 text-secondaryColor">
+          <p className="py-2 text-xl text-secondaryColor">
             To further my knowledge, I completed a coding bootcamp at Coding
             Dojo and have since worked on a number of full-stack projects.
             Recently, I embarked on an exhilarating journey at Accenture,
             embracing new challenges daily and expanding my skills in a
             professional setting.
           </p>
-          <p className="py-2 text-secondaryColor">
+          <p className="py-2 text-xl text-secondaryColor">
             Beyond coding, I find joy in staying active and pursuing my passion
             for Popping and Hip Hop freestyle dance. Alongside my crew, I
             immerse myself in the vibrant, growing dance culture of Chicago,
             competing in exhilarating battles and continuously pushing the
             boundaries of my craft.
           </p>
-          <Link
-            href="/creative"
-            className="py-2 text-mainColor underline cursor-pointer"
-          >
-            Check out my Creative page here. 
-          </Link>
-            <br />
-          {/* <Link
-            href="/creative"
-            className="py-2 text-mainColor underline cursor-pointer"
-          >
-            Creative Projects
-          </Link> */}
+    <div className="mt-6 flex flex-wrap gap-4">
+      <Link href="#projects">
+        <button className="px-6 py-3 bg-mainColor text-white text-sm font-semibold rounded proj-btn">
+          View my projects
+        </button>
+      </Link>
+
+      <Link href="/creative">
+        <button className="px-6 py-3 border border-accentColor text-accentColor text-sm rounded hover:bg-accentColor/10 transition">
+          Explore my creative work
+        </button>
+      </Link>
+    </div>
         </div>
 
         <div className="w-full h-auto m-auto rounded-xl ml-5 flex items-center justify-center  hover:scale-105 ease-in duration-300">

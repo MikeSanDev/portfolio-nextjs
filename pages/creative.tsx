@@ -138,7 +138,7 @@ export default function Creative() {
         <Carousel slides={danceSlides} />
 
         {/* External Link */}
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
           <a
             href="https://www.instagram.com/_.kuya.mike._/"
             target="_blank"
@@ -148,7 +148,7 @@ export default function Creative() {
               Instagram
             </button>
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* ------------------------------------------- */}
