@@ -1,11 +1,7 @@
 # Portolio Website
 My personal website with my contacts, skills and projects. I built this fully responsive website with Next.js and Tailwind CSS.
 
-Website Link: 
-</br> 
-<a href="https://michaelsanchez.netlify.app/" target="_elsanchez.netlify.app
-</a>
-
+Website Link: https://michaelsanchez.netlify.app
 
 ### Built With:
 * Next.js
