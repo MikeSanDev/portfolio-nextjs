@@ -69,8 +69,8 @@ const clothingImages = [
 
 // Album cover designs
 const albumCoverImages = [
-  { src: "/assets/projects/album_cover1.png", alt: "album_cover1" },
   { src: "/assets/projects/album_cover2.png", alt: "album_cover2" },
+  { src: "/assets/projects/album_cover1.png", alt: "album_cover1" },
   { src: "/assets/projects/album_cover3.png", alt: "album_cover3" },
 ];
 
@@ -123,7 +123,7 @@ export default function Creative() {
           <h3 className="text-2xl font-semibold text-accentColor mb-4">Achievements</h3>
           <ul className="space-y-3">
             <li className="text-white text-lg">
-              <span className="text-accentColor mr-3 text-xl">•</span> Danced in a Samsung Commercial
+              <span className="text-accentColor mr-3 text-xl">•</span> Featured dancer in a Samsung Commercial
             </li>
             <li className="text-white text-lg">
               <span className="text-accentColor mr-3 text-xl">•</span> Leader of Yokai Dance Crew, Chicago IL
