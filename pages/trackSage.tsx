@@ -82,7 +82,7 @@ const TrackSage = () => {
   className="w-full rounded-lg my-3 shadow-md"></video>
 
   <br />
-  <h3 className="text-accentColor text-lg font-semibold mt-4">3. Smart Renamer</h3>
+  <h3 className="text-accentColor text-lg font-semibold mt-4">3. Smart File Rename</h3>
   <p className="ov_text text-text_Color font-normal leading-relaxed">
     Automatically renames tracks using ID3 metadata into the clean format <code>Artist - Title</code>.
     Includes built-in sanitization for illegal characters and ensures filename uniqueness.
