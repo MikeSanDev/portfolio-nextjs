@@ -164,7 +164,7 @@ export default function Creative() {
             </p>
 
             {/* Achievements */}
-            <div className="max-w-3xl mx-auto">
+            {/* <div className="max-w-3xl mx-auto">
               <h3 className="text-2xl font-semibold text-accentColor mb-4">Achievements</h3>
               <ul className="space-y-3">
                 <li className="text-white text-lg">
@@ -174,7 +174,7 @@ export default function Creative() {
                   <span className="text-accentColor mr-3 text-xl">•</span> Featured at Summer Music Festival 2023
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             {/* External Links */}
             <div className="flex flex-wrap justify-center gap-4 pt-4">
